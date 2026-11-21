@@ -74,7 +74,6 @@ $currentPage = basename($_SERVER['PHP_SELF'], '.php');
                     <li><a href="<?= SITE_URL ?>/about.php" class="nav-link <?= ($currentPage === 'about') ? 'active' : '' ?>">About Us</a></li>
                     <li><a href="<?= SITE_URL ?>/services.php" class="nav-link <?= ($currentPage === 'services' || $currentPage === 'service-detail') ? 'active' : '' ?>">Services</a></li>
                     <li><a href="<?= SITE_URL ?>/products.php" class="nav-link <?= ($currentPage === 'products' || $currentPage === 'product-detail') ? 'active' : '' ?>">Products</a></li>
-                    <li><a href="<?= SITE_URL ?>/clients.php" class="nav-link <?= ($currentPage === 'clients') ? 'active' : '' ?>">Clients</a></li>
                     <li><a href="<?= SITE_URL ?>/gallery.php" class="nav-link <?= ($currentPage === 'gallery') ? 'active' : '' ?>">Gallery</a></li>
                     <li><a href="<?= SITE_URL ?>/testimonials.php" class="nav-link <?= ($currentPage === 'testimonials') ? 'active' : '' ?>">Testimonials</a></li>
                     <li><a href="<?= SITE_URL ?>/contact.php" class="nav-link <?= ($currentPage === 'contact') ? 'active' : '' ?>">Contact</a></li>

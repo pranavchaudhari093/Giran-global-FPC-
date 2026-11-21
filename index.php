@@ -137,7 +137,6 @@ $pageDesc = "Girna Global bridges fertile Jalgaon banana farmland to internation
                 <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="about-us" href="#about-us">About Us</a>
                 <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="services" href="#services">Services</a>
                 <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="our-farms" href="#our-farms">Our Farms</a>
-                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="clients-and-partners" href="#clients-and-partners">Clients &amp; Partners</a>
                 <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="testimonials" href="#testimonials">Testimonials</a>
                 <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="contact" href="#contact">Contact</a>
             </nav>
@@ -178,7 +177,6 @@ $pageDesc = "Girna Global bridges fertile Jalgaon banana farmland to internation
                     <a href="#about-us" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">About Us</a>
                     <a href="#services" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Services</a>
                     <a href="#our-farms" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Our Farms</a>
-                    <a href="#clients-and-partners" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Clients &amp; Partners</a>
                     <a href="#testimonials" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Testimonials</a>
                     <a href="#location" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Estate Location</a>
                     <a href="#contact" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Contact</a>
@@ -195,7 +193,7 @@ $pageDesc = "Girna Global bridges fertile Jalgaon banana farmland to internation
                 </div>
             </div>
             <div class="p-6 bg-canvas-soft border-t border-[#C3A46A]/20 text-xs text-forest-slate">
-                <p class="font-bold text-pine-heading">Proprietorship: Dikshita Chaudhari, B.Sc. Chemistry</p>
+                <p class="font-bold text-pine-heading">Girna Global</p>
                 <p class="text-[11px] text-forest-slate/80 mt-1">At post Wade, Tal. Bhadgaon, Dist. Jalgaon - 424201, Maharashtra</p>
             </div>
         </div>
@@ -217,11 +215,6 @@ $pageDesc = "Girna Global bridges fertile Jalgaon banana farmland to internation
                 <div class="absolute inset-0 z-0 opacity-10 pointer-events-none bg-[radial-gradient(#C3A46A_1px,transparent_1px)] [background-size:32px_32px]"></div>
 
                 <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 w-full my-auto py-12 flex flex-col items-start gap-8">
-                    <!-- Eyebrow Badge -->
-                    <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-forest-dark/80 backdrop-blur-md border border-earthy-gold/40 shadow-xl">
-                        <span class="w-2.5 h-2.5 rounded-full bg-leaf-green animate-pulse"></span>
-                        <span class="font-inter text-xs uppercase tracking-widest font-semibold text-earthy-gold">FARM TO FOREIGN • GLOBAL EXPORT EXCELLENCE</span>
-                    </div>
 
                     <!-- Main Headline -->
                     <div class="max-w-4xl flex flex-col gap-5">
@@ -290,18 +283,7 @@ $pageDesc = "Girna Global bridges fertile Jalgaon banana farmland to internation
                             <div class="relative overflow-hidden rounded-lg bg-white shadow-xl border border-[#C3A46A]/30">
                                 <img alt="Girna Global 30-Acre Estate in Bhadgaon Jalgaon" class="w-full h-[520px] object-cover transition-transform duration-700 hover:scale-105" data-alt="30-acre banana plantation estate in Wade Bhadgaon Jalgaon" src="<?= SITE_URL ?>/assets/images/about-farm.jpg?v=2">
                                 <div class="absolute inset-0 bg-gradient-to-t from-forest-dark/60 via-transparent to-transparent"></div>
-                            </div>
-                            <!-- Floating Highlight Card -->
-                            <div class="relative sm:absolute sm:-bottom-8 sm:-right-8 bg-white rounded border border-[#C3A46A]/40 border-l-4 border-l-botanical p-6 shadow-2xl max-w-sm mt-4 sm:mt-0">
-                                <div class="flex items-center gap-2 mb-2 text-botanical">
-                                    <span class="material-symbols-outlined text-[20px]">science</span>
-                                    <span class="font-inter text-xs uppercase tracking-wider font-bold text-pine-heading">Institutional Provenance</span>
-                                </div>
-                                <p class="font-inter text-xs sm:text-sm text-forest-slate font-normal leading-relaxed">
-                                    Proprietorship: <span class="text-botanical font-bold">Dikshita Chaudhari, B.Sc. Chemistry</span> — Merging scientific crop nutrition and chemical precision with generational field heritage.
-                                </p>
-                            </div>
-                        </div>
+                            </div></div>
 
                         <!-- Right: Storytelling Editorial Column -->
                         <div class="lg:col-span-6 flex flex-col gap-6 lg:pl-4">
@@ -703,95 +685,6 @@ $pageDesc = "Girna Global bridges fertile Jalgaon banana farmland to internation
                 </div>
             </section>
 
-
-            <!-- ============================================================
-                 SECTION 8: OUR CLIENTS & PARTNERS (SOFT BRIGHT CANVAS WITH CRISP WHITE METRIC CARDS)
-                 ============================================================ -->
-            <section class="w-full py-20 lg:py-24 bg-cream-warm border-y border-[#C3A46A]/30 relative overflow-hidden" id="clients-and-partners">
-                <div class="absolute inset-0 z-0 opacity-10 pointer-events-none bg-[radial-gradient(#C3A46A_1px,transparent_1px)] [background-size:32px_32px]"></div>
-                <div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
-                    <div class="text-center max-w-3xl mx-auto mb-16">
-                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/80 backdrop-blur-md border border-[#C3A46A]/30 shadow-sm mb-3">
-                            <span class="w-2 h-2 rounded-full bg-leaf-green animate-pulse"></span>
-                            <span class="font-inter text-xs font-bold uppercase tracking-widest text-botanical">TRUSTED CLIENTS &amp; PARTNERS</span>
-                        </div>
-                        <h2 class="font-manrope text-3xl sm:text-4xl lg:text-5xl font-extrabold text-pine-heading tracking-tight leading-tight">
-                            Building Strong Agricultural <span class="text-botanical">Relationships.</span>
-                        </h2>
-                        <p class="font-inter text-sm sm:text-base text-forest-slate mt-3 leading-relaxed max-w-2xl mx-auto font-normal">Connecting verified agricultural leaders, fruit export consortiums, and local grower networks across the supply chain.</p>
-                    </div>
-
-                    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-5 lg:gap-6 items-stretch justify-items-center mb-16 w-full">
-                        <!-- Client 1: Sahyadri Farms -->
-                        <div class="w-full flex flex-col items-center justify-between text-center p-6 rounded-xl bg-white border border-[#C3A46A]/25 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
-                            <div class="w-16 h-16 rounded-full bg-cream-warm border border-botanical/20 text-botanical flex items-center justify-center mb-4 group-hover:bg-botanical group-hover:text-white transition-all duration-300 shadow-sm">
-                                <span class="font-manrope font-extrabold text-lg tracking-wider text-forest-deep group-hover:text-white transition-colors">SF</span>
-                            </div>
-                            <div>
-                                <h3 class="font-manrope font-bold text-base sm:text-lg text-pine-heading group-hover:text-botanical transition-colors">Sahyadri Farms</h3>
-                                <span class="inline-block font-inter text-[11px] font-semibold uppercase tracking-wider text-earthy-gold mt-1.5 px-2.5 py-1 rounded bg-cream-warm/75 border border-[#C3A46A]/20">160,168+ Units</span>
-                            </div>
-                        </div>
-
-                        <!-- Client 2: KD Banana -->
-                        <div class="w-full flex flex-col items-center justify-between text-center p-6 rounded-xl bg-white border border-[#C3A46A]/25 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
-                            <div class="w-16 h-16 rounded-full bg-cream-warm border border-botanical/20 text-botanical flex items-center justify-center mb-4 group-hover:bg-botanical group-hover:text-white transition-all duration-300 shadow-sm">
-                                <span class="font-manrope font-extrabold text-lg tracking-wider text-forest-deep group-hover:text-white transition-colors">KD</span>
-                            </div>
-                            <div>
-                                <h3 class="font-manrope font-bold text-base sm:text-lg text-pine-heading group-hover:text-botanical transition-colors">KD Banana</h3>
-                                <span class="inline-block font-inter text-[11px] font-semibold uppercase tracking-wider text-earthy-gold mt-1.5 px-2.5 py-1 rounded bg-cream-warm/75 border border-[#C3A46A]/20">14,770+ Units</span>
-                            </div>
-                        </div>
-
-                        <!-- Client 3: Fresh Dews -->
-                        <div class="w-full flex flex-col items-center justify-between text-center p-6 rounded-xl bg-white border border-[#C3A46A]/25 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
-                            <div class="w-16 h-16 rounded-full bg-cream-warm border border-botanical/20 text-botanical flex items-center justify-center mb-4 group-hover:bg-botanical group-hover:text-white transition-all duration-300 shadow-sm">
-                                <span class="font-manrope font-extrabold text-lg tracking-wider text-forest-deep group-hover:text-white transition-colors">FD</span>
-                            </div>
-                            <div>
-                                <h3 class="font-manrope font-bold text-base sm:text-lg text-pine-heading group-hover:text-botanical transition-colors">Fresh Dews</h3>
-                                <span class="inline-block font-inter text-[11px] font-semibold uppercase tracking-wider text-earthy-gold mt-1.5 px-2.5 py-1 rounded bg-cream-warm/75 border border-[#C3A46A]/20">7,323+ Units</span>
-                            </div>
-                        </div>
-
-                        <!-- Client 4: Rudrastar -->
-                        <div class="w-full flex flex-col items-center justify-between text-center p-6 rounded-xl bg-white border border-[#C3A46A]/25 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
-                            <div class="w-16 h-16 rounded-full bg-cream-warm border border-botanical/20 text-botanical flex items-center justify-center mb-4 group-hover:bg-botanical group-hover:text-white transition-all duration-300 shadow-sm">
-                                <span class="font-manrope font-extrabold text-lg tracking-wider text-forest-deep group-hover:text-white transition-colors">RS</span>
-                            </div>
-                            <div>
-                                <h3 class="font-manrope font-bold text-base sm:text-lg text-pine-heading group-hover:text-botanical transition-colors">Rudrastar</h3>
-                                <span class="inline-block font-inter text-[11px] font-semibold uppercase tracking-wider text-earthy-gold mt-1.5 px-2.5 py-1 rounded bg-cream-warm/75 border border-[#C3A46A]/20">5,719+ Units</span>
-                            </div>
-                        </div>
-
-                        <!-- Client 5: Neelay Agro -->
-                        <div class="w-full flex flex-col items-center justify-between text-center p-6 rounded-xl bg-white border border-[#C3A46A]/25 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group col-span-2 sm:col-span-1">
-                            <div class="w-16 h-16 rounded-full bg-cream-warm border border-botanical/20 text-botanical flex items-center justify-center mb-4 group-hover:bg-botanical group-hover:text-white transition-all duration-300 shadow-sm">
-                                <span class="font-manrope font-extrabold text-lg tracking-wider text-forest-deep group-hover:text-white transition-colors">NA</span>
-                            </div>
-                            <div>
-                                <h3 class="font-manrope font-bold text-base sm:text-lg text-pine-heading group-hover:text-botanical transition-colors">Neelay Agro</h3>
-                                <span class="inline-block font-inter text-[11px] font-semibold uppercase tracking-wider text-earthy-gold mt-1.5 px-2.5 py-1 rounded bg-cream-warm/75 border border-[#C3A46A]/20">5,653+ Units</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Authorized Partners Row -->
-                    <div class="pt-10 border-t border-[#C3A46A]/25 flex flex-col items-center">
-                        <span class="font-inter text-[11px] font-bold uppercase tracking-widest text-forest-slate/80 mb-6">AUTHORIZED INPUT &amp; NUTRITION PARTNERS</span>
-                        <div class="flex flex-wrap items-center justify-center gap-6 sm:gap-12">
-                            <div class="px-6 py-3 rounded-lg bg-white/70 border border-[#C3A46A]/20 shadow-sm font-manrope font-extrabold text-base sm:text-lg uppercase tracking-widest text-pine-heading hover:text-botanical hover:border-botanical/30 transition-all duration-300 hover:scale-105 cursor-default">MAHAFEED</div>
-                            <div class="px-6 py-3 rounded-lg bg-white/70 border border-[#C3A46A]/20 shadow-sm font-manrope font-extrabold text-base sm:text-lg uppercase tracking-widest text-pine-heading hover:text-botanical hover:border-botanical/30 transition-all duration-300 hover:scale-105 cursor-default">YARA</div>
-                            <div class="px-6 py-3 rounded-lg bg-white/70 border border-[#C3A46A]/20 shadow-sm font-manrope font-extrabold text-base sm:text-lg uppercase tracking-widest text-pine-heading hover:text-botanical hover:border-botanical/30 transition-all duration-300 hover:scale-105 cursor-default">MAHADHAN</div>
-                            <div class="px-6 py-3 rounded-lg bg-white/70 border border-[#C3A46A]/20 shadow-sm font-manrope font-extrabold text-base sm:text-lg uppercase tracking-widest text-pine-heading hover:text-botanical hover:border-botanical/30 transition-all duration-300 hover:scale-105 cursor-default">BANDHAN</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
             <!-- ============================================================
                  SECTION 9: FARMER TESTIMONIALS (WARM CREAM CANVAS WITH CRISP WHITE CARDS)
                  ============================================================ -->
@@ -977,7 +870,7 @@ $pageDesc = "Girna Global bridges fertile Jalgaon banana farmland to internation
                                         </div>
                                         <div>
                                             <h4 class="font-manrope text-sm font-bold text-pine-heading">On-Site Agronomy &amp; Soil Testing Lab</h4>
-                                            <p class="font-inter text-xs text-forest-slate mt-0.5">Directed by Dikshita Chaudhari (B.Sc. Chemistry) for rapid pH and EC diagnostics.</p>
+                                            <p class="font-inter text-xs text-forest-slate mt-0.5">Equipped for precision rapid pH and EC diagnostics to optimize soil fertility.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1161,7 +1054,7 @@ $pageDesc = "Girna Global bridges fertile Jalgaon banana farmland to internation
                     </p>
                     <div class="flex flex-col gap-1 mt-2">
                         <span class="font-inter text-xs uppercase tracking-wider text-earthy-gold font-bold">Proprietorship</span>
-                        <span class="font-inter text-xs sm:text-sm text-white font-medium">Dikshita Chaudhari, B.Sc. Chemistry</span>
+                        <span class="font-inter text-xs sm:text-sm text-white font-medium">Girna Global Leadership</span>
                     </div>
                 </div>
 
@@ -1173,7 +1066,7 @@ $pageDesc = "Girna Global bridges fertile Jalgaon banana farmland to internation
                         <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="about-us" href="#about-us">About Us</a></li>
                         <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="services" href="#services">Services</a></li>
                         <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="our-farms" href="#our-farms">Our Farms</a></li>
-                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="clients-and-partners" href="#clients-and-partners">Clients &amp; Partners</a></li>
+                        <li class="list-none"></li>
                         <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="testimonials" href="#testimonials">Testimonials</a></li>
                         <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="contact" href="#contact">Contact</a></li>
                     </ul>

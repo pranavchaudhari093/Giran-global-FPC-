@@ -67,7 +67,6 @@ $settings = get_settings();
                         <li><a href="<?= SITE_URL ?>/products.php"><i class="bi bi-chevron-right me-1 text-gold"></i> Bio-Gro Fertilizers</a></li>
                         <li><a href="<?= SITE_URL ?>/products.php"><i class="bi bi-chevron-right me-1 text-gold"></i> Tissue Culture Plantlets</a></li>
                         <li><a href="<?= SITE_URL ?>/products.php"><i class="bi bi-chevron-right me-1 text-gold"></i> Dehydrated Banana Powder</a></li>
-                        <li><a href="<?= SITE_URL ?>/clients.php"><i class="bi bi-chevron-right me-1 text-gold"></i> International Clients</a></li>
                     </ul>
                 </div>
 
