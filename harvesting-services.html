@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="web_standard" name="shell-type">
+    <title>Harvesting Services | Girna Global FPC • Farmer Producer Company</title>
+    <meta name="description" content="Precision banana harvesting services for G9 Grand Naine and Yelakki from Girna Global FPC. Zero-bruising protocols, field de-handing, latex washing, and synchronized cold-transit docking in Jalgaon, Maharashtra.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+
+    <style>
+        @layer base {
+            html, body { margin:0; padding:0; scroll-behavior: smooth; }
+            main > :first-child { margin-top:0 !important; }
+            main > :last-child { margin-bottom:0 !important; }
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+
+    <!-- Tailwind Play CDN -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "tertiary-fixed": "#c9f08a",
+            "inverse-on-surface": "#dff7e4",
+            "surface-container-lowest": "#ffffff",
+            "tertiary": "#375300",
+            "primary-fixed-dim": "#8cd7a1",
+            "error-container": "#ffdad6",
+            "outline-variant": "#bfc9be",
+            "surface-container-highest": "#d0e8d6",
+            "surface-tint": "#206b40",
+            "on-secondary-fixed": "#002114",
+            "on-error": "#ffffff",
+            "primary-container": "#267044",
+            "secondary": "#3d6752",
+            "secondary-fixed-dim": "#a4d1b7",
+            "inverse-surface": "#213528",
+            "surface-container-high": "#d6eedc",
+            "on-secondary": "#ffffff",
+            "surface-container-low": "#e1fae7",
+            "on-background": "#0b1f14",
+            "secondary-container": "#bfedd3",
+            "on-primary": "#ffffff",
+            "surface": "#e9ffed",
+            "surface-container": "#dcf4e1",
+            "on-primary-fixed": "#00210e",
+            "surface-variant": "#d0e8d6",
+            "inverse-primary": "#8cd7a1",
+            "on-tertiary": "#ffffff",
+            "on-tertiary-fixed": "#121f00",
+            "on-primary-container": "#a5f1b9",
+            "on-tertiary-container": "#c5ec88",
+            "secondary-fixed": "#bfedd3",
+            "error": "#ba1a1a",
+            "primary": "#00572e",
+            "outline": "#707a70",
+            "on-surface": "#0b1f14",
+            "tertiary-fixed-dim": "#add371",
+            "surface-bright": "#e9ffed",
+            "tertiary-container": "#4c6c16",
+            "on-primary-fixed-variant": "#00522b",
+            "on-surface-variant": "#404941",
+            "on-tertiary-fixed-variant": "#334f00",
+            "on-secondary-container": "#436d58",
+            "on-secondary-fixed-variant": "#254f3b",
+            "primary-fixed": "#a8f3bc",
+            "background": "#e9ffed",
+            "surface-dim": "#c8e0ce",
+            "on-error-container": "#93000a",
+            "forest-deep": "#123D2B",
+            "forest-dark": "#0B261B",
+            "botanical": "#267044",
+            "botanical-dark": "#1d5835",
+            "botanical-light": "#eaf5ed",
+            "leaf-green": "#8BAF52",
+            "earthy-gold": "#C3A46A",
+            "earthy-gold-light": "#f4eedf",
+            "cream-warm": "#F7F6EF",
+            "canvas-soft": "#FCFBF7",
+            "pine-charcoal": "#122B1E",
+            "pine-heading": "#111E16",
+            "forest-slate": "#334A3E",
+            "surface-card": "#FFFFFF"
+          },
+          borderRadius: {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          spacing: {
+            "space-xl": "2.5rem",
+            "space-xs": "0.25rem",
+            "gutter": "1.5rem",
+            "gutter-mobile": "1rem",
+            "space-lg": "1.5rem",
+            "margin-mobile": "1rem",
+            "space-sm": "0.5rem",
+            "margin": "2rem",
+            "space-md": "1rem"
+          },
+          fontFamily: {
+            "headline-lg": ["Manrope"],
+            "headline-sm": ["Manrope"],
+            "display-sm": ["Manrope"],
+            "display-lg": ["Manrope"],
+            "label-md": ["Inter"],
+            "headline-md": ["Manrope"],
+            "body-lg": ["Inter"],
+            "body-md": ["Inter"],
+            "headline-lg-mobile": ["Manrope"],
+            "label-sm": ["Inter"],
+            "body-sm": ["Inter"],
+            manrope: ["Manrope", "sans-serif"],
+            inter: ["Inter", "sans-serif"]
+          },
+          fontSize: {
+            "headline-lg": ["2rem", { lineHeight: "2.5rem", letterSpacing: "-0.02em", fontWeight: "600" }],
+            "headline-sm": ["1.25rem", { lineHeight: "1.75rem", letterSpacing: "-0.005em", fontWeight: "600" }],
+            "display-sm": ["2.5rem", { lineHeight: "3rem", letterSpacing: "-0.02em", fontWeight: "700" }],
+            "display-lg": ["3.5rem", { lineHeight: "4rem", letterSpacing: "-0.03em", fontWeight: "700" }],
+            "label-md": ["0.875rem", { lineHeight: "1.25rem", letterSpacing: "0.01em", fontWeight: "500" }],
+            "headline-md": ["1.5rem", { lineHeight: "2rem", letterSpacing: "-0.01em", fontWeight: "600" }],
+            "body-lg": ["1.125rem", { lineHeight: "1.75rem", fontWeight: "400" }],
+            "body-md": ["1rem", { lineHeight: "1.5rem", fontWeight: "400" }],
+            "headline-lg-mobile": ["1.75rem", { lineHeight: "2.25rem", letterSpacing: "-0.015em", fontWeight: "600" }],
+            "label-sm": ["0.75rem", { lineHeight: "1rem", letterSpacing: "0.04em", fontWeight: "600" }],
+            "body-sm": ["0.875rem", { lineHeight: "1.25rem", fontWeight: "400" }]
+          }
+        }
+      }
+    };
+    </script>
+    
+    <!-- Custom CSS Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-canvas-soft font-inter text-forest-slate antialiased selection:bg-earthy-gold selection:text-forest-dark">
+
+    <!-- ============================================================
+         HEADER & NAVIGATION (MASTER SITE DESIGN)
+         ============================================================ -->
+        <!-- Main Institutional Sticky Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/95 backdrop-blur-md border-b border-[#C3A46A]/20 shadow-[0_2px_12px_rgba(18,61,43,0.04)]" id="site-header">
+        <div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-4">
+
+            <!-- Brand Logo & Identity -->
+            <a href="index.html" class="flex items-center gap-3.5 shrink-0 group">
+                <img alt="Girna Global FPC Official Logo" class="h-14 w-14 object-contain rounded-full shadow-md ring-1 ring-[#C3A46A]/40 group-hover:scale-105 transition-transform" src="assets/images/logo.png">
+                <div class="flex flex-col">
+                    <span class="font-manrope font-extrabold text-lg sm:text-xl uppercase tracking-wider text-forest-deep leading-none group-hover:text-botanical transition-colors">GIRNA GLOBAL FPC</span>
+                    <span class="text-[10px] font-bold uppercase tracking-widest text-earthy-gold mt-1">FARMER PRODUCER COMPANY</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation Menu -->
+            <nav class="hidden xl:flex items-center gap-8 font-inter text-sm font-medium">
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="home" href="index.html">Home</a>
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="about-us" href="index.html#about-us">About Us</a>
+                <a class="text-botanical font-semibold border-b-2 border-botanical pb-1" data-path="services" href="index.html#services">Services</a>
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="our-farms" href="our-farms.html">Our Farms</a>
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="our-team" href="our-team.html">Our Team</a>
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="clients-and-partners" href="index.html#clients-and-partners">Clients &amp; Partners</a>
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="testimonials" href="index.html#testimonials">Testimonials</a>
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="contact" href="index.html#contact">Contact</a>
+            </nav>
+
+            <!-- Mobile Hamburger Toggle Button -->
+            <button type="button" class="xl:hidden p-2 rounded-lg text-forest-slate hover:text-botanical hover:bg-cream-warm focus:outline-none transition-colors" id="mobile-menu-toggle" aria-label="Toggle navigation menu">
+                <span class="material-symbols-outlined text-[28px]" id="mobile-menu-icon">menu</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Slide-Out Drawer (Direct Body Child for Full Viewport Height) -->
+    <div class="fixed inset-0 top-20 bg-forest-dark/80 backdrop-blur-sm z-40 hidden transition-opacity duration-300 xl:hidden" id="mobile-backdrop"></div>
+    <div class="fixed top-20 right-0 bottom-0 w-full max-w-sm bg-white shadow-2xl z-50 transform translate-x-full transition-transform duration-300 ease-in-out xl:hidden flex flex-col justify-between overflow-y-auto border-l border-[#C3A46A]/20" id="mobile-drawer">
+        <div class="p-6 flex flex-col gap-5">
+            <div class="flex items-center justify-between border-b border-[#C3A46A]/20 pb-4">
+                <div class="flex items-center gap-3">
+                    <img src="assets/images/logo.png" class="h-11 w-11 rounded-full object-contain shadow-sm ring-1 ring-[#C3A46A]/30" alt="Girna Global FPC">
+                    <div class="flex flex-col">
+                        <span class="font-manrope font-bold text-sm uppercase tracking-wider text-forest-deep">GIRNA GLOBAL FPC</span>
+                        <span class="text-[9px] font-semibold uppercase tracking-wider text-earthy-gold">Farmer Producer Company</span>
+                    </div>
+                </div>
+                <button type="button" class="p-1 rounded text-forest-slate hover:text-botanical focus:outline-none" id="mobile-drawer-close" aria-label="Close navigation menu">
+                    <span class="material-symbols-outlined text-[24px]">close</span>
+                </button>
+            </div>
+            <nav class="flex flex-col gap-1 font-manrope text-sm font-semibold text-pine-heading">
+                <a href="index.html" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Home</a>
+                <a href="index.html#about-us" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">About Us</a>
+                <a href="index.html#services" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Services</a>
+                <div class="pl-4 py-1 flex flex-col gap-1 border-l-2 border-botanical/30 my-1">
+                    <a href="banana-plant-services.html" class="mobile-nav-item py-1.5 px-3 text-xs text-forest-slate hover:text-botanical transition-colors">Banana Plant Services</a>
+                    <a href="fertilizer-services.html" class="mobile-nav-item py-1.5 px-3 text-xs text-forest-slate hover:text-botanical transition-colors">Fertilizer &amp; Crop Nutrition</a>
+                    <a href="fruit-care-services.html" class="mobile-nav-item py-1.5 px-3 text-xs text-forest-slate hover:text-botanical transition-colors">Fruit Care &amp; Bunch Protection</a>
+                    <a href="harvesting-services.html" class="mobile-nav-item py-1.5 px-3 text-xs font-bold text-botanical bg-botanical-light/60 rounded">Harvesting Services</a>
+                </div>
+                <a href="our-farms.html" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Our Farms</a>
+                <a href="our-team.html" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Our Team</a>
+                <a href="index.html#clients-and-partners" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Clients &amp; Partners</a>
+                <a href="index.html#testimonials" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Testimonials</a>
+                <a href="index.html#contact" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Contact</a>
+            </nav>
+            <div class="pt-4 border-t border-[#C3A46A]/20 flex flex-col gap-3">
+                <a href="tel:+919100556355" class="flex items-center gap-3 p-3 rounded-lg bg-cream-warm text-forest-deep font-inter text-xs font-semibold hover:bg-botanical-light transition-colors">
+                    <span class="material-symbols-outlined text-botanical text-[18px]">phone</span>
+                    <span>+91 9100556355</span>
+                </a>
+                <a href="https://wa.me/919100556355?text=Hello%20Girna%20Global" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 py-3 px-4 rounded bg-botanical text-white font-manrope font-bold text-xs uppercase tracking-wider hover:bg-botanical-dark transition-colors shadow-md">
+                    <span class="material-symbols-outlined text-[18px]">chat</span>
+                    <span>WhatsApp Export Desk</span>
+                </a>
+            </div>
+        </div>
+        <div class="p-6 bg-canvas-soft border-t border-[#C3A46A]/20 text-xs text-forest-slate">
+            <p class="font-bold text-pine-heading">Proprietorship: Dikshita Chaudhari, B.Sc. Chemistry</p>
+            <p class="text-[11px] text-forest-slate/80 mt-1">At post Wade, Tal. Bhadgaon, Dist. Jalgaon - 424201, Maharashtra</p>
+        </div>
+    </div>
+
+<main class="w-full pt-20 bg-canvas-soft min-h-[calc(100vh-80px)]">
+        <div class="flex flex-col w-full">
+
+            <!-- ============================================================
+                 TOP BREADCRUMB & INDICATOR RIBBON
+                 ============================================================ -->
+            <section class="w-full bg-surface-container-low px-6 lg:px-12 py-4 border-b border-outline-variant/30">
+                <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3 text-body-sm font-body-sm">
+                    <nav class="flex items-center gap-2 text-on-surface-variant font-inter text-xs sm:text-sm" aria-label="Breadcrumb">
+                        <a class="hover:text-primary transition-colors" data-path="home" href="index.html">Home</a>
+                        <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+                        <a class="hover:text-primary transition-colors" data-path="services" href="index.html#services">Services</a>
+                        <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+                        <span class="text-on-surface font-label-md font-semibold text-primary">Harvesting Services</span>
+                    </nav>
+                    <div class="flex items-center gap-2 text-xs font-semibold text-tertiary">
+                        <span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span>
+                        <span class="uppercase tracking-wider">Field De-Handing &amp; Cold-Chain Ready</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============================================================
+                 1. HERO SECTION (DARK THEME WITH SHARP BLENDED AGRICULTURAL BACKGROUND)
+                 ============================================================ -->
+            <section class="relative w-full bg-forest-dark text-white px-6 lg:px-12 pt-10 pb-16 overflow-hidden border-b border-forest-deep">
+                <!-- Cinematic High-Resolution Agricultural Background Layer (Clear & Sharp) -->
+                <div class="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+                    <img src="assets/images/harvesting-mature-g9.jpg" alt="Banana Orchard Harvesting Jalgaon" class="w-full h-full object-cover object-center opacity-65 lg:opacity-70 transition-opacity duration-500">
+                    <!-- Balanced Professional Dark Editorial Scrim -->
+                    <div class="absolute inset-0 bg-gradient-to-r from-forest-dark/95 via-forest-dark/80 to-forest-dark/45 lg:to-forest-dark/35"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-forest-dark/90 via-transparent to-forest-dark/60"></div>
+                </div>
+
+                <!-- Subtle Ambient Radial Glows -->
+                <div class="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-botanical/25 blur-3xl pointer-events-none"></div>
+                <div class="absolute top-1/2 right-0 w-[500px] h-[500px] rounded-full bg-leaf-green/15 blur-3xl pointer-events-none"></div>
+
+                <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+                    
+                    <!-- Left Content Column -->
+                    <div class="lg:col-span-7 flex flex-col gap-6">
+                        
+                        <!-- Eyebrow Badge -->
+                        <div class="inline-flex items-center gap-2 self-start px-3.5 py-1.5 bg-white/10 backdrop-blur-md rounded-full border border-leaf-green/30 text-leaf-green text-xs font-bold uppercase tracking-wider shadow-sm">
+                            <span class="material-symbols-outlined text-[16px]">verified</span>
+                            Post-Harvest Excellence
+                        </div>
+
+                        <!-- Main Display Headline -->
+                        <h1 class="font-manrope text-4xl sm:text-5xl lg:text-[56px] leading-[1.12] text-white font-extrabold tracking-tight">
+                            Precision Harvesting. <br>
+                            <span class="italic font-display-lg text-leaf-green font-semibold">Protected Quality.</span>
+                        </h1>
+
+                        <!-- Subtitle Description -->
+                        <p class="font-inter text-base sm:text-lg text-cream-warm/85 max-w-2xl leading-relaxed">
+                            Trained harvesting crews specialized in careful G9 and Yelakki banana handling, field de-handing, zero-bruising protocols, and direct cold-transit readiness right at the farm gate.
+                        </p>
+
+                        <!-- CTA Buttons -->
+                        <div class="flex flex-wrap items-center gap-4 pt-2">
+                            <a class="inline-flex items-center gap-3 bg-botanical hover:bg-forest-deep text-white px-7 py-3.5 rounded-lg font-manrope font-bold text-sm shadow-md transition-all duration-200 hover:-translate-y-0.5 border border-leaf-green/30" href="#harvest-booking">
+                                <span>Book Harvesting Crew</span>
+                                <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+                            </a>
+                            <a class="inline-flex items-center gap-2.5 px-6 py-3.5 bg-white/10 text-white font-inter text-sm font-semibold rounded-lg shadow-sm hover:bg-white/20 transition-all duration-200 border border-white/20 hover:-translate-y-0.5 backdrop-blur-sm" href="tel:+919100556355">
+                                <span class="material-symbols-outlined text-[20px] text-earthy-gold">phone_in_talk</span>
+                                <span>+91 9100556355</span>
+                            </a>
+                            <a class="inline-flex items-center gap-2 px-5 py-3.5 bg-[#25D366] hover:bg-[#20ba59] text-white font-inter text-sm font-semibold rounded-lg transition-colors shadow-sm hover:-translate-y-0.5" href="https://wa.me/919100556355?text=Hello%20Girna%20Global%2C%20I%20would%20like%20to%20enquire%20about%20Harvesting%20Services." target="_blank" rel="noopener noreferrer">
+                                <span class="material-symbols-outlined text-[19px]">chat</span>
+                                <span>WhatsApp Desk</span>
+                            </a>
+                        </div>
+
+                        <!-- Micro Trust Badges -->
+                        <div class="pt-4 border-t border-white/15 flex flex-wrap items-center gap-y-2 gap-x-6 text-xs text-cream-warm/80 font-medium">
+                            <div class="flex items-center gap-1.5">
+                                <span class="material-symbols-outlined text-leaf-green text-[18px]">workspace_premium</span>
+                                <span>Export Grade Handling</span>
+                            </div>
+                            <div class="flex items-center gap-1.5">
+                                <span class="material-symbols-outlined text-leaf-green text-[18px]">verified_user</span>
+                                <span>Zero-Bruise Guarantee</span>
+                            </div>
+                            <div class="flex items-center gap-1.5">
+                                <span class="material-symbols-outlined text-leaf-green text-[18px]">ac_unit</span>
+                                <span>Pre-Cooling Synchronized</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Right Image Column -->
+                    <div class="lg:col-span-5 relative">
+                        <div class="relative overflow-hidden rounded-2xl shadow-2xl bg-forest-dark border-2 border-white/20 aspect-[4/3] sm:aspect-[16/11]">
+                            <img alt="Harvesting banana bunch care and crate packing" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700" src="assets/images/harvest-hero.jpg">
+                            <div class="absolute bottom-4 left-4 right-4 bg-forest-dark/90 backdrop-blur-md p-4 rounded-xl shadow-lg border-l-4 border-earthy-gold text-white flex items-center justify-between">
+                                <div>
+                                    <span class="text-[11px] font-inter font-bold uppercase tracking-wider text-earthy-gold">Farm-Gate Protocol</span>
+                                    <p class="font-manrope font-bold text-sm sm:text-base leading-tight mt-0.5 text-white">Direct Packhouse Docking</p>
+                                    <p class="text-[11px] text-cream-warm/80 font-inter mt-0.5">Trained crate stacking for seamless refrigerated transit</p>
+                                </div>
+                                <div class="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center shrink-0 ml-3 text-leaf-green">
+                                    <span class="material-symbols-outlined text-[22px]">local_shipping</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- ============================================================
+                 2. HARVESTING CULTIVAR SPECIALIZATIONS (G9 vs YELAKKI)
+                 ============================================================ -->
+            <section class="w-full bg-surface-container-lowest px-6 lg:px-12 py-20 border-b border-outline-variant/30">
+                <div class="max-w-7xl mx-auto flex flex-col gap-12">
+                    
+                    <div class="flex flex-col gap-2 max-w-2xl">
+                        <span class="font-inter text-xs font-bold uppercase tracking-widest text-primary">Cultivar-Specific Rigor</span>
+                        <h2 class="font-manrope text-2xl lg:text-3xl font-bold text-on-surface leading-tight">Tailored Protocols for Grand Naine &amp; Yelakki</h2>
+                        <p class="font-inter text-sm sm:text-base text-on-surface-variant">Each variety presents unique physiological skin vulnerability and bunch weight dynamics, managed by dedicated harvesting squads.</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                        
+                        <!-- G9 Grand Naine Panel -->
+                        <div class="flex flex-col gap-6 bg-surface-container-low p-7 sm:p-8 rounded-2xl shadow-sm border border-outline-variant/30 hover:shadow-lg transition-shadow duration-300">
+                            <div class="relative h-64 sm:h-72 w-full rounded-xl overflow-hidden bg-surface-container shadow-inner">
+                                <img class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700" alt="Two skilled agricultural field hands harvesting an enormous 35kg green Grand Naine banana bunch" src="assets/images/harvest-g9.jpg">
+                                <div class="absolute top-4 left-4 bg-primary text-on-primary font-inter text-xs px-3.5 py-1.5 rounded-full uppercase tracking-wider font-bold shadow-md">
+                                    Export Grade Standard
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-3">
+                                <h3 class="font-manrope text-xl sm:text-2xl font-bold text-on-surface">G9 Grand Naine Harvesting</h3>
+                                <p class="font-inter text-sm sm:text-base text-on-surface-variant leading-relaxed">Engineered for heavyweight export containerization, prioritizing crown integrity and strict caliber uniformity across all hands.</p>
+                                
+                                <ul class="flex flex-col gap-3 pt-3 font-inter text-xs sm:text-sm text-on-surface-variant border-t border-outline-variant/20">
+                                    <li class="flex items-start gap-3">
+                                        <div class="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
+                                            <span class="material-symbols-outlined text-[18px]">groups</span>
+                                        </div>
+                                        <div>
+                                            <strong class="text-on-surface block font-semibold">Twin-Worker Bunch Cutting:</strong>
+                                            <span>Primary cutter severs peduncle smoothly while companion supports the heavy bunch on a foam-padded shoulder crutch.</span>
+                                        </div>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <div class="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
+                                            <span class="material-symbols-outlined text-[18px]">architecture</span>
+                                        </div>
+                                        <div>
+                                            <strong class="text-on-surface block font-semibold">Rigid Finger Calipering:</strong>
+                                            <span>Minimum length 20 cm+ with 39–44 caliber thickness verified prior to crate movement.</span>
+                                        </div>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <div class="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
+                                            <span class="material-symbols-outlined text-[18px]">water_drop</span>
+                                        </div>
+                                        <div>
+                                            <strong class="text-on-surface block font-semibold">Instant Latex Bleeding:</strong>
+                                            <span>Peduncle end held downwards over field drains preventing sticky sap from staining fruit skin.</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Yelakki Panel -->
+                        <div class="flex flex-col gap-6 bg-surface-container-low p-7 sm:p-8 rounded-2xl shadow-sm border border-outline-variant/30 hover:shadow-lg transition-shadow duration-300">
+                            <div class="relative h-64 sm:h-72 w-full rounded-xl overflow-hidden bg-surface-container shadow-inner">
+                                <img class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700" alt="Lush green Yelakki small finger aromatic banana bunch being harvested gently with curved blade" src="assets/images/harvest-yelakki.jpg">
+                                <div class="absolute top-4 left-4 bg-earthy-gold text-forest-dark font-inter text-xs px-3.5 py-1.5 rounded-full uppercase tracking-wider font-bold shadow-md">
+                                    Delicate Premium Table Fruit
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-3">
+                                <h3 class="font-manrope text-xl sm:text-2xl font-bold text-on-surface">Yelakki (Elakki) Harvesting</h3>
+                                <p class="font-inter text-sm sm:text-base text-on-surface-variant leading-relaxed">Tailored for paper-thin skins and high-sugar pulp where abrasive contact immediately causes discoloration on terminal retail shelves.</p>
+                                
+                                <ul class="flex flex-col gap-3 pt-3 font-inter text-xs sm:text-sm text-on-surface-variant border-t border-outline-variant/20">
+                                    <li class="flex items-start gap-3">
+                                        <div class="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
+                                            <span class="material-symbols-outlined text-[18px]">content_cut</span>
+                                        </div>
+                                        <div>
+                                            <strong class="text-on-surface block font-semibold">Gentle Single-Pass Knife Severing:</strong>
+                                            <span>Razor-honed stainless steel curved scalpel prevents mechanical shockwaves along cluster stems.</span>
+                                        </div>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <div class="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
+                                            <span class="material-symbols-outlined text-[18px]">shield</span>
+                                        </div>
+                                        <div>
+                                            <strong class="text-on-surface block font-semibold">Zero Skin Friction Basket System:</strong>
+                                            <span>Individual hands separated by breathable cotton liners inside vented field crates.</span>
+                                        </div>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <div class="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
+                                            <span class="material-symbols-outlined text-[18px]">storefront</span>
+                                        </div>
+                                        <div>
+                                            <strong class="text-on-surface block font-semibold">Metro Wholesale Ready:</strong>
+                                            <span>Retains luminous golden peel aesthetic when ripened in Mumbai, Delhi, and Bangalore terminal hubs.</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============================================================
+                 3. PROFESSIONAL FIELD OPERATIONS & POST-HARVEST SOP (4 STEPS)
+                 ============================================================ -->
+            <section class="w-full bg-surface-container-high/30 px-6 lg:px-12 py-20 border-b border-outline-variant/30">
+                <div class="max-w-7xl mx-auto flex flex-col gap-16">
+                    
+                    <div class="flex flex-col gap-2 max-w-xl">
+                        <span class="font-inter text-xs font-bold uppercase tracking-widest text-primary">Standard Operating Procedure</span>
+                        <h2 class="font-manrope text-2xl lg:text-3xl font-bold text-on-surface leading-tight">Field Operations &amp; Post-Harvest SOP</h2>
+                        <p class="font-inter text-sm sm:text-base text-on-surface-variant">4 synchronized checkpoints ensuring export-spec fruit never touches bare ground from stalk severance to refrigerated docking.</p>
+                    </div>
+
+                    <!-- Step 01: Field De-Handing & Precision Sorting -->
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+                        <div class="lg:col-span-5 order-2 lg:order-1 flex flex-col gap-4">
+                            <span class="font-manrope text-4xl lg:text-5xl text-primary/30 font-extrabold">01</span>
+                            <h3 class="font-manrope text-xl lg:text-2xl font-bold text-on-surface -mt-2">Field De-Handing &amp; Precision Sorting</h3>
+                            <p class="font-inter text-sm sm:text-base text-on-surface-variant leading-relaxed">
+                                Our crews execute surgical crown cuts using sterilized curved blades. This avoids tearing vascular conduits, leaving a clean, firm peduncle base that prevents crown rot during reefer ocean shipment. Hands are segregated by finger count (14–18 fingers per hand) directly under shaded field pergolas.
+                            </p>
+                            <div class="inline-flex items-center gap-2 text-primary font-inter text-xs sm:text-sm font-semibold pt-1">
+                                <span class="material-symbols-outlined text-[18px]">verified</span>
+                                <span>Surgical crown resection without pulp bruising</span>
+                            </div>
+                        </div>
+                        <div class="lg:col-span-7 order-1 lg:order-2 h-72 sm:h-80 rounded-2xl overflow-hidden shadow-md bg-surface-container border border-outline-variant/30">
+                            <img class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700" alt="Skilled farm hand using curved sharp sickle knife to de-hand green banana bunch" src="assets/images/harvest-sop1-dehanding.jpg">
+                        </div>
+                    </div>
+
+                    <!-- Step 02: Latex Washing & De-Gumming Baths -->
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+                        <div class="lg:col-span-7 h-72 sm:h-80 rounded-2xl overflow-hidden shadow-md bg-surface-container border border-outline-variant/30">
+                            <img class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700" alt="Banana clusters floating in clean de-gumming water washing tanks at farm-side packhouse" src="assets/images/harvest-sop2-washing.jpg">
+                        </div>
+                        <div class="lg:col-span-5 flex flex-col gap-4">
+                            <span class="font-manrope text-4xl lg:text-5xl text-primary/30 font-extrabold">02</span>
+                            <h3 class="font-manrope text-xl lg:text-2xl font-bold text-on-surface -mt-2">Latex Washing &amp; De-Gumming Baths</h3>
+                            <p class="font-inter text-sm sm:text-base text-on-surface-variant leading-relaxed">
+                                Immediately post-severing, banana hands enter mobile food-grade tanks containing circulating fresh water and mild citric neutralizer. This immediately stops sticky latex dripping that would otherwise stain peel surfaces black, ensuring flawless export-grade visual appeal upon arrival.
+                            </p>
+                            <div class="inline-flex items-center gap-2 text-primary font-inter text-xs sm:text-sm font-semibold pt-1">
+                                <span class="material-symbols-outlined text-[18px]">water</span>
+                                <span>Double-rinse sap neutralizing system</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 03: Foam-Cushioned Field Crating -->
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+                        <div class="lg:col-span-5 order-2 lg:order-1 flex flex-col gap-4">
+                            <span class="font-manrope text-4xl lg:text-5xl text-primary/30 font-extrabold">03</span>
+                            <h3 class="font-manrope text-xl lg:text-2xl font-bold text-on-surface -mt-2">Foam-Cushioned Field Crating</h3>
+                            <p class="font-inter text-sm sm:text-base text-on-surface-variant leading-relaxed">
+                                Fruits are arranged inside heavy-duty perforated crates layered with 6mm polyethylene foam dividers. Finger tips never scrape adjacent crown wood, eliminating scuffing, vibration scarring, and friction tears during farm-to-packhouse transport over unpaved field trails.
+                            </p>
+                            <div class="inline-flex items-center gap-2 text-primary font-inter text-xs sm:text-sm font-semibold pt-1">
+                                <span class="material-symbols-outlined text-[18px]">inventory_2</span>
+                                <span>Shock-absorbent high-density foam layering</span>
+                            </div>
+                        </div>
+                        <div class="lg:col-span-7 order-1 lg:order-2 h-72 sm:h-80 rounded-2xl overflow-hidden shadow-md bg-surface-container border border-outline-variant/30">
+                            <img class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700" alt="Green export bananas stacked systematically in crates with soft blue foam cushions" src="assets/images/harvest-sop3-crating.jpg">
+                        </div>
+                    </div>
+
+                    <!-- Step 04: Synchronized Cold-Transit Docking -->
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+                        <div class="lg:col-span-7 h-72 sm:h-80 rounded-2xl overflow-hidden shadow-md bg-surface-container border border-outline-variant/30">
+                            <img class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700" alt="Insulated reefer transport truck backed into field pack station in Jalgaon Maharashtra" src="assets/images/harvest-sop4-docking.jpg">
+                        </div>
+                        <div class="lg:col-span-5 flex flex-col gap-4">
+                            <span class="font-manrope text-4xl lg:text-5xl text-primary/30 font-extrabold">04</span>
+                            <h3 class="font-manrope text-xl lg:text-2xl font-bold text-on-surface -mt-2">Synchronized Cold-Transit Docking</h3>
+                            <p class="font-inter text-sm sm:text-base text-on-surface-variant leading-relaxed">
+                                From field severing to sealed refrigerated cargo, our logistical window is locked at &lt; 4 hours. Field temperature pulp (28–32°C) is transferred into pre-cooled insulated reefer containers (13.5°C set point) to immediately arrest ethylene production and slow respiration rate.
+                            </p>
+                            <div class="inline-flex items-center gap-2 text-primary font-inter text-xs sm:text-sm font-semibold pt-1">
+                                <span class="material-symbols-outlined text-[18px]">ac_unit</span>
+                                <span>Under 4-hour field-to-chiller pipeline</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- ============================================================
+                 4. BOOKING & HARVEST SCHEDULING FORM (WITH SHARP BLENDED BACKGROUND)
+                 ============================================================ -->
+            <section id="harvest-booking" class="w-full bg-forest-dark text-on-primary py-20 lg:py-24 relative overflow-hidden">
+                <!-- Cinematic High-Resolution Agricultural Background Layer (Clear & Sharp) -->
+                <div class="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+                    <img src="assets/images/harvesting-mature-g9.jpg" alt="Banana Harvesting Background" class="w-full h-full object-cover object-center opacity-60 lg:opacity-65 transition-opacity duration-500">
+                    <!-- Balanced Professional Dark Editorial Scrim -->
+                    <div class="absolute inset-0 bg-gradient-to-r from-forest-dark/95 via-forest-dark/80 to-forest-dark/45 lg:to-forest-dark/40"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-forest-dark/90 via-transparent to-forest-dark/70"></div>
+                </div>
+
+                <!-- Subtle Ambient Radial Glows -->
+                <div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-botanical/20 blur-3xl pointer-events-none"></div>
+                <div class="absolute -bottom-32 -left-32 w-96 h-96 rounded-full bg-leaf-green/15 blur-3xl pointer-events-none"></div>
+
+                <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                        
+                        <!-- Content Side -->
+                        <div class="lg:col-span-6 flex flex-col gap-6">
+                            <div class="inline-flex items-center gap-2">
+                                <span class="h-1.5 w-6 rounded-full bg-tertiary-fixed"></span>
+                                <span class="font-inter text-xs uppercase tracking-widest text-tertiary-fixed font-bold">
+                                    Direct Field Mobilization
+                                </span>
+                            </div>
+                            
+                            <h2 class="font-manrope text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
+                                Schedule Your <br>
+                                <span class="italic text-tertiary-fixed font-normal">Harvesting Crew.</span>
+                            </h2>
+                            
+                            <p class="font-inter text-sm sm:text-base text-cream-warm/85 max-w-xl leading-relaxed">
+                                Mobilizing trained cutting pairs, de-handers, and packhouse sorting squads across the Jalgaon banana belt. Lock your cutting window in advance to sync with domestic buyers or export cold-transit schedules.
+                            </p>
+
+                            <!-- Direct Touchpoints -->
+                            <div class="flex flex-col gap-3.5 pt-2">
+                                <div class="flex items-center gap-3 text-sm text-cream-warm">
+                                    <span class="material-symbols-outlined text-earthy-gold text-[20px]">check_circle</span>
+                                    <span>Specialized teams for G9 Grand Naine &amp; delicate Yelakki</span>
+                                </div>
+                                <div class="flex items-center gap-3 text-sm text-cream-warm">
+                                    <span class="material-symbols-outlined text-earthy-gold text-[20px]">check_circle</span>
+                                    <span>Cushioned crating &amp; latex washing setup provided</span>
+                                </div>
+                                <div class="flex items-center gap-3 text-sm text-cream-warm">
+                                    <span class="material-symbols-outlined text-earthy-gold text-[20px]">check_circle</span>
+                                    <span>Verified by 25-year family farming heritage in Bhadgaon</span>
+                                </div>
+                            </div>
+
+                            <!-- Fast Action Links -->
+                            <div class="flex flex-wrap items-center gap-4 pt-4">
+                                <a href="tel:+919100556355" class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-lg bg-surface-container-lowest/10 backdrop-blur-sm text-white font-inter text-xs sm:text-sm font-semibold hover:bg-surface-container-lowest/20 transition-all border border-white/20">
+                                    <span class="material-symbols-outlined text-earthy-gold text-[18px]">phone</span>
+                                    <span>Call +91 9100556355</span>
+                                </a>
+                                <a href="https://wa.me/919100556355?text=Hello%20Girna%20Global%2C%20I%20would%20like%20to%20schedule%20a%20Harvesting%20Crew%20for%20my%20banana%20orchard." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-lg bg-botanical text-white font-inter text-xs sm:text-sm font-semibold hover:bg-botanical-dark transition-all shadow-md">
+                                    <span class="material-symbols-outlined text-[18px]">chat</span>
+                                    <span>WhatsApp Scheduling</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Form Card Side -->
+                        <div class="lg:col-span-6">
+                            <div class="bg-white rounded-2xl p-7 sm:p-9 shadow-2xl border border-[#C3A46A]/30 text-forest-slate">
+                                <div class="flex items-center gap-3.5 border-b border-[#C3A46A]/20 pb-5 mb-6">
+                                    <div class="w-12 h-12 rounded-xl bg-surface-container-low text-botanical flex items-center justify-center shrink-0">
+                                        <span class="material-symbols-outlined text-[24px]">agriculture</span>
+                                    </div>
+                                    <div class="flex flex-col">
+                                        <h3 class="font-manrope text-xl font-bold text-pine-heading">Harvest Crew Booking</h3>
+                                        <span class="font-inter text-xs text-forest-slate/80">Confirm availability for upcoming harvest windows</span>
+                                    </div>
+                                </div>
+
+                                <form id="harvestBookingForm" class="flex flex-col gap-4" onsubmit="event.preventDefault(); handleHarvestSubmit();">
+                                    <div>
+                                        <label class="block font-inter text-xs font-semibold uppercase tracking-wider text-forest-slate mb-1">Your Full Name</label>
+                                        <input type="text" required placeholder="e.g. Anand Patil" class="w-full px-4 py-3 rounded-lg bg-cream-warm/60 border border-[#C3A46A]/30 text-pine-heading font-inter text-sm focus:outline-none focus:bg-white focus:ring-2 focus:ring-botanical transition-all">
+                                    </div>
+
+                                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                        <div>
+                                            <label class="block font-inter text-xs font-semibold uppercase tracking-wider text-forest-slate mb-1">Phone Number</label>
+                                            <input type="tel" required placeholder="+91 XXXXX XXXXX" class="w-full px-4 py-3 rounded-lg bg-cream-warm/60 border border-[#C3A46A]/30 text-pine-heading font-inter text-sm focus:outline-none focus:bg-white focus:ring-2 focus:ring-botanical transition-all">
+                                        </div>
+                                        <div>
+                                            <label class="block font-inter text-xs font-semibold uppercase tracking-wider text-forest-slate mb-1">Banana Cultivar</label>
+                                            <select class="w-full px-4 py-3 rounded-lg bg-cream-warm/60 border border-[#C3A46A]/30 text-pine-heading font-inter text-sm focus:outline-none focus:bg-white focus:ring-2 focus:ring-botanical transition-all">
+                                                <option>G9 • Grand Naine (Export Caliber)</option>
+                                                <option>Yelakki • Elakki (Delicate Table)</option>
+                                                <option>Robusta (Harichal)</option>
+                                                <option>Mixed Cultivar Orchard</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                        <div>
+                                            <label class="block font-inter text-xs font-semibold uppercase tracking-wider text-forest-slate mb-1">Acreage / Estimated Tonnage</label>
+                                            <input type="text" placeholder="e.g. 5 Acres / 80 Tons" class="w-full px-4 py-3 rounded-lg bg-cream-warm/60 border border-[#C3A46A]/30 text-pine-heading font-inter text-sm focus:outline-none focus:bg-white focus:ring-2 focus:ring-botanical transition-all">
+                                        </div>
+                                        <div>
+                                            <label class="block font-inter text-xs font-semibold uppercase tracking-wider text-forest-slate mb-1">Target Cutting Window</label>
+                                            <input type="text" placeholder="e.g. Within 7–10 days" class="w-full px-4 py-3 rounded-lg bg-cream-warm/60 border border-[#C3A46A]/30 text-pine-heading font-inter text-sm focus:outline-none focus:bg-white focus:ring-2 focus:ring-botanical transition-all">
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <label class="block font-inter text-xs font-semibold uppercase tracking-wider text-forest-slate mb-1">Farm Location &amp; Taluka</label>
+                                        <input type="text" placeholder="e.g. Village Wade, Tal. Bhadgaon, Dist. Jalgaon" class="w-full px-4 py-3 rounded-lg bg-cream-warm/60 border border-[#C3A46A]/30 text-pine-heading font-inter text-sm focus:outline-none focus:bg-white focus:ring-2 focus:ring-botanical transition-all">
+                                    </div>
+
+                                    <div id="harvestFormStatus" class="hidden p-4 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs sm:text-sm font-medium">
+                                        ✓ Thank you! Your harvesting crew request has been logged. Our harvest coordinator will call you directly to confirm squad availability and timing.
+                                    </div>
+
+                                    <button type="submit" class="w-full mt-2 py-3.5 px-6 rounded-lg bg-primary text-white font-manrope font-bold text-sm tracking-wider uppercase hover:bg-forest-deep shadow-lg hover:shadow-xl transition-all duration-200">
+                                        Submit Harvest Booking Request
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- ============================================================
+         FOOTER (OFFICIAL GIRNA GLOBAL FPC SPECIFICATION)
+         ============================================================ -->
+    <footer class="bg-forest-dark text-white pt-20 pb-12 border-t-2 border-earthy-gold/30">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8">
+                
+                <!-- Col 1: Brand & Identity -->
+                <div class="lg:col-span-4 flex flex-col gap-5">
+                    <div class="flex items-center gap-3.5">
+                        <img alt="Girna Global Logo" class="h-12 w-12 object-contain rounded-full shadow-sm ring-1 ring-earthy-gold/40" src="assets/images/logo.png">
+                        <div class="flex flex-col">
+                            <span class="font-manrope font-extrabold text-base uppercase tracking-wider text-white leading-none">GIRNA GLOBAL FPC</span>
+                            <span class="text-[10px] uppercase font-bold tracking-widest text-earthy-gold mt-1">FARMER PRODUCER COMPANY</span>
+                        </div>
+                    </div>
+                    <p class="font-inter text-xs sm:text-sm text-cream-warm/80 max-w-sm leading-relaxed">
+                        Backed by a 25-year family farming heritage in the Jalgaon banana belt, connecting authentic local agricultural excellence directly to foreign and domestic markets.
+                    </p>
+                    <div class="flex flex-col gap-1 mt-2">
+                        <span class="font-inter text-xs uppercase tracking-wider text-earthy-gold font-bold">Proprietorship</span>
+                        <span class="font-inter text-xs sm:text-sm text-white font-medium">Dikshita Chaudhari, B.Sc. Chemistry</span>
+                    </div>
+                </div>
+
+                <!-- Col 2: Navigation Quick Links -->
+                <div class="lg:col-span-2 flex flex-col gap-4">
+                    <span class="font-manrope font-bold text-sm text-earthy-gold uppercase tracking-wider">Quick Links</span>
+                    <ul class="flex flex-col gap-2.5">
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="home" href="index.html">Home</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="about-us" href="index.html#about-us">About Us</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="services" href="index.html#services">Services</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="our-farms" href="our-farms.html">Our Farms</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="our-team" href="our-team.html">Our Team</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="clients-and-partners" href="index.html#clients-and-partners">Clients &amp; Partners</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="testimonials" href="index.html#testimonials">Testimonials</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="contact" href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Services Listing -->
+                <div class="lg:col-span-3 flex flex-col gap-4">
+                    <span class="font-manrope font-bold text-sm text-earthy-gold uppercase tracking-wider">Services</span>
+                    <ul class="flex flex-col gap-2.5">
+                        <li class="list-none font-inter text-xs sm:text-sm text-cream-warm/80">
+                            <a href="banana-plant-services.html" class="hover:text-white transition-colors">Banana Tissue-Culture Plants</a>
+                        </li>
+                        <li class="list-none font-inter text-xs sm:text-sm text-cream-warm/80">
+                            <a href="fertilizer-services.html" class="hover:text-white transition-colors">Crop Nutrition &amp; Fertilizer</a>
+                        </li>
+                        <li class="list-none font-inter text-xs sm:text-sm text-cream-warm/80">
+                            <a href="fruit-care-services.html" class="hover:text-white transition-colors">Fruit Care &amp; Bunch Protection</a>
+                        </li>
+                        <li class="list-none font-inter text-xs sm:text-sm text-leaf-green font-semibold">
+                            <a href="harvesting-services.html" class="hover:text-white transition-colors">G9 &amp; Yelakki Harvesting Support</a>
+                        </li>
+                        <li class="list-none font-inter text-xs sm:text-sm text-cream-warm/80">Cold-Chain Transit Consolidation</li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Direct Contact Info -->
+                <div class="lg:col-span-3 flex flex-col gap-4">
+                    <span class="font-manrope font-bold text-sm text-earthy-gold uppercase tracking-wider">Direct Contact Info</span>
+                    <div class="flex flex-col gap-3 text-xs sm:text-sm font-inter text-cream-warm/80">
+                        <div class="flex items-start gap-2.5">
+                            <span class="material-symbols-outlined text-earthy-gold text-[18px] mt-0.5 shrink-0">location_on</span>
+                            <span>At post Wade, Tal. Bhadgaon, Dist. Jalgaon - 424201, Maharashtra, India.</span>
+                        </div>
+                        <div class="flex items-center gap-2.5">
+                            <span class="material-symbols-outlined text-earthy-gold text-[18px] shrink-0">phone</span>
+                            <a class="hover:text-white transition-colors" href="tel:+919100556355">+91 9100556355</a>
+                        </div>
+                        <div class="flex items-center gap-2.5">
+                            <span class="material-symbols-outlined text-earthy-gold text-[18px] shrink-0">mail</span>
+                            <a class="hover:text-white transition-colors" href="mailto:girnaglobal5@gmail.com">girnaglobal5@gmail.com</a>
+                        </div>
+                        <div class="flex items-center gap-2.5">
+                            <span class="material-symbols-outlined text-leaf-green text-[18px] shrink-0">chat</span>
+                            <a class="text-leaf-green hover:text-white transition-colors font-semibold" href="https://wa.me/919100556355?text=Hello%20Girna%20Global%2C%20I%20would%20like%20to%20enquire%20about%20Harvesting%20Services." target="_blank" rel="noopener noreferrer">WhatsApp Direct Chat</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Bottom Sub-Footer -->
+            <div class="mt-16 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-cream-warm/60 font-inter text-xs">
+                <p>© 2026 Girna Global. All rights reserved.</p>
+                <div class="flex items-center gap-4 flex-wrap justify-center">
+                    <a class="hover:text-white transition-colors" href="#">Privacy Policy</a>
+                    <span class="text-white/20">|</span>
+                    <a class="hover:text-white transition-colors" href="#">Terms &amp; Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Navigation & Form Scripts -->
+    <script>
+        // Mobile Drawer Controller
+        const toggleBtn = document.getElementById('mobile-menu-toggle');
+        const closeBtn = document.getElementById('mobile-drawer-close');
+        const drawer = document.getElementById('mobile-drawer');
+        const backdrop = document.getElementById('mobile-backdrop');
+
+        function openDrawer() {
+            backdrop.classList.remove('hidden');
+            drawer.classList.remove('translate-x-full');
+            document.body.classList.add('overflow-hidden');
+        }
+
+        function closeDrawer() {
+            drawer.classList.add('translate-x-full');
+            backdrop.classList.add('hidden');
+            document.body.classList.remove('overflow-hidden');
+        }
+
+        if (toggleBtn) toggleBtn.addEventListener('click', openDrawer);
+        if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+        if (backdrop) backdrop.addEventListener('click', closeDrawer);
+
+        // Header Shadow on Scroll
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('site-header');
+            if (header) {
+                if (window.scrollY > 20) {
+                    header.classList.add('shadow-md');
+                } else {
+                    header.classList.remove('shadow-md');
+                }
+            }
+        });
+
+        // Harvest Form Submission Handler
+        function handleHarvestSubmit() {
+            const status = document.getElementById('harvestFormStatus');
+            if (status) {
+                status.classList.remove('hidden');
+            }
+            const form = document.getElementById('harvestBookingForm');
+            if (form) {
+                form.reset();
+            }
+            setTimeout(() => {
+                if (status) status.classList.add('hidden');
+            }, 6000);
+        }
+    </script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,236 @@
+/* ============================================================
+   GIRNA GLOBAL - OFFICIAL INSTITUTIONAL DESIGN SYSTEM
+   "Farm to Foreign" • Pure HTML, CSS & JavaScript
+   Pixel-Perfect Implementation of Google Stitch Approved Design
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+:root {
+  /* Stitch Design System Palette */
+  --forest-deep: #123D2B;
+  --forest-dark: #0B261B;
+  --botanical: #267044;
+  --botanical-dark: #1d5835;
+  --botanical-light: #eaf5ed;
+  --leaf-green: #8BAF52;
+  --earthy-gold: #C3A46A;
+  --earthy-gold-light: #f4eedf;
+  --cream-warm: #F7F6EF;
+  --canvas-soft: #FCFBF7;
+  --pine-charcoal: #122B1E;
+  --pine-heading: #111E16;
+  --forest-slate: #334A3E;
+  --surface-card: #FFFFFF;
+  --border-gold: rgba(195, 164, 106, 0.25);
+  --border-gold-strong: rgba(195, 164, 106, 0.4);
+
+  /* Typography */
+  --font-heading: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Elevation */
+  --shadow-sm: 0 2px 8px rgba(18, 61, 43, 0.04);
+  --shadow-md: 0 8px 24px rgba(18, 61, 43, 0.08);
+  --shadow-lg: 0 16px 40px rgba(18, 61, 43, 0.12);
+  --shadow-xl: 0 24px 60px rgba(11, 38, 27, 0.2);
+}
+
+/* Reset & Base Rules */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--canvas-soft);
+  color: var(--forest-slate);
+  line-height: 1.6;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.overflow-hidden {
+  overflow: hidden !important;
+  touch-action: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--pine-heading);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Material Symbols Outlined Base & Filled Variant */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+.fill-1 {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Drafting Gridline Background Effect */
+.bg-grid-drafting {
+  background-image: radial-gradient(var(--earthy-gold) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Floating WhatsApp Pulse Button */
+@keyframes wa-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(38, 112, 68, 0.6); }
+  70% { box-shadow: 0 0 0 16px rgba(38, 112, 68, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(38, 112, 68, 0); }
+}
+
+.wa-pulse-btn {
+  animation: wa-pulse 2.5s infinite;
+}
+
+/* Hero Text Contrast & Typography Shadow */
+.hero-heading-shadow {
+  text-shadow: 0 2px 12px rgba(11, 38, 27, 0.85), 0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.hero-body-shadow {
+  text-shadow: 0 1px 8px rgba(11, 38, 27, 0.85), 0 1px 2px rgba(0, 0, 0, 0.95);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--canvas-soft);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--earthy-gold);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--botanical);
+}
+
+/* ============================================================
+   MOBILE RESPONSIVENESS & TOUCH OPTIMIZATION (MAX-WIDTH: 767px)
+   Strictly scoped to preserve 100% pixel-perfect desktop layouts
+   ============================================================ */
+
+/* Mobile Drawer Smooth Scrolling & Concealed Scrollbar */
+#mobile-drawer {
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: var(--earthy-gold) transparent;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#mobile-drawer.drawer-open {
+  transform: none !important;
+  --tw-translate-x: 0px !important;
+}
+
+#mobile-drawer::-webkit-scrollbar {
+  width: 4px;
+}
+#mobile-drawer::-webkit-scrollbar-thumb {
+  background: var(--earthy-gold);
+  border-radius: 2px;
+}
+
+/* Smooth Touch Scrolling on All Horizontal Lists & Carousels */
+.snap-x, [id*="carousel"] {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 767px) {
+  /* Prevent iOS automatic input zoom by enforcing 16px font-size minimum */
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+
+  /* Accessible touch targets (minimum 44px) */
+  button, 
+  a.btn-touch, 
+  .mobile-nav-item, 
+  #mobile-menu-toggle, 
+  #mobile-drawer-close {
+    min-height: 44px;
+    min-width: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  /* Fluid typography scaling for mobile screens without awkward word wraps */
+  h1 {
+    font-size: clamp(1.85rem, 6.8vw, 2.75rem) !important;
+    line-height: 1.2 !important;
+  }
+  h2 {
+    font-size: clamp(1.45rem, 5.2vw, 2.25rem) !important;
+    line-height: 1.25 !important;
+  }
+
+  /* Mobile floating WhatsApp button positioning */
+  .wa-pulse-btn {
+    bottom: 1.25rem !important;
+    right: 1.25rem !important;
+    width: 3.25rem !important;
+    height: 3.25rem !important;
+  }
+
+  /* Contact and enquiry form inputs full width on mobile */
+  form input, form select, form textarea {
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 639px) {
+  /* Responsive card sizing for horizontal scroll cultivar/fertilizer lists */
+  .variety-card,
+  [id*="carousel"] > article,
+  [id*="carousel"] > div.shrink-0 {
+    max-width: calc(100vw - 44px) !important;
+    min-width: 260px !important;
+    width: calc(100vw - 44px) !important;
+  }
+}

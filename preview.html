@@ -1,0 +1,2067 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="web_standard" name="shell-type">
+    <title>Girna Global FPC | Farmer Producer Company • Farm to Foreign Agricultural Excellence</title>
+    <meta name="description" content="Girna Global Farmer Producer Company (Girna Global FPC) connects authentic local agricultural excellence in Jalgaon to global markets with certified tissue-culture banana plants, precision crop nutrition, and skilled harvesting services.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+    <!-- Tailwind CSS with Official Stitch Theme Configuration -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "forest-deep": "#123D2B",
+            "forest-dark": "#0B261B",
+            "botanical": "#267044",
+            "botanical-dark": "#1d5835",
+            "botanical-light": "#eaf5ed",
+            "leaf-green": "#8BAF52",
+            "earthy-gold": "#C3A46A",
+            "earthy-gold-light": "#f4eedf",
+            "cream-warm": "#F7F6EF",
+            "canvas-soft": "#FCFBF7",
+            "pine-charcoal": "#122B1E",
+            "pine-heading": "#111E16",
+            "forest-slate": "#334A3E",
+            "surface-card": "#FFFFFF",
+          },
+          fontFamily: {
+            manrope: ["Manrope", "sans-serif"],
+            inter: ["Inter", "sans-serif"],
+          }
+        }
+      }
+    };
+    </script>
+    
+    <!-- Custom CSS Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-canvas-soft font-inter text-forest-slate antialiased selection:bg-earthy-gold selection:text-forest-dark">
+
+    <!-- ============================================================
+         HEADER & NAVIGATION (STITCH APPROVED DESIGN)
+         ============================================================ -->
+        <!-- Main Institutional Sticky Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/95 backdrop-blur-md border-b border-[#C3A46A]/20 shadow-[0_2px_12px_rgba(18,61,43,0.04)]" id="site-header">
+        <div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-4">
+
+            <!-- Brand Logo & Identity -->
+            <a href="index.html" class="flex items-center gap-3.5 shrink-0 group">
+                <img alt="Girna Global FPC Official Logo" class="h-14 w-14 object-contain rounded-full shadow-md ring-1 ring-[#C3A46A]/40 group-hover:scale-105 transition-transform" src="assets/images/logo.png">
+                <div class="flex flex-col">
+                    <span class="font-manrope font-extrabold text-lg sm:text-xl uppercase tracking-wider text-forest-deep leading-none group-hover:text-botanical transition-colors">GIRNA GLOBAL FPC</span>
+                    <span class="text-[10px] font-bold uppercase tracking-widest text-earthy-gold mt-1">FARMER PRODUCER COMPANY</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation Menu -->
+            <nav class="hidden xl:flex items-center gap-8 font-inter text-sm font-medium">
+                <a class="text-botanical font-semibold border-b-2 border-botanical pb-1" data-path="home" href="#">Home</a>
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="about-us" href="#about-us">About Us</a>
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="services" href="#services">Services</a>
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="our-farms" href="our-farms.html">Our Farms</a>
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="our-team" href="our-team.html">Our Team</a>
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="clients-and-partners" href="#clients-and-partners">Clients &amp; Partners</a>
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="testimonials" href="#testimonials">Testimonials</a>
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="contact" href="#contact">Contact</a>
+            </nav>
+
+            <!-- Mobile Hamburger Toggle Button -->
+            <button type="button" class="xl:hidden p-2 rounded-lg text-forest-slate hover:text-botanical hover:bg-cream-warm focus:outline-none transition-colors" id="mobile-menu-toggle" aria-label="Toggle navigation menu">
+                <span class="material-symbols-outlined text-[28px]" id="mobile-menu-icon">menu</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Slide-Out Drawer (Direct Body Child for Full Viewport Height) -->
+    <div class="fixed inset-0 top-20 bg-forest-dark/80 backdrop-blur-sm z-40 hidden transition-opacity duration-300 xl:hidden" id="mobile-backdrop"></div>
+    <div class="fixed top-20 right-0 bottom-0 w-full max-w-sm bg-white shadow-2xl z-50 transform translate-x-full transition-transform duration-300 ease-in-out xl:hidden flex flex-col justify-between overflow-y-auto border-l border-[#C3A46A]/20" id="mobile-drawer">
+        <div class="p-6 flex flex-col gap-5">
+            <div class="flex items-center justify-between border-b border-[#C3A46A]/20 pb-4">
+                <div class="flex items-center gap-3">
+                    <img src="assets/images/logo.png" class="h-11 w-11 rounded-full object-contain shadow-sm ring-1 ring-[#C3A46A]/30" alt="Girna Global FPC">
+                    <div class="flex flex-col">
+                        <span class="font-manrope font-bold text-sm uppercase tracking-wider text-forest-deep">GIRNA GLOBAL FPC</span>
+                        <span class="text-[9px] font-semibold uppercase tracking-wider text-earthy-gold">Farmer Producer Company</span>
+                    </div>
+                </div>
+                <button type="button" class="p-1 rounded text-forest-slate hover:text-botanical focus:outline-none" id="mobile-drawer-close" aria-label="Close navigation menu">
+                    <span class="material-symbols-outlined text-[24px]">close</span>
+                </button>
+            </div>
+            <nav class="flex flex-col gap-1 font-manrope text-sm font-semibold text-pine-heading">
+                <a href="#" class="mobile-nav-item py-2.5 px-3 rounded text-botanical bg-cream-warm">Home</a>
+                <a href="#about-us" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">About Us</a>
+                <a href="#services" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Services</a>
+                <div class="pl-4 py-1 flex flex-col gap-1 border-l-2 border-botanical/30 my-1">
+                    <a href="banana-plant-services.html" class="mobile-nav-item py-1.5 px-3 text-xs text-forest-slate hover:text-botanical transition-colors">Banana Plant Services</a>
+                    <a href="fertilizer-services.html" class="mobile-nav-item py-1.5 px-3 text-xs text-forest-slate hover:text-botanical transition-colors">Fertilizer &amp; Crop Nutrition</a>
+                    <a href="fruit-care-services.html" class="mobile-nav-item py-1.5 px-3 text-xs text-forest-slate hover:text-botanical transition-colors">Fruit Care &amp; Bunch Protection</a>
+                    <a href="harvesting-services.html" class="mobile-nav-item py-1.5 px-3 text-xs text-forest-slate hover:text-botanical transition-colors">Harvesting Services</a>
+                </div>
+                <a href="our-farms.html" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Our Farms</a>
+                <a href="our-team.html" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Our Team</a>
+                <a href="#clients-and-partners" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Clients &amp; Partners</a>
+                <a href="#testimonials" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Testimonials</a>
+                <a href="#contact" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Contact</a>
+            </nav>
+            <div class="pt-4 border-t border-[#C3A46A]/20 flex flex-col gap-3">
+                <a href="tel:+919100556355" class="flex items-center gap-3 p-3 rounded-lg bg-cream-warm text-forest-deep font-inter text-xs font-semibold hover:bg-botanical-light transition-colors">
+                    <span class="material-symbols-outlined text-botanical text-[18px]">phone</span>
+                    <span>+91 9100556355</span>
+                </a>
+                <a href="https://wa.me/919100556355?text=Hello%20Girna%20Global" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 py-3 px-4 rounded bg-botanical text-white font-manrope font-bold text-xs uppercase tracking-wider hover:bg-botanical-dark transition-colors shadow-md">
+                    <span class="material-symbols-outlined text-[18px]">chat</span>
+                    <span>WhatsApp Export Desk</span>
+                </a>
+            </div>
+        </div>
+        <div class="p-6 bg-canvas-soft border-t border-[#C3A46A]/20 text-xs text-forest-slate">
+            <p class="font-bold text-pine-heading">Proprietorship: Dikshita Chaudhari, B.Sc. Chemistry</p>
+            <p class="text-[11px] text-forest-slate/80 mt-1">At post Wade, Tal. Bhadgaon, Dist. Jalgaon - 424201, Maharashtra</p>
+        </div>
+    </div>
+
+<main class="w-full pt-20 bg-canvas-soft min-h-[calc(100vh-80px)]">
+        <div class="flex flex-col w-full">
+
+            <!-- ============================================================
+                 SECTION 2: HERO SECTION WITH VIBRANT NATURAL PLANTATION
+                 ============================================================ -->
+            <section class="relative w-full min-h-[580px] sm:min-h-[680px] lg:min-h-[900px] flex flex-col justify-between -mt-20 pt-36 pb-12 overflow-hidden bg-forest-deep text-white">
+                <!-- Background Plantation Image with Natural Vibrant Sunlight -->
+                <div class="absolute inset-0 z-0 bg-cover bg-[center_35%] transition-transform duration-1000" data-alt="Panoramic view of banana plantation in Bhadgaon Jalgaon" style="background-image: url('assets/images/hero-bg.jpg');">
+                    <!-- Directional Left-to-Right Scrim for High-Contrast Text Legibility while Keeping Field & Mountains Vibrant -->
+                    <div class="absolute inset-0 bg-gradient-to-r from-forest-dark/90 via-forest-dark/55 to-transparent sm:via-forest-dark/45"></div>
+                    <!-- Gentle Top & Bottom Edge Blends -->
+                    <div class="absolute top-0 inset-x-0 h-28 bg-gradient-to-b from-forest-dark/40 to-transparent pointer-events-none"></div>
+                    <div class="absolute bottom-0 inset-x-0 h-28 bg-gradient-to-t from-forest-dark/60 to-transparent pointer-events-none"></div>
+                </div>
+
+                <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 w-full my-auto py-12 flex flex-col items-start gap-8">
+                    <!-- Eyebrow Badge -->
+                    <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-forest-dark/85 backdrop-blur-md border border-earthy-gold/50 shadow-2xl">
+                        <span class="w-2.5 h-2.5 rounded-full bg-leaf-green animate-pulse"></span>
+                        <span class="font-inter text-xs uppercase tracking-widest font-semibold text-earthy-gold">FARM TO FOREIGN • GLOBAL EXPORT EXCELLENCE</span>
+                    </div>
+
+                    <!-- Main Headline -->
+                    <div class="max-w-3xl flex flex-col gap-5">
+                        <h1 class="font-manrope text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.15] hero-heading-shadow">
+                            Growing Together. <br class="hidden sm:block">
+                            <span class="text-[#E6C687] italic font-bold">Harvesting Better</span> Opportunities.
+                        </h1>
+                        <p class="font-inter text-lg sm:text-xl text-cream-warm max-w-2xl font-normal leading-relaxed hero-body-shadow">
+                            From trusted farming roots to agricultural solutions, Girna Global supports growers across the Jalgaon belt with certified tissue-culture banana plants, precision crop nutrition, and skilled export-standard harvesting services.
+                        </p>
+                    </div>
+
+                    <!-- Action CTAs -->
+                    <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto pt-2">
+                        <a class="px-8 py-4 rounded bg-botanical text-white font-manrope font-bold text-sm uppercase tracking-wider flex items-center justify-center gap-3 transition-all duration-200 hover:bg-leaf-green hover:text-forest-dark shadow-2xl" href="#services">
+                            <span>Explore Our Services</span>
+                            <span class="material-symbols-outlined text-[20px]">north_east</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Live Metric Ribbon (Anchored Bottom) -->
+                <div class="relative z-10 w-full bg-white/95 backdrop-blur-xl border-t border-[#C3A46A]/30 shadow-2xl text-forest-slate">
+                    <div class="max-w-7xl mx-auto px-6 lg:px-12 py-7">
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8 divide-x divide-[#C3A46A]/20">
+                            <div class="flex flex-col pl-2 sm:pl-4">
+                                <span class="font-manrope text-3xl lg:text-4xl text-botanical font-extrabold tracking-tight counter-val" data-target="193633" data-suffix="+">193,633+</span>
+                                <span class="font-inter text-xs uppercase tracking-wider font-semibold text-forest-slate/80 mt-1">Products Delivered</span>
+                            </div>
+                            <div class="flex flex-col pl-4 lg:pl-8">
+                                <span class="font-manrope text-3xl lg:text-4xl text-forest-deep font-extrabold tracking-tight counter-val" data-target="100" data-suffix="+">100+</span>
+                                <span class="font-inter text-xs uppercase tracking-wider font-semibold text-forest-slate/80 mt-1">Happy Farmers in Belt</span>
+                            </div>
+                            <div class="flex flex-col pl-4 lg:pl-8">
+                                <span class="font-manrope text-3xl lg:text-4xl text-leaf-green font-extrabold tracking-tight">20-Acre</span>
+                                <span class="font-inter text-xs uppercase tracking-wider font-semibold text-forest-slate/80 mt-1">Cultivation Estate</span>
+                            </div>
+                            <div class="flex flex-col pl-4 lg:pl-8">
+                                <span class="font-manrope text-3xl lg:text-4xl text-earthy-gold font-extrabold tracking-tight">25-Year</span>
+                                <span class="font-inter text-xs uppercase tracking-wider font-semibold text-forest-slate/80 mt-1">Farming Legacy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ============================================================
+                 SECTION 3: COMPANY INTRODUCTION (EDITORIAL-STYLE ON WARM CREAM CANVAS)
+                 ============================================================ -->
+            <section class="w-full py-24 bg-cream-warm relative overflow-hidden border-b border-[#C3A46A]/20" id="about-us">
+                <div class="max-w-7xl mx-auto px-6 lg:px-12">
+                    <!-- Section Tag -->
+                    <div class="flex items-center gap-3 mb-6">
+                        <span class="h-0.5 w-8 bg-earthy-gold"></span>
+                        <span class="font-inter text-xs font-bold uppercase tracking-widest text-botanical">ABOUT GIRNA GLOBAL</span>
+                    </div>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+                        <!-- Left: Real Estate Image with floating highlight badge -->
+                        <div class="lg:col-span-6 relative">
+                            <div class="relative overflow-hidden rounded-lg bg-white shadow-xl border border-[#C3A46A]/30">
+                                <img alt="Girna Global 30-Acre Banana Plantation Estate in Bhadgaon Jalgaon" class="w-full h-[260px] sm:h-[380px] lg:h-[520px] object-cover transition-transform duration-700 hover:scale-105" src="assets/images/about-farm.jpg?v=2">
+                                <div class="absolute inset-0 bg-gradient-to-t from-forest-dark/50 via-transparent to-transparent pointer-events-none"></div>
+                            </div>
+                            <!-- Floating Highlight Card -->
+                            <div class="relative sm:absolute sm:-bottom-8 sm:-right-8 bg-white rounded border border-[#C3A46A]/40 border-l-4 border-l-botanical p-6 shadow-2xl max-w-sm mt-4 sm:mt-0">
+                                <div class="flex items-center gap-2 mb-2 text-botanical">
+                                    <span class="material-symbols-outlined text-[20px]">science</span>
+                                    <span class="font-inter text-xs uppercase tracking-wider font-bold text-pine-heading">Institutional Provenance</span>
+                                </div>
+                                <p class="font-inter text-xs sm:text-sm text-forest-slate font-normal leading-relaxed">
+                                    Proprietorship: <span class="text-botanical font-bold">Dikshita Chaudhari, B.Sc. Chemistry</span> — Merging scientific crop nutrition and chemical precision with generational field heritage.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Right: Storytelling Editorial Column -->
+                        <div class="lg:col-span-6 flex flex-col gap-6 lg:pl-4">
+                            <h2 class="font-manrope text-3xl sm:text-4xl text-pine-heading font-extrabold leading-tight">
+                                Rooted in Agriculture. <br>
+                                <span class="text-botanical">Focused on Growth.</span>
+                            </h2>
+                            <p class="font-inter text-base text-forest-slate leading-relaxed">
+                                Backed by a 25-year legacy of successful family farming, Girna Global bridges the gap between traditional agricultural heritage and global export standards. We are not external traders; we walk the same black-cotton soil as the cultivators we serve.
+                            </p>
+                            <p class="font-inter text-base text-forest-slate leading-relaxed">
+                                Operating from our 20-acre cultivation estate in Bhadgaon, Jalgaon, we harvest export-grade G9 and Yelakki bananas while equipping regional growers with elite tissue-culture saplings, high-grade soil nutrition, and field harvesting support to maximize yield quality and international market value.
+                            </p>
+                            
+                            <div class="space-y-4 pt-3 border-t border-[#C3A46A]/20">
+                                <div class="flex items-start gap-3.5">
+                                    <div class="w-6 h-6 rounded-full flex items-center justify-center bg-botanical text-white shrink-0 mt-0.5 shadow-sm">
+                                        <span class="material-symbols-outlined text-[15px]">check</span>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-manrope font-bold text-base text-pine-heading">Unbroken cold-chain &amp; export-grade packaging</h4>
+                                        <p class="font-inter text-sm text-forest-slate/90 mt-0.5">Strict compliance with foreign phytosanitary benchmarks and dockside dispatch.</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3.5">
+                                    <div class="w-6 h-6 rounded-full flex items-center justify-center bg-botanical text-white shrink-0 mt-0.5 shadow-sm">
+                                        <span class="material-symbols-outlined text-[15px]">check</span>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-manrope font-bold text-base text-pine-heading">Direct field advisory across the Girna River belt</h4>
+                                        <p class="font-inter text-sm text-forest-slate/90 mt-0.5">Agronomic consultation on soil electroconductivity, moisture retention, and shoot care.</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3.5">
+                                    <div class="w-6 h-6 rounded-full flex items-center justify-center bg-botanical text-white shrink-0 mt-0.5 shadow-sm">
+                                        <span class="material-symbols-outlined text-[15px]">check</span>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-manrope font-bold text-base text-pine-heading">End-to-end crop cycle partnership</h4>
+                                        <p class="font-inter text-sm text-forest-slate/90 mt-0.5">Continuous stewardship from initial primary hardening sapling to harvest truck loading.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pt-4">
+                                <a class="inline-flex items-center gap-2 font-manrope font-bold text-sm uppercase tracking-wider text-botanical hover:text-botanical-dark transition-colors" href="#services">
+                                    <span>Learn More About Our Journey</span>
+                                    <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ============================================================
+                 SECTION 4: COMPANY HIGHLIGHTS (AUTHENTIC VERIFIED METRICS ON SOFT CANVAS)
+                 ============================================================ -->
+            <section class="w-full py-20 bg-canvas-soft relative border-b border-[#C3A46A]/20">
+                <div class="max-w-7xl mx-auto px-6 lg:px-12">
+                    <div class="text-center max-w-3xl mx-auto mb-16">
+                        <span class="font-inter text-xs font-bold uppercase tracking-widest text-earthy-gold block mb-2">VERIFIED OPERATIONAL STRENGTH</span>
+                        <h2 class="font-manrope text-3xl lg:text-4xl text-pine-heading font-extrabold">The Power of Ground-Level Agricultural Excellence</h2>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+                        <!-- Metric Card 1 -->
+                        <div class="bg-surface-card p-7 rounded-lg border border-[#C3A46A]/20 border-t-4 border-t-earthy-gold shadow-md flex flex-col justify-between hover:shadow-xl transition-all duration-200">
+                            <div>
+                                <span class="font-manrope text-4xl lg:text-5xl text-earthy-gold font-extrabold">25+</span>
+                                <div class="w-8 h-1 bg-earthy-gold/40 my-3.5"></div>
+                            </div>
+                            <div>
+                                <h3 class="font-manrope font-bold text-base text-pine-heading mb-1">Years Heritage</h3>
+                                <p class="font-inter text-xs sm:text-sm text-forest-slate leading-relaxed">Generational family farming depth &amp; practical field knowledge in Maharashtra.</p>
+                            </div>
+                        </div>
+
+                        <!-- Metric Card 2 -->
+                        <div class="bg-surface-card p-7 rounded-lg border border-[#C3A46A]/20 border-t-4 border-t-botanical shadow-md flex flex-col justify-between hover:shadow-xl transition-all duration-200">
+                            <div>
+                                <span class="font-manrope text-4xl lg:text-5xl text-botanical font-extrabold">20</span>
+                                <div class="w-8 h-1 bg-botanical/40 my-3.5"></div>
+                            </div>
+                            <div>
+                                <h3 class="font-manrope font-bold text-base text-pine-heading mb-1">Acres Estate</h3>
+                                <p class="font-inter text-xs sm:text-sm text-forest-slate leading-relaxed">Active demonstration cultivation acreage located at Wade, Bhadgaon.</p>
+                            </div>
+                        </div>
+
+                        <!-- Metric Card 3 -->
+                        <div class="bg-surface-card p-7 rounded-lg border border-[#C3A46A]/20 border-t-4 border-t-forest-deep shadow-md flex flex-col justify-between hover:shadow-xl transition-all duration-200">
+                            <div>
+                                <span class="font-manrope text-4xl lg:text-5xl text-forest-deep font-extrabold">193k+</span>
+                                <div class="w-8 h-1 bg-forest-deep/40 my-3.5"></div>
+                            </div>
+                            <div>
+                                <h3 class="font-manrope font-bold text-base text-pine-heading mb-1">Inputs Supplied</h3>
+                                <p class="font-inter text-xs sm:text-sm text-forest-slate leading-relaxed">Verified saplings, soil fertilizers &amp; nutrition units dispatched.</p>
+                            </div>
+                        </div>
+
+                        <!-- Metric Card 4 -->
+                        <div class="bg-surface-card p-7 rounded-lg border border-[#C3A46A]/20 border-t-4 border-t-leaf-green shadow-md flex flex-col justify-between hover:shadow-xl transition-all duration-200">
+                            <div>
+                                <span class="font-manrope text-4xl lg:text-5xl text-leaf-green font-extrabold">100+</span>
+                                <div class="w-8 h-1 bg-leaf-green/40 my-3.5"></div>
+                            </div>
+                            <div>
+                                <h3 class="font-manrope font-bold text-base text-pine-heading mb-1">Cultivators</h3>
+                                <p class="font-inter text-xs sm:text-sm text-forest-slate leading-relaxed">Active grower network partnering across the Jalgaon banana corridor.</p>
+                            </div>
+                        </div>
+
+                        <!-- Metric Card 5 -->
+                        <div class="bg-surface-card p-7 rounded-lg border border-[#C3A46A]/20 border-t-4 border-t-pine-charcoal shadow-md flex flex-col justify-between hover:shadow-xl transition-all duration-200 md:col-span-2 lg:col-span-1">
+                            <div>
+                                <span class="font-manrope text-4xl lg:text-5xl text-pine-charcoal font-extrabold">3</span>
+                                <div class="w-8 h-1 bg-pine-charcoal/40 my-3.5"></div>
+                            </div>
+                            <div>
+                                <h3 class="font-manrope font-bold text-base text-pine-heading mb-1">Core Pillars</h3>
+                                <p class="font-inter text-xs sm:text-sm text-forest-slate leading-relaxed">Tissue plants, balanced crop nutrition &amp; trained harvest crews.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ============================================================
+                 SECTION 5: OUR SERVICES (FOUR ELEVATED CRISP WHITE CARDS ON WARM CREAM)
+                 ============================================================ -->
+            <section class="w-full py-24 bg-cream-warm relative" id="services">
+                <div class="max-w-7xl mx-auto px-6 lg:px-12">
+                    <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
+                        <div>
+                            <span class="font-inter text-xs font-bold uppercase tracking-widest text-botanical block mb-2">INTEGRATED AGRONOMY SOLUTIONS</span>
+                            <h2 class="font-manrope text-3xl lg:text-4xl text-pine-heading font-extrabold">Complete Agricultural Support. <br><span class="text-botanical font-bold">From Planting to Harvesting.</span></h2>
+                        </div>
+                        <p class="font-inter text-base text-forest-slate max-w-md">Four dependable pillars empowering farmers from primary hardening nursery shoots to bunch protection and final domestic and foreign market consignments.</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 items-stretch">
+                        <!-- Service Card 1 -->
+                        <div class="bg-surface-card rounded-xl overflow-hidden flex flex-col h-full border border-[#C3A46A]/25 shadow-sm hover:shadow-xl transition-all duration-300 group hover:-translate-y-1">
+                            <div class="relative h-52 overflow-hidden bg-cream-warm">
+                                <img alt="Certified Tissue-Culture Banana Plants in Polyhouse" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="assets/images/service-tissue-culture.jpg?v=2">
+                                <div class="absolute top-3.5 left-3.5">
+                                    <span class="px-3 py-1 rounded bg-forest-dark/90 backdrop-blur-md text-leaf-green font-inter text-xs font-semibold uppercase tracking-wider border border-leaf-green/30">Primary Cultivation</span>
+                                </div>
+                            </div>
+                            <div class="p-6 flex flex-col flex-grow justify-between gap-5 bg-white">
+                                <div class="space-y-3">
+                                    <h3 class="font-manrope text-xl text-pine-heading font-bold group-hover:text-botanical transition-colors leading-snug">Tissue-Culture Banana Plants</h3>
+                                    <p class="font-inter text-sm text-forest-slate leading-relaxed">Certified virus-indexed G9 Grand Naine and Yelakki saplings cultivated under strict polyhouse hardening protocols.</p>
+                                    <ul class="space-y-2 pt-2 border-t border-[#E9EFEA]">
+                                        <li class="flex items-start gap-2 text-xs font-medium text-forest-slate">
+                                            <span class="material-symbols-outlined text-[16px] text-botanical shrink-0 mt-0.5">check_circle</span>
+                                            <span>High-yield disease-resistant stock</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 text-xs font-medium text-forest-slate">
+                                            <span class="material-symbols-outlined text-[16px] text-botanical shrink-0 mt-0.5">check_circle</span>
+                                            <span>Root-zone guidance &amp; hardening</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 text-xs font-medium text-forest-slate">
+                                            <span class="material-symbols-outlined text-[16px] text-botanical shrink-0 mt-0.5">check_circle</span>
+                                            <span>Government-accredited lab origin</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a class="inline-flex items-center justify-between w-full py-3 px-4 rounded bg-cream-warm border border-[#C3A46A]/30 text-botanical hover:bg-botanical hover:text-white font-manrope font-bold text-xs uppercase tracking-wider transition-all duration-200 mt-2 shadow-sm" href="banana-plant-services.html">
+                                    <span>Explore Banana Plant Services</span>
+                                    <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Service Card 2 -->
+                        <div class="bg-surface-card rounded-xl overflow-hidden flex flex-col h-full border border-[#C3A46A]/25 shadow-sm hover:shadow-xl transition-all duration-300 group hover:-translate-y-1">
+                            <div class="relative h-52 overflow-hidden bg-cream-warm">
+                                <img alt="Organic Fertilizers and Soil Crop Nutrition Solutions" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="assets/images/service-nutrition.jpg?v=2">
+                                <div class="absolute top-3.5 left-3.5">
+                                    <span class="px-3 py-1 rounded bg-forest-dark/90 backdrop-blur-md text-leaf-green font-inter text-xs font-semibold uppercase tracking-wider border border-leaf-green/30">Soil &amp; Nutrition</span>
+                                </div>
+                            </div>
+                            <div class="p-6 flex flex-col flex-grow justify-between gap-5 bg-white">
+                                <div class="space-y-3">
+                                    <h3 class="font-manrope text-xl text-pine-heading font-bold group-hover:text-botanical transition-colors leading-snug">Specialized Crop Nutrition</h3>
+                                    <p class="font-inter text-sm text-forest-slate leading-relaxed">Genuine macro and micronutrient regimens precision-matched to local soil chemistry and crop development stages.</p>
+                                    <ul class="space-y-2 pt-2 border-t border-[#E9EFEA]">
+                                        <li class="flex items-start gap-2 text-xs font-medium text-forest-slate">
+                                            <span class="material-symbols-outlined text-[16px] text-botanical shrink-0 mt-0.5">check_circle</span>
+                                            <span>Authorised Yara &amp; MahaFeed distributor</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 text-xs font-medium text-forest-slate">
+                                            <span class="material-symbols-outlined text-[16px] text-botanical shrink-0 mt-0.5">check_circle</span>
+                                            <span>Mahadhan &amp; Bandhan nutrient lines</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 text-xs font-medium text-forest-slate">
+                                            <span class="material-symbols-outlined text-[16px] text-botanical shrink-0 mt-0.5">check_circle</span>
+                                            <span>Stage-wise precision fertigation charts</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a class="inline-flex items-center justify-between w-full py-3 px-4 rounded bg-cream-warm border border-[#C3A46A]/30 text-botanical hover:bg-botanical hover:text-white font-manrope font-bold text-xs uppercase tracking-wider transition-all duration-200 mt-2 shadow-sm" href="fertilizer-services.html">
+                                    <span>Explore Fertilizer &amp; Nutrition</span>
+                                    <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Service Card 3 -->
+                        <div class="bg-surface-card rounded-xl overflow-hidden flex flex-col h-full border border-[#C3A46A]/25 shadow-sm hover:shadow-xl transition-all duration-300 group hover:-translate-y-1">
+                            <div class="relative h-52 overflow-hidden bg-cream-warm">
+                                <img alt="Field Fruit Care Operations - Bud Injection, Bunch Spray, Dehandling, Deflowering, Bagging" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="assets/images/service-fruit-protection.jpg?v=2">
+                                <div class="absolute top-3.5 left-3.5">
+                                    <span class="px-3 py-1 rounded bg-forest-dark/90 backdrop-blur-md text-leaf-green font-inter text-xs font-semibold uppercase tracking-wider border border-leaf-green/30">Pre-Harvest Care</span>
+                                </div>
+                            </div>
+                            <div class="p-6 flex flex-col flex-grow justify-between gap-5 bg-white">
+                                <div class="space-y-3">
+                                    <h3 class="font-manrope text-xl text-pine-heading font-bold group-hover:text-botanical transition-colors leading-snug">Fruit Care &amp; Bunch Protection</h3>
+                                    <p class="font-inter text-sm text-forest-slate leading-relaxed">Specialized bunch bagging, foam separation, and sun-scorch shielding to deliver unblemished export-grade fruit.</p>
+                                    <ul class="space-y-2 pt-2 border-t border-[#E9EFEA]">
+                                        <li class="flex items-start gap-2 text-xs font-medium text-forest-slate">
+                                            <span class="material-symbols-outlined text-[16px] text-botanical shrink-0 mt-0.5">check_circle</span>
+                                            <span>Zero-blemish export specification</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 text-xs font-medium text-forest-slate">
+                                            <span class="material-symbols-outlined text-[16px] text-botanical shrink-0 mt-0.5">check_circle</span>
+                                            <span>Sun-scorch &amp; thrips barrier bagging</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 text-xs font-medium text-forest-slate">
+                                            <span class="material-symbols-outlined text-[16px] text-botanical shrink-0 mt-0.5">check_circle</span>
+                                            <span>Breathable foam sleeve interleaving</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a class="inline-flex items-center justify-between w-full py-3 px-4 rounded bg-cream-warm border border-[#C3A46A]/30 text-botanical hover:bg-botanical hover:text-white font-manrope font-bold text-xs uppercase tracking-wider transition-all duration-200 mt-2 shadow-sm" href="fruit-care-services.html">
+                                    <span>Explore Fruit Care</span>
+                                    <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Service Card 4 -->
+                        <div class="bg-surface-card rounded-xl overflow-hidden flex flex-col h-full border border-[#C3A46A]/25 shadow-sm hover:shadow-xl transition-all duration-300 group hover:-translate-y-1">
+                            <div class="relative h-52 overflow-hidden bg-cream-warm">
+                                <img alt="Trained Banana Harvesting and De-handing Field Operations" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="assets/images/service-harvesting.jpg?v=2">
+                                <div class="absolute top-3.5 left-3.5">
+                                    <span class="px-3 py-1 rounded bg-forest-dark/90 backdrop-blur-md text-earthy-gold font-inter text-xs font-semibold uppercase tracking-wider border border-earthy-gold/30">Post-Harvest Operations</span>
+                                </div>
+                            </div>
+                            <div class="p-6 flex flex-col flex-grow justify-between gap-5 bg-white">
+                                <div class="space-y-3">
+                                    <h3 class="font-manrope text-xl text-pine-heading font-bold group-hover:text-botanical transition-colors leading-snug">Skilled Harvesting Services</h3>
+                                    <p class="font-inter text-sm text-forest-slate leading-relaxed">Professionally trained field crews handling gentle bunch harvesting, careful de-handing, and dock-side foam padding.</p>
+                                    <ul class="space-y-2 pt-2 border-t border-[#E9EFEA]">
+                                        <li class="flex items-start gap-2 text-xs font-medium text-forest-slate">
+                                            <span class="material-symbols-outlined text-[16px] text-botanical shrink-0 mt-0.5">check_circle</span>
+                                            <span>Calibrated export cutting windows</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 text-xs font-medium text-forest-slate">
+                                            <span class="material-symbols-outlined text-[16px] text-botanical shrink-0 mt-0.5">check_circle</span>
+                                            <span>Zero-bruising cushioned de-handing</span>
+                                        </li>
+                                        <li class="flex items-start gap-2 text-xs font-medium text-forest-slate">
+                                            <span class="material-symbols-outlined text-[16px] text-botanical shrink-0 mt-0.5">check_circle</span>
+                                            <span>Direct cold-chain transit dock loading</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a class="inline-flex items-center justify-between w-full py-3 px-4 rounded bg-cream-warm border border-[#C3A46A]/30 text-botanical hover:bg-botanical hover:text-white font-manrope font-bold text-xs uppercase tracking-wider transition-all duration-200 mt-2 shadow-sm" href="harvesting-services.html">
+                                    <span>Explore Harvesting Services</span>
+                                    <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ============================================================
+                 SECTION 6: OUR FARMING & INFRASTRUCTURE (DEEP FOREST GREEN AUTHORITY SECTION)
+                 ============================================================ -->
+            <section class="w-full py-24 bg-forest-deep text-white relative border-y border-forest-dark" id="our-farms">
+                <div class="max-w-7xl mx-auto px-6 lg:px-12">
+                    <div class="max-w-3xl mb-12">
+                        <span class="font-inter text-xs font-bold uppercase tracking-widest text-earthy-gold block mb-2">OUR 20-ACRE CULTIVATION ESTATE • BHADGAON, JALGAON</span>
+                        <h2 class="font-manrope text-3xl lg:text-4xl text-white font-extrabold">Where Agricultural Experience Meets Modern Farming.</h2>
+                    </div>
+
+                    <!-- Main Visual Estate Showcase with High-Resolution Bhadgaon Landscape -->
+                    <div class="relative w-full h-[240px] sm:h-[360px] lg:h-[540px] rounded-lg overflow-hidden mb-12 shadow-2xl border border-white/10 group">
+                        <img alt="Bhadgaon Central Demonstration Acreage Landscape" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 zoomable-image" src="assets/images/estate-bhadgaon.jpg">
+                        <div class="absolute inset-0 bg-gradient-to-t from-forest-dark/95 via-forest-deep/50 to-transparent pointer-events-none"></div>
+                        <div class="absolute bottom-6 left-6 right-6 lg:bottom-10 lg:left-10 lg:right-10 flex flex-col md:flex-row md:items-end justify-between gap-4 pointer-events-none">
+                            <div class="max-w-xl">
+                                <span class="px-3 py-1 rounded bg-botanical text-white font-inter text-xs font-bold uppercase tracking-wider border border-white/20">Active Demonstration Plot</span>
+                                <h3 class="font-manrope text-2xl lg:text-3xl text-white font-bold mt-2">Bhadgaon Central Demonstration Acreage</h3>
+                                <p class="font-inter text-sm text-cream-warm/85 mt-1 leading-relaxed">A real-world proving ground where precision fertilization regimens, irrigation frequencies, and disease management are tested before farmer rollout.</p>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div class="px-4 py-2 rounded bg-forest-dark/80 backdrop-blur-md border border-earthy-gold/40 text-cream-warm font-inter text-xs font-semibold">
+                                    LAT: 20.67° N • LON: 75.22° E
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3 Supporting Infrastructure Detail Modules -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="p-6 rounded-lg bg-white/5 backdrop-blur-md border border-white/10 border-l-4 border-l-earthy-gold">
+                            <div class="w-11 h-11 rounded-full flex items-center justify-center bg-earthy-gold/20 text-earthy-gold mb-4">
+                                <span class="material-symbols-outlined text-[24px]">water_drop</span>
+                            </div>
+                            <h4 class="font-manrope text-lg text-white font-bold mb-2">Micro-Drip &amp; Fertigation</h4>
+                            <p class="font-inter text-sm text-cream-warm/80 leading-relaxed">
+                                Ensuring optimal root aeration, uniform nutrient delivery directly to feeder roots, and 40% water conservation across all 20 acres.
+                            </p>
+                        </div>
+                        <div class="p-6 rounded-lg bg-white/5 backdrop-blur-md border border-white/10 border-l-4 border-l-leaf-green">
+                            <div class="w-11 h-11 rounded-full flex items-center justify-center bg-leaf-green/20 text-leaf-green mb-4">
+                                <span class="material-symbols-outlined text-[24px]">ac_unit</span>
+                            </div>
+                            <h4 class="font-manrope text-lg text-white font-bold mb-2">Cold-Chain Transit Readiness</h4>
+                            <p class="font-inter text-sm text-cream-warm/80 leading-relaxed">
+                                On-field shade structures, rapid foam wrapping, and synchronized logistics transfer to temperature-controlled reefers prevent heat stress.
+                            </p>
+                        </div>
+                        <div class="p-6 rounded-lg bg-white/5 backdrop-blur-md border border-white/10 border-l-4 border-l-botanical">
+                            <div class="w-11 h-11 rounded-full flex items-center justify-center bg-botanical/30 text-white mb-4">
+                                <span class="material-symbols-outlined text-[24px]">biotech</span>
+                            </div>
+                            <h4 class="font-manrope text-lg text-white font-bold mb-2">Field Soil Lab Diagnostics</h4>
+                            <p class="font-inter text-sm text-cream-warm/80 leading-relaxed">
+                                Routine testing of electrical conductivity, nitrogen leaching, and rhizosphere pH under scientific chemistry oversight to prevent salt crusting.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="mt-12 flex justify-center">
+                        <a href="our-farms.html" class="inline-flex items-center gap-3 px-8 py-3.5 rounded bg-earthy-gold text-forest-dark hover:bg-white font-manrope font-bold text-xs uppercase tracking-wider transition-all duration-300 shadow-lg">
+                            <span>Explore Farm-to-Harvest Process</span>
+                            <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- ============================================================
+                 SECTION 7: THE PILLARS OF GIRNA GLOBAL (ELEGANT INTERACTIVE SHOWCASE)
+                 ============================================================ -->
+            <style id="gp-pillars-styles">
+                /* --- Scoped Pillars Design Tokens --- */
+                :root {
+                    --gp-bg: #F8F3E8;
+                    --gp-bg-tint: #EEF0E2;
+                    --gp-green-deep: #123226;
+                    --gp-green: #1E4D3A;
+                    --gp-text: #4F5F55;
+                    --gp-gold: #B8934A;
+                    --gp-gold-soft: #D4B06A;
+                    --gp-ease: cubic-bezier(0.22, 1, 0.36, 1);
+                }
+
+                .gp-section {
+                    position: relative;
+                    width: 100%;
+                    background-color: var(--gp-bg);
+                    padding: clamp(68px, 8.5vw, 116px) 0;
+                    overflow: hidden;
+                    box-sizing: border-box;
+                }
+
+                /* Subtle Ambient Radial Reveal */
+                .gp-bg-reveal {
+                    position: absolute;
+                    inset: 0;
+                    pointer-events: none;
+                    background: radial-gradient(ellipse 70% 60% at 50% 50%, rgba(238, 240, 226, 0.75) 0%, rgba(184, 147, 74, 0.06) 50%, transparent 80%);
+                    opacity: 0;
+                    transform: scale(0.96);
+                    transition: opacity 1000ms var(--gp-ease), transform 1000ms var(--gp-ease);
+                }
+
+                .gp-js-ready .gp-section.is-visible .gp-bg-reveal {
+                    opacity: 1;
+                    transform: scale(1);
+                }
+
+                .gp-container {
+                    max-width: 1280px;
+                    margin: 0 auto;
+                    padding: 0 clamp(20px, 4vw, 48px);
+                    position: relative;
+                    z-index: 2;
+                    box-sizing: border-box;
+                }
+
+                /* Header Block Typography */
+                .gp-header {
+                    text-align: center;
+                    max-width: 760px;
+                    margin: 0 auto clamp(44px, 6vw, 68px) auto;
+                }
+
+                .gp-eyebrow-wrap {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 8px;
+                    padding: 5px 14px;
+                    border-radius: 9999px;
+                    background-color: #eaf5ed;
+                    border: 1px solid rgba(38, 112, 68, 0.2);
+                    margin-bottom: 12px;
+                }
+
+                .gp-eyebrow-dot {
+                    width: 7px;
+                    height: 7px;
+                    border-radius: 9999px;
+                    background-color: #8BAF52;
+                }
+
+                .gp-eyebrow {
+                    font-family: 'Inter', sans-serif;
+                    font-size: 11px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    letter-spacing: 0.18em;
+                    color: var(--gp-green);
+                }
+
+                .gp-title {
+                    font-family: 'Playfair Display', Georgia, serif;
+                    font-size: clamp(30px, 4.2vw, 48px);
+                    font-weight: 700;
+                    color: var(--gp-green-deep);
+                    line-height: 1.18;
+                    letter-spacing: -0.015em;
+                    margin: 10px 0 0 0;
+                }
+
+                /* Gold Hairline under Section Heading */
+                .gp-hairline-wrap {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 14px 0 16px 0;
+                }
+
+                .gp-hairline {
+                    width: 48px;
+                    height: 2px;
+                    background: var(--gp-gold);
+                    transform-origin: center;
+                    transform: scaleX(0);
+                    transition: transform 700ms var(--gp-ease) 180ms;
+                }
+
+                .gp-js-ready .gp-section.is-visible .gp-hairline {
+                    transform: scaleX(1);
+                }
+
+                .gp-subtitle {
+                    font-family: 'Inter', sans-serif;
+                    font-size: clamp(15px, 1.6vw, 17px);
+                    color: var(--gp-text);
+                    line-height: 1.6;
+                    max-width: 560px;
+                    margin: 0 auto;
+                    font-weight: 500;
+                }
+
+                /* 4-Column Responsive Grid */
+                .gp-grid {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    gap: 36px 0;
+                    position: relative;
+                }
+
+                @media (min-width: 640px) {
+                    .gp-grid {
+                        grid-template-columns: repeat(2, 1fr);
+                        gap: 40px 24px;
+                    }
+                }
+
+                @media (min-width: 1024px) {
+                    .gp-grid {
+                        grid-template-columns: repeat(4, 1fr);
+                        gap: 0;
+                    }
+                }
+
+                /* Individual Pillar Component (Open layout without boxes or cards) */
+                .gp-pillar {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    padding: clamp(24px, 3vw, 36px) clamp(16px, 2.5vw, 28px);
+                    background: transparent;
+                    border: none;
+                    box-shadow: none;
+                    outline: none;
+                    box-sizing: border-box;
+                    cursor: default;
+                    transition: transform 350ms var(--gp-ease);
+                }
+
+                @media (hover: hover) {
+                    .gp-pillar:hover,
+                    .gp-pillar:focus-visible {
+                        transform: translateY(-4px);
+                    }
+                }
+
+                .gp-pillar:focus-visible {
+                    outline: 2px solid var(--gp-gold);
+                    outline-offset: 4px;
+                    border-radius: 8px;
+                }
+
+                /* Vertical Separators via Pure Pseudo-element (Desktop Only, Zero Extra DOM) */
+                @media (min-width: 1024px) {
+                    .gp-pillar:not(:last-child)::after {
+                        content: '';
+                        position: absolute;
+                        top: 8%;
+                        bottom: 8%;
+                        right: 0;
+                        width: 1px;
+                        background: linear-gradient(180deg, transparent 0%, #C9D3C0 25%, var(--gp-gold) 50%, #C9D3C0 75%, transparent 100%);
+                        transform-origin: top;
+                        transform: scaleY(0);
+                        transition: transform 900ms var(--gp-ease);
+                        transition-delay: calc(380ms + var(--i, 0) * 120ms);
+                        pointer-events: none;
+                    }
+                    .gp-js-ready .gp-section.is-visible .gp-pillar:not(:last-child)::after {
+                        transform: scaleY(1);
+                    }
+                }
+
+                /* Icon Wrapper & Settle Animation */
+                .gp-icon-wrap {
+                    width: 68px;
+                    height: 68px;
+                    border-radius: 50%;
+                    background: #FFFFFF;
+                    border: 1px solid rgba(195, 164, 106, 0.32);
+                    box-shadow: 0 4px 14px rgba(18, 61, 43, 0.05);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0 auto 20px auto;
+                    color: var(--gp-green);
+                    transform-origin: center;
+                    transition: transform 350ms var(--gp-ease), color 350ms ease, border-color 350ms ease, box-shadow 350ms ease;
+                }
+
+                @media (hover: hover) {
+                    .gp-pillar:hover .gp-icon-wrap,
+                    .gp-pillar:focus-visible .gp-icon-wrap {
+                        transform: scale(1.08) rotate(4deg);
+                        color: var(--gp-gold);
+                        border-color: var(--gp-gold);
+                        box-shadow: 0 8px 22px rgba(184, 147, 74, 0.16);
+                    }
+                }
+
+                .gp-icon {
+                    font-size: 32px !important;
+                    line-height: 1;
+                    display: block;
+                    user-select: none;
+                }
+
+                /* Pillar Number Indicator */
+                .gp-number {
+                    font-family: 'Inter', sans-serif;
+                    font-size: 11px;
+                    font-weight: 700;
+                    color: var(--gp-gold);
+                    letter-spacing: 0.18em;
+                    text-transform: uppercase;
+                    margin-bottom: 8px;
+                    display: block;
+                    user-select: none;
+                }
+
+                /* Pillar Title & Underline */
+                .gp-pillar-title-wrap {
+                    position: relative;
+                    display: inline-block;
+                    margin-bottom: 12px;
+                }
+
+                .gp-pillar-title {
+                    font-family: 'Playfair Display', Georgia, serif;
+                    font-size: clamp(1.15rem, 1.4vw, 1.32rem);
+                    font-weight: 700;
+                    color: var(--gp-green-deep);
+                    letter-spacing: 0.02em;
+                    line-height: 1.32;
+                    margin: 0;
+                    text-transform: uppercase;
+                    transition: color 300ms ease;
+                }
+
+                .gp-pillar-underline {
+                    position: absolute;
+                    bottom: -3px;
+                    left: 0;
+                    width: 100%;
+                    height: 1.5px;
+                    background: var(--gp-gold);
+                    transform-origin: left;
+                    transform: scaleX(0);
+                    transition: transform 300ms var(--gp-ease);
+                }
+
+                @media (hover: hover) {
+                    .gp-pillar:hover .gp-pillar-title,
+                    .gp-pillar:focus-visible .gp-pillar-title {
+                        color: var(--gp-gold);
+                    }
+                    .gp-pillar:hover .gp-pillar-underline,
+                    .gp-pillar:focus-visible .gp-pillar-underline {
+                        transform: scaleX(1);
+                    }
+                    .gp-pillar:hover .gp-pillar-desc {
+                        color: var(--gp-green-deep);
+                    }
+                }
+
+                /* Description Typography */
+                .gp-pillar-desc {
+                    font-family: 'Inter', sans-serif;
+                    font-size: clamp(0.92rem, 1.05vw, 1rem);
+                    color: var(--gp-text);
+                    line-height: 1.7;
+                    max-width: 30ch;
+                    margin: 0 auto;
+                    font-weight: 400;
+                    transition: color 300ms ease;
+                }
+
+                /* Staggered Scroll Entrance Animations via CSS Variables */
+                .gp-reveal {
+                    opacity: 1;
+                    transform: none;
+                }
+
+                .gp-js-ready .gp-reveal {
+                    opacity: 0;
+                    transform: translateY(24px);
+                    transition: opacity 700ms var(--gp-ease), transform 700ms var(--gp-ease);
+                    transition-delay: var(--d, 0ms);
+                }
+
+                .gp-js-ready .gp-section.is-visible .gp-reveal {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+
+                /* Inner Pillar Stagger Sequence */
+                .gp-js-ready .gp-part-icon {
+                    opacity: 0;
+                    transform: translateY(16px) scale(0.8) rotate(-8deg);
+                    transition: opacity 800ms var(--gp-ease), transform 800ms var(--gp-ease);
+                    transition-delay: calc(240ms + var(--i, 0) * 120ms);
+                }
+
+                .gp-js-ready .gp-section.is-visible .gp-part-icon {
+                    opacity: 1;
+                    transform: translateY(0) scale(1) rotate(0deg);
+                }
+
+                .gp-js-ready .gp-part-title {
+                    opacity: 0;
+                    transform: translateY(16px);
+                    transition: opacity 700ms var(--gp-ease), transform 700ms var(--gp-ease);
+                    transition-delay: calc(340ms + var(--i, 0) * 120ms);
+                }
+
+                .gp-js-ready .gp-section.is-visible .gp-part-title {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+
+                .gp-js-ready .gp-part-desc {
+                    opacity: 0;
+                    transform: translateY(16px);
+                    transition: opacity 700ms var(--gp-ease), transform 700ms var(--gp-ease);
+                    transition-delay: calc(440ms + var(--i, 0) * 120ms);
+                }
+
+                .gp-js-ready .gp-section.is-visible .gp-part-desc {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+
+                /* Accessibility: Reduced Motion Override */
+                @media (prefers-reduced-motion: reduce) {
+                    .gp-js-ready .gp-reveal,
+                    .gp-js-ready .gp-part-icon,
+                    .gp-js-ready .gp-part-title,
+                    .gp-js-ready .gp-part-desc,
+                    .gp-js-ready .gp-hairline,
+                    .gp-js-ready .gp-bg-reveal,
+                    .gp-js-ready .gp-pillar:not(:last-child)::after {
+                        opacity: 1 !important;
+                        transform: none !important;
+                        transition: none !important;
+                    }
+                }
+            </style>
+
+            <section class="gp-section" id="pillars" aria-labelledby="gp-heading">
+                <!-- Ambient Subtle Radial Reveal Layer -->
+                <div class="gp-bg-reveal" aria-hidden="true"></div>
+
+                <div class="gp-container">
+                    <!-- Section Header -->
+                    <div class="gp-header">
+                        <div class="gp-eyebrow-wrap gp-reveal" style="--d: 0ms;">
+                            <span class="gp-eyebrow-dot"></span>
+                            <span class="gp-eyebrow">THE GIRNA GLOBAL ADVANTAGE</span>
+                        </div>
+                        <h2 id="gp-heading" class="gp-title gp-reveal" style="--d: 80ms;">The Pillars of Girna Global</h2>
+                        <div class="gp-hairline-wrap gp-reveal" style="--d: 140ms;">
+                            <span class="gp-hairline"></span>
+                        </div>
+                        <p class="gp-subtitle gp-reveal" style="--d: 200ms;">Built on farming roots. Focused on farmer growth.</p>
+                    </div>
+
+                    <!-- 4-Pillar Grid (Open Layout, Animated Icons & Staggered Text) -->
+                    <div class="gp-grid">
+                        <!-- Pillar 1 -->
+                        <div class="gp-pillar" style="--i: 0;" tabindex="0">
+                            <div class="gp-icon-wrap gp-part-icon" aria-hidden="true">
+                                <span class="material-symbols-outlined gp-icon">potted_plant</span>
+                            </div>
+                            <span class="gp-number gp-part-title">01</span>
+                            <div class="gp-pillar-title-wrap gp-part-title">
+                                <h3 class="gp-pillar-title">25 YEARS OF FARMING ROOTS</h3>
+                                <span class="gp-pillar-underline"></span>
+                            </div>
+                            <p class="gp-pillar-desc gp-part-desc">A 25-year family farming legacy, backed by hands-on agricultural experience and our 20-acre cultivation estate.</p>
+                        </div>
+
+                        <!-- Pillar 2 -->
+                        <div class="gp-pillar" style="--i: 1;" tabindex="0">
+                            <div class="gp-icon-wrap gp-part-icon" aria-hidden="true">
+                                <span class="material-symbols-outlined gp-icon">science</span>
+                            </div>
+                            <span class="gp-number gp-part-title">02</span>
+                            <div class="gp-pillar-title-wrap gp-part-title">
+                                <h3 class="gp-pillar-title">SCIENCE-GUIDED CROP NUTRITION</h3>
+                                <span class="gp-pillar-underline"></span>
+                            </div>
+                            <p class="gp-pillar-desc gp-part-desc">Combining scientific knowledge with carefully selected fertilizers and soil-nutrition solutions for crop needs.</p>
+                        </div>
+
+                        <!-- Pillar 3 -->
+                        <div class="gp-pillar" style="--i: 2;" tabindex="0">
+                            <div class="gp-icon-wrap gp-part-icon" aria-hidden="true">
+                                <span class="material-symbols-outlined gp-icon">all_inclusive</span>
+                            </div>
+                            <span class="gp-number gp-part-title">03</span>
+                            <div class="gp-pillar-title-wrap gp-part-title">
+                                <h3 class="gp-pillar-title">SUPPORT ACROSS THE CROP LIFECYCLE</h3>
+                                <span class="gp-pillar-underline"></span>
+                            </div>
+                            <p class="gp-pillar-desc gp-part-desc">From tissue-culture banana plants and planting guidance to crop nutrition and G9 and Yelakki harvesting.</p>
+                        </div>
+
+                        <!-- Pillar 4 -->
+                        <div class="gp-pillar" style="--i: 3;" tabindex="0">
+                            <div class="gp-icon-wrap gp-part-icon" aria-hidden="true">
+                                <span class="material-symbols-outlined gp-icon">handshake</span>
+                            </div>
+                            <span class="gp-number gp-part-title">04</span>
+                            <div class="gp-pillar-title-wrap gp-part-title">
+                                <h3 class="gp-pillar-title">FARMER-FIRST PARTNERSHIPS</h3>
+                                <span class="gp-pillar-underline"></span>
+                            </div>
+                            <p class="gp-pillar-desc gp-part-desc">Building dependable relationships through genuine agricultural inputs, fair pricing and practical farmer support.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <script id="gp-pillars-script">
+                (function() {
+                    document.documentElement.classList.add('gp-js-ready');
+                    var section = document.getElementById('pillars');
+                    if (!section) return;
+
+                    var observer = new IntersectionObserver(function(entries, obs) {
+                        entries.forEach(function(entry) {
+                            if (entry.isIntersecting) {
+                                section.classList.add('is-visible');
+                                obs.unobserve(section);
+                            }
+                        });
+                    }, { threshold: 0.22 });
+                    observer.observe(section);
+                })();
+            </script>
+
+
+            <!-- ============================================================
+                 FULL-BLEED AGRICULTURAL PANORAMIC BANNER DIVIDER
+                 ============================================================ -->
+            <section class="w-full relative overflow-hidden bg-forest-dark" aria-label="Girna Global Agricultural Heritage">
+                <div class="relative w-full h-44 sm:h-52 md:h-60 lg:h-64">
+                    <img 
+                        src="assets/images/plantation-divider.jpg" 
+                        alt="Lush green Girna Global banana plantation landscape in Maharashtra" 
+                        class="w-full h-full object-cover object-center filter brightness-105 contrast-105"
+                        loading="lazy"
+                    >
+                    <!-- Refined Crisp Overlay (Ensures crystal clear photo visibility with sharp text contrast) -->
+                    <div class="absolute inset-0 bg-gradient-to-r from-forest-dark/70 via-forest-dark/35 to-forest-dark/70 flex flex-col items-center justify-center text-center px-4 sm:px-6">
+                        <span class="font-inter text-[10px] sm:text-xs text-earthy-gold font-bold uppercase tracking-[0.22em] mb-1.5 drop-shadow">Girna River Basin • Jalgaon</span>
+                        <h3 class="font-manrope text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold text-white tracking-tight leading-snug max-w-4xl drop-shadow-md">
+                            Nurtured on India's Most Fertile Banana Soils
+                        </h3>
+                        <p class="font-inter text-xs sm:text-sm text-cream-warm/90 max-w-2xl mt-1.5 font-medium drop-shadow-sm hidden sm:block">
+                            Cultivating agricultural excellence from our 20-acre family estate to international corridors.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ============================================================
+                 SECTION 8: OUR CLIENTS (PREMIUM CONTINUOUS CLIENT SHOWCASE WITH ROUND FRAMES)
+                 ============================================================ -->
+            <style id="gcp-showcase-styles">
+                /* --- Scoped Visual System Variables --- */
+                :root {
+                    --gcp-forest-green: #1E4D3A;
+                    --gcp-forest-deep: #123226;
+                    --gcp-cream-bg: #F8F3E8;
+                    --gcp-cream-surface: #FFFDF7;
+                    --gcp-gold-accent: #8F7238;
+                    --gcp-text-muted: #3D5447;
+                    --gcp-speed-clients: 40s;
+                }
+
+                .gcp-section {
+                    position: relative;
+                    width: 100%;
+                    background-color: var(--gcp-cream-bg);
+                    padding: clamp(80px, 9vw, 120px) 0;
+                    overflow: hidden;
+                    box-sizing: border-box;
+                    border-top: 1px solid rgba(195, 164, 106, 0.25);
+                    border-bottom: 1px solid rgba(195, 164, 106, 0.25);
+                }
+
+                .gcp-header-block {
+                    text-align: center;
+                    max-width: 800px;
+                    margin: 0 auto clamp(40px, 5.5vw, 64px) auto;
+                    padding: 0 24px;
+                    box-sizing: border-box;
+                }
+
+                .gcp-eyebrow {
+                    display: inline-block;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 11px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    letter-spacing: 0.22em;
+                    color: var(--gcp-gold-accent);
+                    margin-bottom: 14px;
+                }
+
+                .gcp-main-heading {
+                    font-family: 'Playfair Display', Georgia, serif;
+                    font-size: clamp(28px, 4vw, 46px);
+                    font-weight: 700;
+                    color: var(--gcp-forest-deep);
+                    line-height: 1.18;
+                    letter-spacing: -0.015em;
+                    margin: 0 0 16px 0;
+                }
+
+                .gcp-subtitle {
+                    font-family: 'Inter', sans-serif;
+                    font-size: clamp(14px, 1.5vw, 16px);
+                    color: var(--gcp-text-muted);
+                    line-height: 1.65;
+                    max-width: 580px;
+                    margin: 0 auto;
+                    font-weight: 400;
+                }
+
+                .gcp-row-label-wrap {
+                    text-align: center;
+                    margin-bottom: clamp(18px, 2.5vw, 28px);
+                }
+
+                .gcp-row-label {
+                    font-family: 'Inter', sans-serif;
+                    font-size: 11px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    letter-spacing: 0.2em;
+                    color: rgba(30, 77, 58, 0.75);
+                }
+
+                /* Edge-Faded Non-blocking Mask Wrapper */
+                .gcp-marquee-wrap {
+                    width: 100%;
+                    overflow: hidden;
+                    position: relative;
+                    padding: clamp(20px, 3vw, 36px) 0;
+                    -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 10%, #000 90%, transparent 100%);
+                    mask-image: linear-gradient(to right, transparent 0%, #000 10%, #000 90%, transparent 100%);
+                }
+
+                .gcp-marquee-track {
+                    display: flex;
+                    width: max-content;
+                    will-change: transform;
+                    backface-visibility: hidden;
+                    animation: gcpScrollLeft var(--gcp-speed-clients) linear infinite;
+                }
+
+                /* Hover & Viewport Pause */
+                .gcp-marquee-wrap:hover .gcp-marquee-track,
+                .gcp-marquee-wrap.is-touch-paused .gcp-marquee-track,
+                .gcp-section:not(.gcp-in-view) .gcp-marquee-track {
+                    animation-play-state: paused;
+                }
+
+                @keyframes gcpScrollLeft {
+                    0% {
+                        transform: translate3d(0, 0, 0);
+                    }
+                    100% {
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .gcp-marquee-group {
+                    display: flex;
+                    align-items: center;
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                }
+
+                .gcp-logo-item {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0 clamp(24px, 4vw, 48px); /* Generous horizontal breathing room */
+                    flex-shrink: 0;
+                    box-sizing: border-box;
+                }
+
+                /* Vertical Client Item Container */
+                .gcp-client-item {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 12px;
+                    text-decoration: none;
+                    box-sizing: border-box;
+                    transition: transform 300ms cubic-bezier(0.22, 1, 0.36, 1);
+                }
+
+                /* --- ROUND SHAPE FOR CLIENT IMAGES / EMBLEMS --- */
+                .gcp-round-shape {
+                    width: 86px;
+                    height: 86px;
+                    border-radius: 9999px; /* Pure round circular shape */
+                    background: #FFFFFF;
+                    border: 2px solid rgba(195, 164, 106, 0.38);
+                    box-shadow: 0 4px 18px rgba(18, 61, 43, 0.06);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    overflow: hidden;
+                    position: relative;
+                    padding: 4px;
+                    transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms cubic-bezier(0.22, 1, 0.36, 1);
+                }
+
+                @media (max-width: 640px) {
+                    .gcp-round-shape {
+                        width: 72px;
+                        height: 72px;
+                        padding: 3px;
+                    }
+                }
+
+                .gcp-round-inner {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 9999px;
+                    background: #F7F6EF;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    overflow: hidden;
+                    transition: background-color 300ms ease;
+                }
+
+                @media (hover: hover) {
+                    .gcp-logo-item:hover .gcp-client-item {
+                        transform: translateY(-4px) scale(1.06);
+                    }
+                    .gcp-logo-item:hover .gcp-round-shape {
+                        border-color: var(--gcp-forest-green);
+                        box-shadow: 0 10px 24px rgba(18, 61, 43, 0.12);
+                    }
+                    .gcp-logo-item:hover .gcp-round-inner {
+                        background: #eaf5ed;
+                    }
+                    .gcp-logo-item:hover .gcp-client-name {
+                        color: var(--gcp-forest-green);
+                    }
+                    .gcp-logo-item:hover .gcp-round-monogram {
+                        color: var(--gcp-forest-green);
+                    }
+                }
+
+                /* Client Image (Fits inside round shape) */
+                .gcp-round-img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 9999px;
+                    display: block;
+                }
+
+                /* Monogram inside Round Shape */
+                .gcp-round-monogram {
+                    font-family: 'Manrope', sans-serif;
+                    font-weight: 800;
+                    font-size: clamp(20px, 2.4vw, 25px);
+                    color: var(--gcp-forest-deep);
+                    letter-spacing: 0.05em;
+                    user-select: none;
+                    transition: color 250ms ease;
+                    line-height: 1;
+                }
+
+                /* Client Title Below Round Shape */
+                .gcp-client-name {
+                    font-family: 'Manrope', sans-serif;
+                    font-weight: 700;
+                    font-size: clamp(13px, 1.4vw, 15px);
+                    color: var(--gcp-forest-deep);
+                    letter-spacing: 0.02em;
+                    white-space: nowrap;
+                    text-align: center;
+                    transition: color 250ms ease;
+                }
+
+                /* Staggered Scroll Entrance Animations */
+                .gcp-reveal {
+                    opacity: 1;
+                    transform: none;
+                }
+
+                .gcp-js-ready .gcp-reveal {
+                    opacity: 0;
+                    transform: translateY(24px);
+                    transition: opacity 700ms cubic-bezier(0.22, 1, 0.36, 1), transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+                }
+
+                .gcp-js-ready .gcp-section.is-visible .gcp-reveal {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+
+                .gcp-js-ready .gcp-section.is-visible .gcp-reveal[data-gcp-order="1"] { transition-delay: 60ms; }
+                .gcp-js-ready .gcp-section.is-visible .gcp-reveal[data-gcp-order="2"] { transition-delay: 160ms; }
+                .gcp-js-ready .gcp-section.is-visible .gcp-reveal[data-gcp-order="3"] { transition-delay: 260ms; }
+                .gcp-js-ready .gcp-section.is-visible .gcp-reveal[data-gcp-order="4"] { transition-delay: 360ms; }
+
+                /* Accessibility: Reduced Motion Override */
+                @media (prefers-reduced-motion: reduce) {
+                    .gcp-js-ready .gcp-reveal {
+                        opacity: 1 !important;
+                        transform: none !important;
+                        transition: none !important;
+                    }
+                    .gcp-marquee-track {
+                        animation: none !important;
+                        transform: none !important;
+                        width: 100%;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                    }
+                    .gcp-marquee-wrap {
+                        mask-image: none !important;
+                        -webkit-mask-image: none !important;
+                        overflow-x: auto;
+                    }
+                    .gcp-marquee-group[aria-hidden="true"] {
+                        display: none !important;
+                    }
+                    .gcp-marquee-group {
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        gap: 24px;
+                    }
+                }
+            </style>
+
+            <section class="gcp-section" id="clients-and-partners" aria-labelledby="gcp-heading">
+                <!-- Header Block with Proper Spacing -->
+                <div class="gcp-header-block">
+                    <span class="gcp-eyebrow gcp-reveal" data-gcp-order="1">Our Network</span>
+                    <h2 id="gcp-heading" class="gcp-main-heading gcp-reveal" data-gcp-order="2">Trusted Relationships. Stronger Partnerships.</h2>
+                    <p class="gcp-subtitle gcp-reveal" data-gcp-order="3">Working together to create opportunities across the agricultural value chain.</p>
+                </div>
+
+                <!-- Clients Infinite Marquee Showcase (Scrolls Right to Left with Round Shapes) -->
+                <div class="gcp-row-block gcp-reveal" data-gcp-order="4">
+                    <div class="gcp-row-label-wrap">
+                        <span class="gcp-row-label">Our Clients</span>
+                    </div>
+                    <div class="gcp-marquee-wrap">
+                        <div class="gcp-marquee-track">
+                            <!-- Primary Set with Round Shape Frames (Repeated 3x for 2x+ Viewport Coverage) -->
+                            <ul class="gcp-marquee-group">
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" title="Sahyadri Farms">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">SF</span></div></div>
+                                        <span class="gcp-client-name">Sahyadri Farms</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" title="KD Banana">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">KD</span></div></div>
+                                        <span class="gcp-client-name">KD Banana</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" title="Fresh Dews">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">FD</span></div></div>
+                                        <span class="gcp-client-name">Fresh Dews</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" title="Rudrastar">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">RS</span></div></div>
+                                        <span class="gcp-client-name">Rudrastar</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" title="Neelay Agro">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">NA</span></div></div>
+                                        <span class="gcp-client-name">Neelay Agro</span>
+                                    </div>
+                                </li>
+
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" title="Sahyadri Farms">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">SF</span></div></div>
+                                        <span class="gcp-client-name">Sahyadri Farms</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" title="KD Banana">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">KD</span></div></div>
+                                        <span class="gcp-client-name">KD Banana</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" title="Fresh Dews">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">FD</span></div></div>
+                                        <span class="gcp-client-name">Fresh Dews</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" title="Rudrastar">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">RS</span></div></div>
+                                        <span class="gcp-client-name">Rudrastar</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" title="Neelay Agro">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">NA</span></div></div>
+                                        <span class="gcp-client-name">Neelay Agro</span>
+                                    </div>
+                                </li>
+
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" title="Sahyadri Farms">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">SF</span></div></div>
+                                        <span class="gcp-client-name">Sahyadri Farms</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" title="KD Banana">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">KD</span></div></div>
+                                        <span class="gcp-client-name">KD Banana</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" title="Fresh Dews">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">FD</span></div></div>
+                                        <span class="gcp-client-name">Fresh Dews</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" title="Rudrastar">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">RS</span></div></div>
+                                        <span class="gcp-client-name">Rudrastar</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" title="Neelay Agro">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">NA</span></div></div>
+                                        <span class="gcp-client-name">Neelay Agro</span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Identical Duplicate Set (aria-hidden for screen-readers, creates seamless infinite loop) -->
+                            <ul class="gcp-marquee-group" aria-hidden="true">
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" tabindex="-1">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">SF</span></div></div>
+                                        <span class="gcp-client-name">Sahyadri Farms</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" tabindex="-1">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">KD</span></div></div>
+                                        <span class="gcp-client-name">KD Banana</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" tabindex="-1">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">FD</span></div></div>
+                                        <span class="gcp-client-name">Fresh Dews</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" tabindex="-1">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">RS</span></div></div>
+                                        <span class="gcp-client-name">Rudrastar</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" tabindex="-1">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">NA</span></div></div>
+                                        <span class="gcp-client-name">Neelay Agro</span>
+                                    </div>
+                                </li>
+
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" tabindex="-1">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">SF</span></div></div>
+                                        <span class="gcp-client-name">Sahyadri Farms</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" tabindex="-1">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">KD</span></div></div>
+                                        <span class="gcp-client-name">KD Banana</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" tabindex="-1">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">FD</span></div></div>
+                                        <span class="gcp-client-name">Fresh Dews</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" tabindex="-1">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">RS</span></div></div>
+                                        <span class="gcp-client-name">Rudrastar</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" tabindex="-1">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">NA</span></div></div>
+                                        <span class="gcp-client-name">Neelay Agro</span>
+                                    </div>
+                                </li>
+
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" tabindex="-1">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">SF</span></div></div>
+                                        <span class="gcp-client-name">Sahyadri Farms</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" tabindex="-1">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">KD</span></div></div>
+                                        <span class="gcp-client-name">KD Banana</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" tabindex="-1">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">FD</span></div></div>
+                                        <span class="gcp-client-name">Fresh Dews</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" tabindex="-1">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">RS</span></div></div>
+                                        <span class="gcp-client-name">Rudrastar</span>
+                                    </div>
+                                </li>
+                                <li class="gcp-logo-item">
+                                    <div class="gcp-client-item" tabindex="-1">
+                                        <div class="gcp-round-shape"><div class="gcp-round-inner"><span class="gcp-round-monogram">NA</span></div></div>
+                                        <span class="gcp-client-name">Neelay Agro</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <script id="gcp-showcase-script">
+                (function() {
+                    // Mark JS ready for graceful progressive enhancement
+                    document.documentElement.classList.add('gcp-js-ready');
+                    var section = document.getElementById('clients-and-partners');
+                    if (!section) return;
+
+                    // 1. Entrance & Viewport Observation (Pauses CSS animation when off-screen)
+                    var observer = new IntersectionObserver(function(entries) {
+                        entries.forEach(function(entry) {
+                            if (entry.isIntersecting) {
+                                section.classList.add('is-visible', 'gcp-in-view');
+                            } else {
+                                section.classList.remove('gcp-in-view');
+                            }
+                        });
+                    }, { threshold: 0.15 });
+                    observer.observe(section);
+
+                    // 2. Mobile Touch / Pointer Pause Handling
+                    var wrap = section.querySelector('.gcp-marquee-wrap');
+                    if (wrap) {
+                        var touchTimer;
+                        var pause = function() {
+                            clearTimeout(touchTimer);
+                            wrap.classList.add('is-touch-paused');
+                        };
+                        var resume = function() {
+                            touchTimer = setTimeout(function() {
+                                wrap.classList.remove('is-touch-paused');
+                            }, 500);
+                        };
+                        wrap.addEventListener('pointerdown', pause, { passive: true });
+                        wrap.addEventListener('pointerup', resume, { passive: true });
+                        wrap.addEventListener('pointercancel', resume, { passive: true });
+                    }
+                })();
+            </script>
+
+
+            <!-- ============================================================
+                 SECTION 9: FARMER TESTIMONIALS (WARM CREAM CANVAS WITH CRISP WHITE CARDS)
+                 ============================================================ -->
+            <section class="w-full py-24 bg-cream-warm relative" id="testimonials">
+                <div class="max-w-7xl mx-auto px-6 lg:px-12">
+                    <div class="max-w-3xl mb-16">
+                        <span class="font-inter text-xs font-bold uppercase tracking-widest text-botanical block mb-2">VOICES FROM THE GIRNA BELT</span>
+                        <h2 class="font-manrope text-3xl lg:text-4xl text-pine-heading font-extrabold">Trusted Relationships. Real Experiences.</h2>
+                        <p class="font-inter text-base text-forest-slate mt-2">Every testimonial represents a cultivator we stand beside through monsoons, heatwaves, and harvest markets.</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <!-- Review 1 -->
+                        <div class="bg-surface-card rounded-lg p-8 flex flex-col justify-between border border-[#C3A46A]/20 border-t-4 border-t-botanical shadow-lg relative">
+                            <div>
+                                <div class="flex items-center gap-1 text-earthy-gold mb-6">
+                                    <span class="material-symbols-outlined text-[20px] fill-1">star</span>
+                                    <span class="material-symbols-outlined text-[20px] fill-1">star</span>
+                                    <span class="material-symbols-outlined text-[20px] fill-1">star</span>
+                                    <span class="material-symbols-outlined text-[20px] fill-1">star</span>
+                                    <span class="material-symbols-outlined text-[20px] fill-1">star</span>
+                                </div>
+                                <p class="font-inter text-sm sm:text-base text-pine-heading italic leading-relaxed mb-6 font-normal">
+                                    “Girna Global sourced our tissue-culture saplings and stayed with us through the whole season. Their planting schedule and nutrition advice transformed our bunch sizes.”
+                                </p>
+                            </div>
+                            <div class="pt-4 border-t border-[#C3A46A]/20">
+                                <div class="flex items-center gap-2 mb-1">
+                                    <span class="w-2 h-2 rounded-full bg-leaf-green"></span>
+                                    <span class="font-inter text-xs uppercase tracking-wider text-botanical font-bold">Verified Banana Cultivator</span>
+                                </div>
+                                <h4 class="font-manrope font-bold text-base text-pine-heading">Bhuvanesh Chaudhari</h4>
+                                <span class="font-inter text-xs text-forest-slate">Pachora, Jalgaon</span>
+                            </div>
+                        </div>
+
+                        <!-- Review 2 -->
+                        <div class="bg-surface-card rounded-lg p-8 flex flex-col justify-between border border-[#C3A46A]/20 border-t-4 border-t-leaf-green shadow-lg relative">
+                            <div>
+                                <div class="flex items-center gap-1 text-earthy-gold mb-6">
+                                    <span class="material-symbols-outlined text-[20px] fill-1">star</span>
+                                    <span class="material-symbols-outlined text-[20px] fill-1">star</span>
+                                    <span class="material-symbols-outlined text-[20px] fill-1">star</span>
+                                    <span class="material-symbols-outlined text-[20px] fill-1">star</span>
+                                    <span class="material-symbols-outlined text-[20px] fill-1">star</span>
+                                </div>
+                                <p class="font-inter text-sm sm:text-base text-pine-heading italic leading-relaxed mb-6 font-normal">
+                                    “Genuine fertilizer, fair pricing, and they actually pick up the phone during harvest season when timing is critical. Truly dependable partners in the Shirpur belt.”
+                                </p>
+                            </div>
+                            <div class="pt-4 border-t border-[#C3A46A]/20">
+                                <div class="flex items-center gap-2 mb-1">
+                                    <span class="w-2 h-2 rounded-full bg-leaf-green"></span>
+                                    <span class="font-inter text-xs uppercase tracking-wider text-botanical font-bold">Commercial Farm Owner</span>
+                                </div>
+                                <h4 class="font-manrope font-bold text-base text-pine-heading">Pranav Chaudhari</h4>
+                                <span class="font-inter text-xs text-forest-slate">Farm Owner, Shirpur</span>
+                            </div>
+                        </div>
+
+                        <!-- Review 3 -->
+                        <div class="bg-surface-card rounded-lg p-8 flex flex-col justify-between border border-[#C3A46A]/20 border-t-4 border-t-earthy-gold shadow-lg relative">
+                            <div>
+                                <div class="flex items-center gap-1 text-earthy-gold mb-6">
+                                    <span class="material-symbols-outlined text-[20px] fill-1">star</span>
+                                    <span class="material-symbols-outlined text-[20px] fill-1">star</span>
+                                    <span class="material-symbols-outlined text-[20px] fill-1">star</span>
+                                    <span class="material-symbols-outlined text-[20px] fill-1">star</span>
+                                    <span class="material-symbols-outlined text-[20px] fill-1">star</span>
+                                </div>
+                                <p class="font-inter text-sm sm:text-base text-pine-heading italic leading-relaxed mb-6 font-normal">
+                                    “Their harvesting team knows G9 and Yelakki timing better than most local contractors. Zero bruising during cutting, careful foam wrapping, and quick dispatch.”
+                                </p>
+                            </div>
+                            <div class="pt-4 border-t border-[#C3A46A]/20">
+                                <div class="flex items-center gap-2 mb-1">
+                                    <span class="w-2 h-2 rounded-full bg-leaf-green"></span>
+                                    <span class="font-inter text-xs uppercase tracking-wider text-botanical font-bold">Field Operations Head</span>
+                                </div>
+                                <h4 class="font-manrope font-bold text-base text-pine-heading">Kiran Thakre</h4>
+                                <span class="font-inter text-xs text-forest-slate">Farm Operations Manager, Bhadgaon</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ============================================================
+                 SECTION 10: ESTATE LOCATION & LOGISTICS
+                 ============================================================ -->
+            <section class="w-full py-20 lg:py-24 bg-canvas-soft relative border-t border-[#C3A46A]/20" id="location">
+                <div class="max-w-7xl mx-auto px-6 lg:px-12">
+                    <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-16">
+                        <div>
+                            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-botanical-light border border-botanical/20 mb-3">
+                                <span class="w-2 h-2 rounded-full bg-leaf-green animate-pulse"></span>
+                                <span class="font-inter text-xs font-bold uppercase tracking-widest text-botanical">ESTATE LOCATION &amp; LOGISTICS</span>
+                            </div>
+                            <h2 class="font-manrope text-3xl sm:text-4xl lg:text-5xl font-extrabold text-pine-heading tracking-tight leading-tight">
+                                Visit Our Cultivation Estate <br class="hidden sm:block">
+                                <span class="text-botanical font-bold">&amp; Registered Facility.</span>
+                            </h2>
+                        </div>
+                        <div class="max-w-md">
+                            <p class="font-inter text-sm sm:text-base text-forest-slate leading-relaxed">Strategically located in Maharashtra's fertile Jalgaon banana belt, our 20-acre hub integrates research nurseries, soil chemistry testing, and direct dock-side cold-chain dispatch.</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-stretch">
+                        <!-- Map Column -->
+                        <div class="lg:col-span-7 flex flex-col justify-between rounded-xl overflow-hidden bg-white border border-[#C3A46A]/30 shadow-xl">
+                            <div class="relative w-full h-[340px] sm:h-[400px] overflow-hidden bg-forest-deep">
+                                <iframe title="Girna Global Farm Estate Map Location" src="https://www.google.com/maps?q=Bhadgaon,+Jalgaon,+Maharashtra,+India&amp;output=embed" class="w-full h-full border-0 filter saturate-150 contrast-105 opacity-90" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <div class="absolute top-4 left-4 bg-forest-dark/90 backdrop-blur-md px-3.5 py-2 rounded border border-earthy-gold/40 text-cream-warm shadow-lg">
+                                    <div class="flex items-center gap-2">
+                                        <span class="material-symbols-outlined text-earthy-gold text-[18px]">pin_drop</span>
+                                        <span class="font-inter text-xs font-semibold uppercase tracking-wider">Bhadgaon Demonstration Plot</span>
+                                    </div>
+                                    <p class="font-inter text-[11px] text-cream-warm/75 mt-0.5">LAT: 20.47° N • LON: 75.23° E</p>
+                                </div>
+                                <div class="absolute bottom-4 right-4">
+                                    <a class="inline-flex items-center gap-2 px-4 py-2.5 rounded bg-botanical text-white font-manrope font-bold text-xs uppercase tracking-wider shadow-xl hover:bg-botanical-dark transition-colors border border-white/20" href="https://maps.app.goo.gl/cMD6xV6G1HW9pzSJA" rel="noopener noreferrer" target="_blank">
+                                        <span>Open in Google Maps</span>
+                                        <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="p-6 sm:p-8 bg-white border-t border-[#C3A46A]/20 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                                <div>
+                                    <div class="flex items-center gap-2 text-botanical mb-1">
+                                        <span class="material-symbols-outlined text-[20px]">distance</span>
+                                        <span class="font-inter text-xs uppercase tracking-wider font-bold text-pine-heading">Estate Postal Address</span>
+                                    </div>
+                                    <p class="font-inter text-sm font-semibold text-pine-heading">At post Wade, Tal. Bhadgaon, Dist. Jalgaon - 424201</p>
+                                    <p class="font-inter text-xs text-forest-slate/80 mt-0.5">Maharashtra, India • Accessible via NH-753J &amp; Pachora Rail Junction</p>
+                                </div>
+                                <a class="px-5 py-3 rounded bg-cream-warm border border-[#C3A46A]/30 text-botanical hover:bg-botanical hover:text-white font-manrope font-bold text-xs uppercase tracking-wider transition-all duration-200 shrink-0 flex items-center gap-2 shadow-sm" href="https://maps.app.goo.gl/cMD6xV6G1HW9pzSJA" rel="noopener noreferrer" target="_blank">
+                                    <span>Get Directions</span>
+                                    <span class="material-symbols-outlined text-[16px]">turn_right</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Facilities & Visit Booking Column -->
+                        <div class="lg:col-span-5 flex flex-col justify-between gap-6">
+                            <div class="bg-surface-card rounded-xl p-6 sm:p-7 border border-[#C3A46A]/25 border-l-4 border-l-botanical shadow-md">
+                                <h3 class="font-manrope text-lg font-bold text-pine-heading mb-4 flex items-center gap-2">
+                                    <span class="material-symbols-outlined text-botanical text-[22px]">domain</span>
+                                    <span>On-Site Operational Facilities</span>
+                                </h3>
+                                <div class="space-y-4">
+                                    <div class="flex items-start gap-3">
+                                        <div class="w-8 h-8 rounded-full bg-botanical-light text-botanical flex items-center justify-center shrink-0 mt-0.5">
+                                            <span class="material-symbols-outlined text-[18px]">nature</span>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-manrope text-sm font-bold text-pine-heading">20-Acre Central Demonstration Acreage</h4>
+                                            <p class="font-inter text-xs text-forest-slate mt-0.5">Field proving grounds for certified G9 &amp; Yelakki tissue culture planting regimens.</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start gap-3">
+                                        <div class="w-8 h-8 rounded-full bg-botanical-light text-botanical flex items-center justify-center shrink-0 mt-0.5">
+                                            <span class="material-symbols-outlined text-[18px]">shield</span>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-manrope text-sm font-bold text-pine-heading">Polyhouse Shade-Net Hardening Facility</h4>
+                                            <p class="font-inter text-xs text-forest-slate mt-0.5">Climate-controlled secondary hardening sapling bays for virus-free stock distribution.</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start gap-3">
+                                        <div class="w-8 h-8 rounded-full bg-botanical-light text-botanical flex items-center justify-center shrink-0 mt-0.5">
+                                            <span class="material-symbols-outlined text-[18px]">ac_unit</span>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-manrope text-sm font-bold text-pine-heading">Cold-Chain Transit &amp; Export Dispatch Dock</h4>
+                                            <p class="font-inter text-xs text-forest-slate mt-0.5">Cushioned fruit packaging, dockside sorting, and pre-cooling logistical access.</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start gap-3">
+                                        <div class="w-8 h-8 rounded-full bg-botanical-light text-botanical flex items-center justify-center shrink-0 mt-0.5">
+                                            <span class="material-symbols-outlined text-[18px]">biotech</span>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-manrope text-sm font-bold text-pine-heading">On-Site Agronomy &amp; Soil Testing Lab</h4>
+                                            <p class="font-inter text-xs text-forest-slate mt-0.5">Directed by Dikshita Chaudhari (B.Sc. Chemistry) for rapid pH and EC diagnostics.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bg-forest-deep rounded-xl p-6 sm:p-7 border border-[#C3A46A]/30 text-white shadow-xl flex flex-col justify-between gap-4">
+                                <div>
+                                    <span class="font-inter text-[11px] font-bold uppercase tracking-widest text-earthy-gold block mb-1">GROWER &amp; EXPORTER FIELD VISITS</span>
+                                    <h4 class="font-manrope text-base sm:text-lg font-bold text-white leading-snug">Schedule an Estate Demonstration Walkthrough</h4>
+                                    <p class="font-inter text-xs text-cream-warm/80 mt-1 leading-relaxed">Field visits are conducted Monday to Saturday (8:00 AM – 6:00 PM). Cultivator groups and export sourcing partners are welcome by appointment.</p>
+                                </div>
+                                <div class="flex items-center gap-3 pt-2">
+                                    <a class="px-4 py-2.5 rounded bg-leaf-green hover:bg-earthy-gold text-forest-dark font-manrope font-bold text-xs uppercase tracking-wider transition-colors inline-flex items-center gap-2 shadow-md" href="tel:+919100556355">
+                                        <span class="material-symbols-outlined text-[18px]">call</span>
+                                        <span>Book Visit Call</span>
+                                    </a>
+                                    <a class="px-4 py-2.5 rounded bg-white/10 hover:bg-white/20 border border-white/20 text-white font-manrope font-bold text-xs uppercase tracking-wider transition-colors inline-flex items-center gap-2" href="https://wa.me/919100556355?text=Hello%20Girna%20Global,%20I%20would%20like%20to%20schedule%20a%20visit%20to%20the%20Bhadgaon%20farm%20estate" rel="noopener noreferrer" target="_blank">
+                                        <span class="material-symbols-outlined text-[18px]">chat</span>
+                                        <span>WhatsApp</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ============================================================
+                 SECTION 11: COMMERCIAL DESK & FARM ADVISORY (CONTACT & ENQUIRY)
+                 ============================================================ -->
+            <section class="w-full py-24 bg-forest-deep text-white relative overflow-hidden border-t border-forest-dark" id="contact">
+                <!-- Atmospheric plantation silhouette overlay -->
+                <div class="absolute inset-0 z-0 bg-cover bg-center opacity-15" data-alt="Dense banana plantation farm landscape" style="background-image: url('assets/images/hero-bg.jpg');"></div>
+                <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+                        
+                        <!-- Left: Direct Communication & Brand Guarantee -->
+                        <div class="lg:col-span-5 flex flex-col justify-between">
+                            <div>
+                                <div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-forest-dark/80 text-earthy-gold font-inter text-xs font-bold uppercase tracking-wider mb-4 border border-earthy-gold/30">
+                                    COMMERCIAL DESK &amp; FARM ADVISORY
+                                </div>
+                                <h2 class="font-manrope text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-4">
+                                    Let's Grow <br><span class="text-earthy-gold">Together.</span>
+                                </h2>
+                                <p class="font-inter text-base text-cream-warm/85 leading-relaxed mb-8">
+                                    Looking for certified banana plants, genuine fertilizer supply batches, or experienced harvesting teams? Connect with Girna Global and explore how we support your next harvest cycle.
+                                </p>
+
+                                <!-- Direct Contact Anchors -->
+                                <div class="space-y-4">
+                                    <a class="flex items-center gap-4 p-4 rounded-lg bg-white/10 hover:bg-white/15 border border-white/10 transition-colors group" href="tel:+919100556355">
+                                        <div class="w-10 h-10 rounded-full flex items-center justify-center bg-earthy-gold text-forest-dark font-bold shrink-0 group-hover:scale-105 transition-transform">
+                                            <span class="material-symbols-outlined text-[20px]">phone</span>
+                                        </div>
+                                        <div>
+                                            <span class="font-inter text-xs text-cream-warm/75 uppercase tracking-wider font-semibold">Direct Phone Support</span>
+                                            <p class="font-manrope font-bold text-base text-white">+91 9100556355</p>
+                                        </div>
+                                    </a>
+
+                                    <a class="flex items-center gap-4 p-4 rounded-lg bg-botanical hover:bg-botanical-dark border border-botanical transition-colors group shadow-lg" href="https://wa.me/919100556355?text=Hello%20Girna%20Global,%20I%20have%20an%20enquiry" rel="noopener noreferrer" target="_blank">
+                                        <div class="w-10 h-10 rounded-full flex items-center justify-center bg-white text-botanical shrink-0 font-bold group-hover:scale-105 transition-transform">
+                                            <span class="material-symbols-outlined text-[20px]">chat</span>
+                                        </div>
+                                        <div>
+                                            <span class="font-inter text-xs text-cream-warm uppercase tracking-wider font-semibold">Instant Chat</span>
+                                            <p class="font-manrope font-bold text-base text-white">WhatsApp Direct Link</p>
+                                        </div>
+                                    </a>
+
+                                    <a class="flex items-center gap-4 p-4 rounded-lg bg-white/10 hover:bg-white/15 border border-white/10 transition-colors group" href="mailto:girnaglobal5@gmail.com">
+                                        <div class="w-10 h-10 rounded-full flex items-center justify-center bg-leaf-green text-forest-dark shrink-0 font-bold group-hover:scale-105 transition-transform">
+                                            <span class="material-symbols-outlined text-[20px]">mail</span>
+                                        </div>
+                                        <div>
+                                            <span class="font-inter text-xs text-cream-warm/75 uppercase tracking-wider font-semibold">Official Inquiries</span>
+                                            <p class="font-manrope font-bold text-base text-white">girnaglobal5@gmail.com</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="mt-8 pt-6 border-t border-white/15">
+                                <span class="font-inter text-xs text-earthy-gold uppercase tracking-widest font-bold block mb-1">REGISTERED FARM ESTATE</span>
+                                <p class="font-inter text-xs text-cream-warm/80">At post Wade, Tal. Bhadgaon, Dist. Jalgaon - 424201, Maharashtra, India.</p>
+                            </div>
+                        </div>
+
+                        <!-- Right: Inquiry Form Card -->
+                        <div class="lg:col-span-7 bg-white rounded-lg p-8 lg:p-10 border border-[#C3A46A]/40 shadow-2xl text-forest-slate">
+                            <h3 class="font-manrope text-2xl text-pine-heading font-extrabold mb-1">Tell Us What Your Farm Needs</h3>
+                            <p class="font-inter text-sm text-forest-slate/90 mb-8">Send an enquiry and our field team will contact you within 24 working hours.</p>
+                            
+                            <form id="enquiry-form" class="space-y-6">
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                                    <div>
+                                        <label class="block font-inter text-xs uppercase tracking-wider text-pine-heading font-bold mb-2">Full Name *</label>
+                                        <input class="w-full px-4 py-3 rounded bg-canvas-soft border border-[#C3A46A]/30 focus:border-botanical focus:ring-1 focus:ring-botanical text-pine-heading placeholder:text-forest-slate/40 font-inter text-sm focus:outline-none transition-colors" name="name" placeholder="e.g. Ramesh Patil" required="" type="text">
+                                    </div>
+                                    <div>
+                                        <label class="block font-inter text-xs uppercase tracking-wider text-pine-heading font-bold mb-2">Phone Number *</label>
+                                        <input class="w-full px-4 py-3 rounded bg-canvas-soft border border-[#C3A46A]/30 focus:border-botanical focus:ring-1 focus:ring-botanical text-pine-heading placeholder:text-forest-slate/40 font-inter text-sm focus:outline-none transition-colors" name="phone" placeholder="+91 9876543210" required="" type="tel">
+                                    </div>
+                                </div>
+
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                                    <div>
+                                        <label class="block font-inter text-xs uppercase tracking-wider text-pine-heading font-bold mb-2">Email Address</label>
+                                        <input class="w-full px-4 py-3 rounded bg-canvas-soft border border-[#C3A46A]/30 focus:border-botanical focus:ring-1 focus:ring-botanical text-pine-heading placeholder:text-forest-slate/40 font-inter text-sm focus:outline-none transition-colors" name="email" placeholder="ramesh@gmail.com" type="email">
+                                    </div>
+                                    <div>
+                                        <label class="block font-inter text-xs uppercase tracking-wider text-pine-heading font-bold mb-2">Service Interested In *</label>
+                                        <select class="w-full px-4 py-3 rounded bg-canvas-soft border border-[#C3A46A]/30 focus:border-botanical focus:ring-1 focus:ring-botanical text-pine-heading font-inter text-sm focus:outline-none transition-colors" name="service" required="">
+                                            <option class="bg-white text-pine-heading" value="banana-plants">Tissue-Culture Banana Plants (G9 / Yelakki)</option>
+                                            <option class="bg-white text-pine-heading" value="fertilizers">Fertilizer &amp; Soil Nutrition Supply</option>
+                                            <option class="bg-white text-pine-heading" value="harvesting">Specialized Harvesting Crew Booking</option>
+                                            <option class="bg-white text-pine-heading" value="export-advisory">Export Supply &amp; Consolidation Partnership</option>
+                                            <option class="bg-white text-pine-heading" value="other">Other Farm Advisory Requirement</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label class="block font-inter text-xs uppercase tracking-wider text-pine-heading font-bold mb-2">Requirements / Acreage Details</label>
+                                    <textarea class="w-full px-4 py-3 rounded bg-canvas-soft border border-[#C3A46A]/30 focus:border-botanical focus:ring-1 focus:ring-botanical text-pine-heading placeholder:text-forest-slate/40 font-inter text-sm focus:outline-none transition-colors" name="message" placeholder="Mention your location, crop acreage, or specific fertilizer requirements..." rows="4"></textarea>
+                                </div>
+
+                                <div class="flex items-center gap-3">
+                                    <input class="w-4 h-4 rounded accent-botanical" id="consent" required="" type="checkbox">
+                                    <label class="font-inter text-xs text-forest-slate" for="consent">I authorize Girna Global representative to call or message me regarding this agricultural enquiry.</label>
+                                </div>
+
+                                <button class="w-full py-4 rounded bg-botanical text-white font-manrope font-bold text-xs sm:text-sm uppercase tracking-wider hover:bg-botanical-dark transition-colors flex items-center justify-center gap-2 shadow-lg" type="submit" id="submit-btn">
+                                    <span>Submit Commercial Enquiry</span>
+                                    <span class="material-symbols-outlined text-[20px]">send</span>
+                                </button>
+                                
+                                <div id="form-feedback" class="hidden p-4 rounded bg-botanical-light border border-botanical/30 text-botanical-dark text-xs sm:text-sm font-medium"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+
+    <!-- ============================================================
+         SECTION 12: FOOTER (DEEP FOREST DARK WITH GOLD STROKES)
+         ============================================================ -->
+    <footer class="w-full bg-forest-dark text-white border-t border-forest-deep">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12">
+                
+                <!-- Col 1: Brand Story & Leadership -->
+                <div class="lg:col-span-4 flex flex-col gap-4">
+                    <div class="flex items-center gap-3.5">
+                        <img alt="Girna Global FPC Logo" class="h-12 w-12 object-contain rounded-full bg-white p-0.5 shadow-md ring-1 ring-[#C3A46A]/40" src="assets/images/logo.png">
+                        <div class="flex flex-col">
+                            <span class="font-manrope font-extrabold text-base uppercase tracking-wider text-white leading-none">GIRNA GLOBAL FPC</span>
+                            <span class="text-[9px] uppercase font-bold tracking-widest text-earthy-gold mt-1">FARMER PRODUCER COMPANY</span>
+                        </div>
+                    </div>
+                    <p class="font-inter text-xs sm:text-sm text-cream-warm/80 max-w-sm leading-relaxed">
+                        Backed by a 25-year family farming heritage in the Jalgaon banana belt, connecting authentic local agricultural excellence directly to foreign and domestic markets.
+                    </p>
+                    <div class="flex flex-col gap-1 mt-2">
+                        <span class="font-inter text-xs uppercase tracking-wider text-earthy-gold font-bold">Proprietorship</span>
+                        <span class="font-inter text-xs sm:text-sm text-white font-medium">Dikshita Chaudhari, B.Sc. Chemistry</span>
+                    </div>
+                </div>
+
+                <!-- Col 2: Quick Links -->
+                <div class="lg:col-span-2 flex flex-col gap-4">
+                    <span class="font-manrope font-bold text-sm text-earthy-gold uppercase tracking-wider">Quick Links</span>
+                    <ul class="flex flex-col gap-2.5">
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="home" href="#">Home</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="about-us" href="#about-us">About Us</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="services" href="#services">Services</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="our-farms" href="our-farms.html">Our Farms</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="our-team" href="our-team.html">Our Team</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="clients-and-partners" href="#clients-and-partners">Clients &amp; Partners</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="testimonials" href="#testimonials">Testimonials</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="contact" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Core Services -->
+                <div class="lg:col-span-3 flex flex-col gap-4">
+                    <span class="font-manrope font-bold text-sm text-earthy-gold uppercase tracking-wider">Services</span>
+                    <ul class="flex flex-col gap-2.5">
+                        <li class="list-none font-inter text-xs sm:text-sm text-cream-warm/80 flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-earthy-gold"></span>
+                            <a href="banana-plant-services.html" class="hover:text-white transition-colors">Banana Tissue-Culture Plants</a>
+                        </li>
+                        <li class="list-none font-inter text-xs sm:text-sm text-cream-warm/80 flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-leaf-green"></span>
+                            <a href="fertilizer-services.html" class="hover:text-white transition-colors">Crop Nutrition &amp; Fertilizer</a>
+                        </li>
+                        <li class="list-none font-inter text-xs sm:text-sm text-cream-warm/80 flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-leaf-green"></span>
+                            <a href="fruit-care-services.html" class="hover:text-white transition-colors">Fruit Care &amp; Bunch Protection</a>
+                        </li>
+                        <li class="list-none font-inter text-xs sm:text-sm text-cream-warm/80 flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-botanical"></span>
+                            <a href="harvesting-services.html" class="hover:text-white transition-colors">G9 &amp; Yelakki Harvesting Support</a>
+                        </li>
+                        <li class="list-none font-inter text-xs sm:text-sm text-cream-warm/80 flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-earthy-gold"></span>
+                            <span>Cold-Chain Transit Consolidation</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Direct Contact Info -->
+                <div class="lg:col-span-3 flex flex-col gap-4">
+                    <span class="font-manrope font-bold text-sm text-earthy-gold uppercase tracking-wider">Direct Contact Info</span>
+                    <div class="flex flex-col gap-3 text-xs sm:text-sm font-inter text-cream-warm/80">
+                        <div class="flex items-start gap-2.5">
+                            <span class="material-symbols-outlined text-earthy-gold text-[18px] mt-0.5 shrink-0">location_on</span>
+                            <span>At post Wade, Tal. Bhadgaon, Dist. Jalgaon - 424201, Maharashtra, India.</span>
+                        </div>
+                        <div class="flex items-center gap-2.5">
+                            <span class="material-symbols-outlined text-earthy-gold text-[18px] shrink-0">phone</span>
+                            <a class="hover:text-white transition-colors" href="tel:+919100556355">+91 9100556355</a>
+                        </div>
+                        <div class="flex items-center gap-2.5">
+                            <span class="material-symbols-outlined text-earthy-gold text-[18px] shrink-0">mail</span>
+                            <a class="hover:text-white transition-colors" href="mailto:girnaglobal5@gmail.com">girnaglobal5@gmail.com</a>
+                        </div>
+                        <div class="flex items-center gap-2.5">
+                            <span class="material-symbols-outlined text-leaf-green text-[18px] shrink-0">chat</span>
+                            <a class="text-leaf-green hover:text-white transition-colors font-semibold" href="https://wa.me/919100556355" rel="noopener noreferrer" target="_blank">WhatsApp Direct Chat</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Legal Bar -->
+            <div class="mt-16 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-cream-warm/60 font-inter text-xs">
+                <p>© 2026 Girna Global Farmer Producer Company (Girna Global FPC). All rights reserved.</p>
+                <div class="flex items-center gap-4 flex-wrap justify-center">
+                    <a class="hover:text-white transition-colors" href="#">Privacy Policy</a>
+                    <span class="text-white/20">|</span>
+                    <a class="hover:text-white transition-colors" href="#">Terms &amp; Conditions</a>
+                    <span class="text-white/20">|</span>
+                    <a class="hover:text-white transition-colors" href="#">Export Desk Registration</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Action Button -->
+    <a href="https://wa.me/919100556355?text=Hello%20Girna%20Global,%20I%20have%20an%20export%20inquiry" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-40 bg-botanical hover:bg-botanical-dark text-white p-3.5 rounded-full shadow-2xl flex items-center justify-center wa-pulse-btn transition-transform hover:scale-110 border-2 border-earthy-gold/60" aria-label="Chat on WhatsApp with Girna Global">
+        <span class="material-symbols-outlined text-[28px]">chat</span>
+    </a>
+
+    <!-- Client-Side JavaScript Logic -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

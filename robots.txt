@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /config/
+Disallow: /includes/
+Allow: /
+
+Sitemap: https://girnaglobal.com/sitemap.php

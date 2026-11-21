@@ -1,0 +1,17 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp
+*.log
+*.tmp
+*.bak
+
+# Node & Python caches
+node_modules/
+__pycache__/
+*.pyc
+
+# Local environment
+.env
