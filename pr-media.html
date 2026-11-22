@@ -420,69 +420,138 @@
             </section>
 
             <!-- ============================================================
-                 SECTION 5: FEATURED VIDEO BROADCAST (KISAN PATHSHALA & BANANA CULTIVATION)
+                 SECTION 5: FEATURED VIDEO BROADCASTS (COMPACT 3-COLUMN GRID)
                  ============================================================ -->
             <section class="w-full py-16 lg:py-24 px-6 lg:px-12 bg-cream-warm border-b border-[#C3A46A]/20" id="video-broadcast">
-                <div class="max-w-5xl mx-auto flex flex-col items-center gap-10">
+                <div class="max-w-7xl mx-auto flex flex-col gap-10">
                     
                     <!-- Section Header -->
-                    <div class="text-center max-w-3xl flex flex-col items-center gap-3">
-                        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-[#C3A46A]/40 text-forest-deep shadow-sm">
-                            <span class="w-2 h-2 rounded-full bg-leaf-green animate-pulse"></span>
-                            <span class="text-xs uppercase tracking-widest font-bold text-botanical">Featured Video Broadcast</span>
-                        </div>
-                        <h2 class="font-manrope font-bold text-2xl sm:text-3xl lg:text-4xl text-forest-deep tracking-tight">
-                            Kisan Pathshala: Banana Farming Techniques &amp; FPO Empowerment
-                        </h2>
-                        <p class="font-inter text-sm sm:text-base text-forest-slate leading-relaxed">
-                            Watch the insightful educational broadcast by Kisan Pathshala detailing progressive banana farming practices, calibrated canopy management, residue-free crop nutrition, and building stronger farmer collective ecosystems.
-                        </p>
-                    </div>
-
-                    <!-- Responsive Luxury Video Frame -->
-                    <div class="w-full relative rounded-2xl overflow-hidden shadow-2xl border-2 border-[#C3A46A]/40 bg-black aspect-video group">
-                        <iframe 
-                            class="w-full h-full absolute inset-0"
-                            src="https://www.youtube.com/embed/56Phf9M2Qxo?rel=0&amp;modestbranding=1" 
-                            title="Kisan Pathshala: Banana Farming Techniques &amp; Farmer Producer Organizations" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                            referrerpolicy="strict-origin-when-cross-origin" 
-                            allowfullscreen>
-                        </iframe>
-                    </div>
-
-                    <!-- Video Details & Action Strip -->
-                    <div class="w-full p-6 sm:p-7 rounded-xl bg-white border border-[#C3A46A]/30 shadow-sm flex flex-col md:flex-row items-center justify-between gap-6">
-                        <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 rounded-xl bg-botanical-light text-botanical flex items-center justify-center shrink-0 mt-0.5 shadow-sm">
-                                <span class="material-symbols-outlined text-[26px]">play_circle</span>
+                    <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-[#C3A46A]/20 pb-6">
+                        <div class="max-w-2xl">
+                            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white border border-[#C3A46A]/30 text-forest-deep shadow-sm mb-2.5">
+                                <span class="w-2 h-2 rounded-full bg-leaf-green animate-pulse"></span>
+                                <span class="text-xs uppercase tracking-widest font-bold text-botanical">Video Broadcasts</span>
                             </div>
-                            <div class="flex flex-col gap-1">
-                                <div class="flex items-center gap-2.5">
-                                    <span class="text-xs font-bold uppercase tracking-wider text-botanical">Educational Video Broadcast</span>
-                                    <span class="text-xs text-forest-slate/60">•</span>
-                                    <span class="text-xs font-semibold text-forest-slate">Kisan Pathshala / FARMER SCHOOL</span>
+                            <h2 class="font-manrope font-bold text-2xl sm:text-3xl lg:text-4xl text-forest-deep tracking-tight">
+                                Agricultural Field Documentaries &amp; Briefings
+                            </h2>
+                            <p class="font-inter text-sm sm:text-base text-forest-slate mt-1.5 leading-relaxed">
+                                Field demonstrations, farmer education series, and cultivation guidance from leading agricultural experts.
+                            </p>
+                        </div>
+                        <div class="shrink-0">
+                            <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white text-forest-slate text-xs font-semibold border border-[#C3A46A]/30 shadow-sm">
+                                <span class="material-symbols-outlined text-[16px] text-earthy-gold">play_circle</span>
+                                Video Series (3 Episodes)
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- 3-Column Video Card Grid (Optimal Size for 3 Videos) -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+                        
+                        <!-- Video Card 1: Active YouTube Video -->
+                        <div class="rounded-xl overflow-hidden bg-white border border-[#C3A46A]/40 shadow-md hover:shadow-xl transition-shadow flex flex-col">
+                            <!-- Video Embed (16:9 Compact Size) -->
+                            <div class="w-full aspect-video bg-black relative">
+                                <iframe 
+                                    class="w-full h-full absolute inset-0"
+                                    src="https://www.youtube.com/embed/56Phf9M2Qxo?rel=0&amp;modestbranding=1" 
+                                    title="Kisan Pathshala: Banana Farming Techniques &amp; Farmer Producer Organizations" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    referrerpolicy="strict-origin-when-cross-origin" 
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                            <!-- Card Body -->
+                            <div class="p-5 sm:p-6 flex flex-col justify-between flex-grow gap-4">
+                                <div class="flex flex-col gap-2">
+                                    <div class="flex items-center justify-between text-[11px] text-forest-slate/80">
+                                        <span class="font-bold uppercase tracking-wider text-botanical">Kisan Pathshala</span>
+                                        <span>Featured Episode</span>
+                                    </div>
+                                    <h3 class="font-manrope font-bold text-base sm:text-lg text-pine-heading leading-snug">
+                                        Banana Farming Techniques &amp; FPO Empowerment
+                                    </h3>
+                                    <p class="font-inter text-xs sm:text-sm text-forest-slate/80 leading-relaxed">
+                                        Field insights on shoot management, calibrated crop nutrition, and strengthening farmer producer organizations.
+                                    </p>
                                 </div>
-                                <h3 class="font-manrope font-bold text-base text-pine-heading">
-                                    केला खेती को बनाएगे और भी बेहतर — Field Insights &amp; Practical Techniques
-                                </h3>
-                                <p class="font-inter text-xs text-forest-slate/80 leading-relaxed">
-                                    Covering shoot spacing, nutrition cycles, disease prevention, and post-harvest readiness for export standards.
-                                </p>
+                                <div class="pt-3 border-t border-[#C3A46A]/20 flex items-center justify-between">
+                                    <span class="text-[11px] font-semibold text-forest-slate/70">Dr. Balram Kisan</span>
+                                    <a 
+                                        href="https://youtu.be/56Phf9M2Qxo?si=sYmilLYVoGq9pFeO" 
+                                        target="_blank" 
+                                        rel="noopener noreferrer" 
+                                        class="inline-flex items-center gap-1.5 text-xs font-bold text-botanical hover:text-botanical-dark uppercase tracking-wider transition-colors">
+                                        <span>Watch</span>
+                                        <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="shrink-0 flex items-center gap-3 w-full md:w-auto">
-                            <a 
-                                href="https://youtu.be/56Phf9M2Qxo?si=sYmilLYVoGq9pFeO" 
-                                target="_blank" 
-                                rel="noopener noreferrer" 
-                                class="w-full md:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-forest-deep text-white hover:bg-botanical font-manrope font-bold text-xs uppercase tracking-wider transition-all duration-200 shadow-md group">
-                                <span>Watch on YouTube</span>
-                                <span class="material-symbols-outlined text-[16px] group-hover:translate-x-0.5 transition-transform">open_in_new</span>
-                            </a>
+                        <!-- Video Card 2: Future Video Slot 2 -->
+                        <div class="rounded-xl overflow-hidden bg-white border border-dashed border-[#C3A46A]/50 shadow-sm flex flex-col group">
+                            <!-- Placeholder Player Area -->
+                            <div class="w-full aspect-video bg-forest-dark relative flex flex-col items-center justify-center text-center p-4">
+                                <div class="w-12 h-12 rounded-full bg-white/10 border border-[#C3A46A]/40 text-earthy-gold flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
+                                    <span class="material-symbols-outlined text-[24px]">videocam</span>
+                                </div>
+                                <span class="text-[11px] uppercase font-bold tracking-widest text-earthy-gold mt-2">Episode 02 • Coming Soon</span>
+                            </div>
+                            <!-- Card Body -->
+                            <div class="p-5 sm:p-6 flex flex-col justify-between flex-grow gap-4">
+                                <div class="flex flex-col gap-2">
+                                    <div class="flex items-center justify-between text-[11px] text-forest-slate/70">
+                                        <span class="font-semibold uppercase tracking-wider text-forest-slate">Nursery Series</span>
+                                        <span>Slot Configured</span>
+                                    </div>
+                                    <h3 class="font-manrope font-bold text-base sm:text-lg text-pine-heading leading-snug">
+                                        Tissue-Culture Hardening &amp; Plantlet Acclimatization
+                                    </h3>
+                                    <p class="font-inter text-xs sm:text-sm text-forest-slate/80 leading-relaxed">
+                                        Upcoming field documentary examining primary polyhouse humidity controls and secondary shade net hardening in Bhadgaon.
+                                    </p>
+                                </div>
+                                <div class="pt-3 border-t border-[#C3A46A]/20 flex items-center justify-between">
+                                    <span class="text-[11px] font-semibold text-earthy-gold">Upcoming Broadcast</span>
+                                    <span class="text-xs text-forest-slate/50 font-medium">Slot Ready</span>
+                                </div>
+                            </div>
                         </div>
+
+                        <!-- Video Card 3: Future Video Slot 3 -->
+                        <div class="rounded-xl overflow-hidden bg-white border border-dashed border-[#C3A46A]/50 shadow-sm flex flex-col group">
+                            <!-- Placeholder Player Area -->
+                            <div class="w-full aspect-video bg-forest-dark relative flex flex-col items-center justify-center text-center p-4">
+                                <div class="w-12 h-12 rounded-full bg-white/10 border border-[#C3A46A]/40 text-earthy-gold flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
+                                    <span class="material-symbols-outlined text-[24px]">local_shipping</span>
+                                </div>
+                                <span class="text-[11px] uppercase font-bold tracking-widest text-earthy-gold mt-2">Episode 03 • Coming Soon</span>
+                            </div>
+                            <!-- Card Body -->
+                            <div class="p-5 sm:p-6 flex flex-col justify-between flex-grow gap-4">
+                                <div class="flex flex-col gap-2">
+                                    <div class="flex items-center justify-between text-[11px] text-forest-slate/70">
+                                        <span class="font-semibold uppercase tracking-wider text-forest-slate">Export SOP Series</span>
+                                        <span>Slot Configured</span>
+                                    </div>
+                                    <h3 class="font-manrope font-bold text-base sm:text-lg text-pine-heading leading-snug">
+                                        Harvest SOPs &amp; Cold-Chain Transit
+                                    </h3>
+                                    <p class="font-inter text-xs sm:text-sm text-forest-slate/80 leading-relaxed">
+                                        Step-by-step visual documentation of de-handing, alum washing tanks, foam interleaving, and reefer container packing.
+                                    </p>
+                                </div>
+                                <div class="pt-3 border-t border-[#C3A46A]/20 flex items-center justify-between">
+                                    <span class="text-[11px] font-semibold text-earthy-gold">Upcoming Broadcast</span>
+                                    <span class="text-xs text-forest-slate/50 font-medium">Slot Ready</span>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
