@@ -173,104 +173,213 @@
 
 
             <!-- ============================================================
-                 SECTION 1: FROM THE CHAIRMAN'S DESK (PROFILE & MESSAGE)
+                 SECTION 1: CHAIRMAN'S MESSAGE (EXECUTIVE ADDRESS & PROFILE)
                  ============================================================ -->
-            <section class="w-full py-16 lg:py-20 px-6 lg:px-12 bg-[#F7F6EF] border-b border-[#C3A46A]/25">
-                <div class="max-w-7xl mx-auto flex flex-col gap-10">
+            <section class="w-full py-16 lg:py-24 px-6 lg:px-12 bg-[#F7F6EF] border-b border-[#C3A46A]/25" id="chairmans-message">
+                <div class="max-w-7xl mx-auto flex flex-col gap-10 lg:gap-12">
                     
                     <!-- Section Eyebrow & Title -->
-                    <div class="flex flex-col gap-2 max-w-3xl">
-                        <div class="flex items-center gap-2">
-                            <span class="text-[11px] font-bold tracking-widest text-botanical uppercase">Executive Stewardship</span>
-                            <span class="w-8 h-[2px] bg-[#C3A46A]"></span>
+                    <div class="flex flex-col gap-3 max-w-4xl">
+                        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white border border-[#C3A46A]/30 text-forest-deep shadow-xs w-fit">
+                            <span class="w-2 h-2 rounded-full bg-botanical animate-pulse"></span>
+                            <span class="text-xs uppercase tracking-widest font-bold text-botanical">Executive Stewardship</span>
+                            <span class="text-forest-slate/40">•</span>
+                            <span class="text-xs uppercase tracking-wider font-semibold text-earthy-gold">Official Address</span>
                         </div>
-                        <h2 class="font-manrope font-bold text-2xl sm:text-3xl lg:text-4xl text-forest-deep tracking-tight">From the Chairman's Desk</h2>
-                        <p class="font-inter text-sm sm:text-base text-forest-slate/85 leading-relaxed">
-                            Leadership rooted in agricultural experience, guided by a vision for sustainable growth and stronger farming communities.
-                        </p>
+                        <h2 class="font-manrope font-extrabold text-3xl sm:text-4xl lg:text-5xl text-forest-deep tracking-tight">
+                            Chairman's Message
+                        </h2>
+                        <h3 class="font-serif italic text-lg sm:text-2xl text-[#C3A46A] font-medium leading-snug">
+                            "A Vision Rooted in Our Soil, A Future Connected to the World"
+                        </h3>
                     </div>
 
-                    <!-- Two-Column Executive Editorial Layout -->
-                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-stretch">
+                    <!-- Two-Column High-Impact Layout -->
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
                         
-                        <!-- Left Column: Chairman Profile Card -->
-                        <div class="lg:col-span-5 rounded-2xl bg-white border border-[#C3A46A]/30 p-6 sm:p-8 shadow-[0_4px_20px_rgba(18,61,43,0.05)] flex flex-col self-start relative overflow-hidden group">
-                            <!-- Subtle Background Gold Leaf Accent Glow -->
-                            <div class="absolute -top-16 -right-16 w-48 h-48 rounded-full bg-earthy-gold/15 blur-2xl pointer-events-none"></div>
-                            
-                            <div class="flex flex-col items-center text-center relative z-10">
-                                <!-- Concentric Ring Portrait -->
-                                <div class="relative w-28 h-28 sm:w-36 sm:h-36 rounded-full p-[3px] bg-gradient-to-tr from-[#C3A46A] via-[#8BAF52] to-[#123D2B] mt-1 mb-3.5 shadow-md transition-transform duration-300 group-hover:scale-105">
-                                    <div class="w-full h-full rounded-full overflow-hidden p-[2px] bg-white">
-                                        <img src="assets/images/director-durgesh-chaudhari.jpg" alt="Durgesh Chaudhari - Chairman &amp; Managing Director" class="w-full h-full object-cover object-top rounded-full">
+                        <!-- Left Column: Chairman Executive Profile Dossier (Sticky on Desktop) -->
+                        <div class="lg:col-span-4 lg:sticky lg:top-24 rounded-3xl bg-white border border-[#C3A46A]/30 p-8 sm:p-9 shadow-[0_8px_30px_rgba(18,61,43,0.06)] flex flex-col items-center text-center relative overflow-hidden group">
+                            <!-- Subtle Ambient Gold Leaf Glow -->
+                            <div class="absolute -top-16 -right-16 w-52 h-52 rounded-full bg-earthy-gold/15 blur-2xl pointer-events-none"></div>
+                            <div class="absolute -bottom-16 -left-16 w-52 h-52 rounded-full bg-botanical/10 blur-2xl pointer-events-none"></div>
+
+                            <div class="flex flex-col items-center text-center relative z-10 w-full">
+                                <!-- Concentric Gold-To-Green Ring Portrait -->
+                                <div class="relative w-36 h-36 sm:w-44 sm:h-44 rounded-full p-[4px] bg-gradient-to-tr from-[#C3A46A] via-[#8BAF52] to-[#123D2B] mt-1 mb-4 shadow-xl transition-transform duration-500 group-hover:scale-105">
+                                    <div class="w-full h-full rounded-full overflow-hidden p-[3px] bg-white">
+                                        <img src="assets/images/director-durgesh-chaudhari.jpg" alt="Durgesh Chaudhari - Chairman, Girna Global" class="w-full h-full object-cover object-top rounded-full">
                                     </div>
-                                    <!-- Circular Badge -->
-                                    <div class="absolute bottom-1 right-1 sm:bottom-2 sm:right-2 w-6 h-6 sm:w-7 sm:h-7 rounded-full bg-white flex items-center justify-center shadow-xs border border-[#C3A46A]/40">
-                                        <span class="material-symbols-outlined text-[14px] sm:text-[16px] text-botanical">verified</span>
+                                    <!-- Verified Badge -->
+                                    <div class="absolute bottom-2 right-2 w-8 h-8 rounded-full bg-white flex items-center justify-center shadow-md border border-[#C3A46A]/50 text-botanical" title="Executive Verified">
+                                        <span class="material-symbols-outlined text-[18px]">verified</span>
                                     </div>
                                 </div>
 
-                                <!-- Name & Designation Block -->
+                                <!-- Name & Designation -->
                                 <div class="flex flex-col items-center w-full">
-                                    <h3 class="font-manrope text-lg sm:text-xl font-bold text-forest-deep tracking-tight">
+                                    <h3 class="font-manrope text-xl sm:text-2xl font-extrabold text-forest-deep tracking-tight">
                                         Durgesh Chaudhari
                                     </h3>
-                                    <p class="font-inter text-xs sm:text-sm font-bold text-botanical uppercase tracking-wider mt-0.5">
-                                        Chairman &amp; Managing Director
+                                    <p class="font-inter text-xs sm:text-sm font-bold text-botanical uppercase tracking-widest mt-1">
+                                        Chairman
+                                    </p>
+                                    <p class="font-inter text-xs text-forest-slate/85 font-medium mt-1">
+                                        Girna Global Farmer Producer Company Limited
                                     </p>
                                 </div>
 
-                                <!-- Compact Hairline Divider -->
-                                <div class="w-12 h-px bg-[#C3A46A]/40 my-3.5 mx-auto"></div>
+                                <!-- Compact Gold Divider -->
+                                <div class="w-16 h-0.5 bg-gradient-to-r from-transparent via-[#C3A46A] to-transparent my-4"></div>
 
-                                <!-- Short Introduction -->
-                                <p class="font-inter text-xs sm:text-sm text-forest-slate/85 leading-relaxed text-center">
-                                    Providing overarching strategic governance and stewardship, anchoring Girna Global's agronomic innovations to fair farmer returns and world-class international standards.
-                                </p>
+                                <!-- Tagline Capsule -->
+                                <div class="w-full p-3.5 rounded-2xl bg-cream-warm/80 border border-[#C3A46A]/25 text-center mb-4">
+                                    <span class="text-[10px] font-bold uppercase tracking-widest text-earthy-gold block mb-0.5">Corporate Philosophy</span>
+                                    <p class="font-serif italic text-sm text-forest-deep font-bold">"Local Hands, Global Lands"</p>
+                                </div>
+
+                                <!-- Core Governance Pillars Chips -->
+                                <div class="flex flex-col gap-2 w-full text-left font-inter text-xs text-forest-slate">
+                                    <div class="flex items-center gap-2 p-2 rounded-lg bg-canvas-soft border border-[#C3A46A]/15">
+                                        <span class="material-symbols-outlined text-[#C3A46A] text-[16px]">psychology_alt</span>
+                                        <span class="font-medium text-forest-deep">Grassroots Farmer Prosperity</span>
+                                    </div>
+                                    <div class="flex items-center gap-2 p-2 rounded-lg bg-canvas-soft border border-[#C3A46A]/15">
+                                        <span class="material-symbols-outlined text-botanical text-[16px]">biotech</span>
+                                        <span class="font-medium text-forest-deep">Scientific Agronomy &amp; Tech</span>
+                                    </div>
+                                    <div class="flex items-center gap-2 p-2 rounded-lg bg-canvas-soft border border-[#C3A46A]/15">
+                                        <span class="material-symbols-outlined text-leaf-green text-[16px]">rocket_launch</span>
+                                        <span class="font-medium text-forest-deep">Next-Gen Agri-Preneurship</span>
+                                    </div>
+                                    <div class="flex items-center gap-2 p-2 rounded-lg bg-canvas-soft border border-[#C3A46A]/15">
+                                        <span class="material-symbols-outlined text-earthy-gold text-[16px]">public</span>
+                                        <span class="font-medium text-forest-deep">Global Export Standards</span>
+                                    </div>
+                                </div>
+
+                                <!-- Origin Location -->
+                                <div class="mt-4 pt-3 border-t border-[#C3A46A]/20 w-full flex items-center justify-center gap-1.5 text-xs text-forest-slate/75">
+                                    <span class="material-symbols-outlined text-[15px] text-[#C3A46A]">location_on</span>
+                                    <span>Jalgaon, Maharashtra, India</span>
+                                </div>
                             </div>
                         </div>
 
-                        <!-- Right Column: Chairman's Message -->
-                        <div class="lg:col-span-7 rounded-2xl bg-white border border-[#C3A46A]/30 p-8 sm:p-10 lg:p-12 shadow-[0_4px_20px_rgba(18,61,43,0.05)] flex flex-col justify-between">
-                            <div class="flex flex-col gap-6">
-                                <!-- Header Block with Icon Accent -->
-                                <div class="flex items-start justify-between gap-4">
-                                    <div>
-                                        <h3 class="font-manrope font-bold text-2xl sm:text-3xl text-forest-deep tracking-tight mt-1">
-                                            A Vision for Growth and Progress
-                                        </h3>
+                        <!-- Right Column: Chairman's Official Message Body -->
+                        <div class="lg:col-span-8 rounded-3xl bg-white border border-[#C3A46A]/30 p-8 sm:p-12 lg:p-14 shadow-[0_8px_30px_rgba(18,61,43,0.06)] flex flex-col gap-8">
+                            
+                            <!-- Opening Featured Conviction Box -->
+                            <div class="relative p-6 sm:p-8 rounded-2xl bg-cream-warm border-l-4 border-[#C3A46A] overflow-hidden shadow-xs">
+                                <span class="material-symbols-outlined text-[72px] text-[#C3A46A]/15 absolute -bottom-3 right-3 select-none pointer-events-none">format_quote</span>
+                                <p class="font-manrope text-base sm:text-lg lg:text-xl text-forest-deep font-bold leading-relaxed relative z-10">
+                                    "At Girna Global Farmer Producer Company Limited, I strongly believe that agriculture is not merely a source of livelihood; it is the foundation of our economy, our culture, and our future."
+                                </p>
+                            </div>
+
+                            <!-- Editorial Paragraphs Flow -->
+                            <div class="flex flex-col gap-5 font-inter text-sm sm:text-base text-forest-slate/90 leading-relaxed">
+                                
+                                <p>
+                                    My vision behind Girna Global is to create an organisation built on the collective strength, aspirations, and hard work of farmers. Rooted in the fertile soil of Maharashtra, we aspire to cultivate prosperity from the grassroots and establish a meaningful connection between local agricultural strength and global opportunities.
+                                </p>
+
+                                <p>
+                                    I believe that farmers should not remain limited to agricultural production alone. They deserve to become active partners in value creation, business development, decision-making, and economic growth. Our objective is to empower farmers through collective efforts, modern technology, innovation, knowledge, and access to global markets.
+                                </p>
+
+                                <p>
+                                    I strongly believe that the future of Indian agriculture depends on embracing modern technology, scientific farming practices, sustainable resource management, and continuous innovation. We aim to promote agricultural excellence while protecting our soil, conserving water, and preserving the natural resources that sustain future generations.
+                                </p>
+
+                                <!-- Callout Box: Next-Gen Agri-Preneurship -->
+                                <div class="my-2 p-6 sm:p-7 rounded-2xl bg-botanical-light/70 border border-botanical/25 flex items-start gap-4 shadow-xs">
+                                    <div class="w-11 h-11 rounded-xl bg-botanical text-white flex items-center justify-center shrink-0 mt-0.5 shadow-sm">
+                                        <span class="material-symbols-outlined text-[24px]">school</span>
+                                    </div>
+                                    <div class="space-y-1.5">
+                                        <span class="text-xs font-bold uppercase tracking-wider text-botanical block">Transforming the Next Generation</span>
+                                        <p class="font-inter text-sm sm:text-base text-forest-deep leading-relaxed">
+                                            One of my most important dreams is to transform the mindset and opportunities of the next generation of farming families. I want young people from agricultural backgrounds to look beyond conventional employment and develop the confidence, knowledge, and capabilities to become entrepreneurs, innovators, and future business leaders. I envision a generation that creates employment opportunities rather than simply searches for jobs.
+                                        </p>
                                     </div>
                                 </div>
 
-                                <!-- Pull Quote Block -->
-                                <div class="p-5 rounded-xl bg-[#F7F6EF] border-l-4 border-earthy-gold relative">
-                                    <p class="font-serif italic text-base sm:text-lg text-forest-deep leading-relaxed">
-                                        "Our purpose is anchored in cultivating prosperity from the root up—championing the soil of Maharashtra while fulfilling our promise of Indian agricultural excellence to the world."
+                                <p>
+                                    For us, growth is meaningful only when it is shared. I believe the success of Girna Global should not be measured merely through turnover, export volumes, or business expansion, but through the prosperity of our member farmers, the development of rural communities, and the opportunities we create for generations to come.
+                                </p>
+
+                                <p>
+                                    Our journey will extend from strengthening farmers at the grassroots to reaching international markets, from agricultural production to value addition, and from traditional farming to modern, sustainable, and globally competitive agricultural enterprises.
+                                </p>
+
+                                <p class="font-semibold text-forest-deep">
+                                    While our vision is global, our roots will always remain connected to the soil of Maharashtra.
+                                </p>
+                            </div>
+
+                            <!-- Featured Visionary Movement Banner -->
+                            <div class="p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-forest-deep via-[#0d3322] to-forest-dark text-white border border-[#C3A46A]/50 shadow-xl relative overflow-hidden">
+                                <div class="absolute -right-8 -bottom-8 w-48 h-48 rounded-full bg-[#C3A46A]/15 blur-2xl pointer-events-none"></div>
+                                <div class="flex items-center gap-2 mb-3">
+                                    <span class="w-2 h-2 rounded-full bg-leaf-green"></span>
+                                    <span class="text-[11px] uppercase tracking-widest font-bold text-[#E6C687]">The Core Movement</span>
+                                </div>
+                                <blockquote class="font-serif italic text-lg sm:text-xl lg:text-2xl text-white font-medium leading-relaxed drop-shadow">
+                                    "My dream is not just to build a successful agricultural company. It is to create a movement where farmers become entrepreneurs, the next generation becomes a force of innovation, agriculture becomes a source of opportunity, and rural communities become centres of prosperity."
+                                </blockquote>
+                            </div>
+
+                            <!-- Dual Guiding Pillars Cards -->
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <!-- Card 1: Guiding Philosophy -->
+                                <div class="p-5 rounded-2xl bg-[#F7F6EF] border border-[#C3A46A]/30 flex flex-col gap-2">
+                                    <div class="flex items-center gap-2 text-earthy-gold">
+                                        <span class="material-symbols-outlined text-[20px]">spa</span>
+                                        <span class="text-xs font-bold uppercase tracking-wider text-forest-deep">Guiding Philosophy</span>
+                                    </div>
+                                    <p class="font-serif italic text-base font-bold text-forest-deep">"Sarve Bhavantu Sukhinah"</p>
+                                    <span class="text-xs text-forest-slate/90 italic font-medium">(May All Beings Be Happy and Prosperous)</span>
+                                    <p class="text-xs text-forest-slate leading-relaxed mt-1">
+                                        Committed to building an organisation where collective strength creates shared prosperity across rural ecosystems.
                                     </p>
                                 </div>
 
-                                <!-- Editorial Message Body -->
-                                <div class="flex flex-col gap-4 font-inter text-sm sm:text-base text-forest-slate/90 leading-relaxed">
-                                    <p>
-                                        Girna Global was born out of an enduring quarter-century agricultural heritage in the heartland of Jalgaon. What began as dedicated family stewardship over our 20-acre cultivation estate in Bhadgaon has steadily evolved into an institutional commitment: ensuring that every fruit cultivated under our watch upholds uncompromised purity and nutritional integrity.
-                                    </p>
-                                    <p>
-                                        Our operations stand firmly upon three agricultural pillars: superior high-yield <strong>tissue-culture banana saplings</strong>, scientifically calibrated <strong>crop nutrition and biochemical fertilization</strong>, and precision-managed <strong>G9 &amp; Yelakki harvesting protocols</strong>. By bridging advanced chemical agronomy with time-honored field intuition, we ensure our partner growers achieve exceptional farm gate yields.
-                                    </p>
-                                    <p>
-                                        Above all, our 'Farm to Foreign' ethos is a commitment to transparency and equity. We are committed to empowering grower communities with transparent contracts and seamless access to cold chain corridors, carrying the pride of Maharashtra's agricultural craftsmanship to domestic centers and international seaports alike.
+                                <!-- Card 2: Tagline -->
+                                <div class="p-5 rounded-2xl bg-[#F7F6EF] border border-[#C3A46A]/30 flex flex-col gap-2">
+                                    <div class="flex items-center gap-2 text-botanical">
+                                        <span class="material-symbols-outlined text-[20px]">public</span>
+                                        <span class="text-xs font-bold uppercase tracking-wider text-forest-deep">Inspiring Tagline</span>
+                                    </div>
+                                    <p class="font-serif italic text-base font-bold text-forest-deep">"Local Hands, Global Lands"</p>
+                                    <span class="text-xs text-forest-slate/90 italic font-medium">(Rooted in Maharashtra, Connected Globally)</span>
+                                    <p class="text-xs text-forest-slate leading-relaxed mt-1">
+                                        Bridging local cultivation excellence from the Girna River basin directly into high-value domestic and foreign market destinations.
                                     </p>
                                 </div>
                             </div>
 
-                            <!-- Sign-Off Block -->
-                            <div class="mt-8 pt-6 border-t border-[#C3A46A]/30 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                            <!-- Closing Call to Action & Shared Future -->
+                            <div class="p-4 rounded-xl bg-canvas-soft border-l-4 border-botanical">
+                                <p class="font-manrope text-base sm:text-lg font-bold text-forest-deep leading-relaxed">
+                                    Together, let us build a future where the strength of our roots defines the reach of our success.
+                                </p>
+                            </div>
+
+                            <!-- Executive Sign-Off Signature Block -->
+                            <div class="pt-6 border-t border-[#C3A46A]/30 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
                                 <div class="flex flex-col">
-                                    <span class="font-serif italic text-lg sm:text-xl font-bold text-forest-deep">Durgesh Chaudhari</span>
-                                    <span class="font-manrope text-xs font-bold text-botanical uppercase tracking-wider mt-0.5">Chairman &amp; Managing Director</span>
-                                    <span class="text-[11px] text-forest-slate/75 uppercase tracking-wider font-medium">Girna Global</span>
+                                    <span class="font-inter text-xs text-forest-slate uppercase tracking-wider font-semibold">Warm regards,</span>
+                                    <span class="font-serif italic text-2xl sm:text-3xl font-bold text-forest-deep mt-1">Durgesh Chaudhari</span>
+                                    <span class="font-manrope text-xs font-bold text-botanical uppercase tracking-widest mt-0.5">Chairman</span>
+                                    <span class="font-inter text-xs text-forest-slate/80 font-medium">Girna Global Farmer Producer Company Limited</span>
+                                </div>
+                                
+                                <div class="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-cream-warm border border-[#C3A46A]/40 text-xs font-inter text-forest-deep shadow-xs">
+                                    <span class="material-symbols-outlined text-[#C3A46A] text-[18px]">verified_user</span>
+                                    <span class="font-semibold text-pine-heading">Executive Governance</span>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
