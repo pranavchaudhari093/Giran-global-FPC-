@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Our Mentors | Girna Global</title>
+    <meta name="description" content="Discover the agricultural educators, advisors, and mentors inspiring sustainable farming techniques and grower empowerment at Girna Global.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+
+    <!-- Tailwind Play CDN -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "forest-deep": "#123D2B",
+            "forest-dark": "#0B261B",
+            "botanical": "#267044",
+            "botanical-dark": "#1d5835",
+            "botanical-light": "#eaf5ed",
+            "leaf-green": "#8BAF52",
+            "earthy-gold": "#C3A46A",
+            "earthy-gold-light": "#f4eedf",
+            "earthy-gold-muted": "#dfcca4",
+            "cream-warm": "#F7F6EF",
+            "canvas-soft": "#FCFBF7",
+            "pine-charcoal": "#122B1E",
+            "pine-heading": "#111E16",
+            "forest-slate": "#334A3E",
+            "surface-card": "#FFFFFF",
+          },
+          fontFamily: {
+            manrope: ["Manrope", "sans-serif"],
+            inter: ["Inter", "sans-serif"],
+            serif: ["'Playfair Display'", "serif"],
+          }
+        }
+      }
+    };
+    </script>
+    
+    <!-- Custom CSS Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-canvas-soft font-inter text-forest-slate antialiased">
+
+    <!-- ============================================================
+         HEADER & NAVIGATION
+         ============================================================ -->
+    <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/95 backdrop-blur-md border-b border-[#C3A46A]/20 shadow-[0_2px_12px_rgba(18,61,43,0.04)]" id="site-header">
+        <div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-4">
+
+            <!-- Brand Logo & Identity -->
+            <a href="index.html" class="flex items-center gap-3.5 shrink-0 group">
+                <img alt="Girna Global Official Logo" class="h-14 w-14 object-contain rounded-full shadow-md ring-1 ring-[#C3A46A]/40 group-hover:scale-105 transition-transform" src="assets/images/logo.png">
+                <div class="flex flex-col">
+                    <span class="font-manrope font-extrabold text-lg sm:text-xl uppercase tracking-wider text-forest-deep leading-none group-hover:text-botanical transition-colors">GIRNA GLOBAL</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation Menu -->
+            <nav class="hidden xl:flex items-center gap-7 font-inter text-sm font-medium">
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="home" href="index.html">Home</a>
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="about-us" href="index.html#about-us">About Us</a>
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="services" href="index.html#services">Services</a>
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="our-team" href="our-team.html">Our Team</a>
+                <a class="text-botanical font-semibold border-b-2 border-botanical pb-1" data-path="our-mentor" href="our-mentor.html">Our Mentor</a>
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="pr-media" href="pr-media.html">PR &amp; Media</a>
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="testimonials" href="index.html#testimonials">Testimonials</a>
+                <a class="text-forest-slate hover:text-botanical transition-colors pb-1" data-path="contact" href="index.html#contact">Contact</a>
+            </nav>
+
+            <!-- Mobile Hamburger Toggle Button -->
+            <button type="button" class="xl:hidden p-2 rounded-lg text-forest-slate hover:text-botanical hover:bg-cream-warm focus:outline-none transition-colors" id="mobile-menu-toggle" aria-label="Toggle navigation menu">
+                <span class="material-symbols-outlined text-[28px]" id="mobile-menu-icon">menu</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Slide-Out Drawer -->
+    <div class="fixed inset-0 top-20 bg-forest-dark/80 backdrop-blur-sm z-40 hidden transition-opacity duration-300 xl:hidden" id="mobile-backdrop"></div>
+    <div class="fixed top-20 right-0 bottom-0 w-full max-w-sm bg-white shadow-2xl z-50 transform translate-x-full transition-transform duration-300 ease-in-out xl:hidden flex flex-col justify-between overflow-y-auto border-l border-[#C3A46A]/20" id="mobile-drawer">
+        <div class="p-6 flex flex-col gap-5">
+            <div class="flex items-center justify-between border-b border-[#C3A46A]/20 pb-4">
+                <div class="flex items-center gap-3">
+                    <img src="assets/images/logo.png" class="h-11 w-11 rounded-full object-contain shadow-sm ring-1 ring-[#C3A46A]/30" alt="Girna Global">
+                    <div class="flex flex-col">
+                        <span class="font-manrope font-bold text-sm uppercase tracking-wider text-forest-deep">GIRNA GLOBAL</span>
+                    </div>
+                </div>
+                <button type="button" class="p-1 rounded text-forest-slate hover:text-botanical focus:outline-none" id="mobile-drawer-close" aria-label="Close navigation menu">
+                    <span class="material-symbols-outlined text-[24px]">close</span>
+                </button>
+            </div>
+            <nav class="flex flex-col gap-1 font-manrope text-sm font-semibold text-pine-heading">
+                <a href="index.html" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Home</a>
+                <a href="index.html#about-us" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">About Us</a>
+                <a href="index.html#services" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Services</a>
+                <div class="pl-4 py-1 flex flex-col gap-1 border-l-2 border-botanical/30 my-1">
+                    <a href="banana-plant-services.html" class="mobile-nav-item py-1.5 px-3 text-xs text-forest-slate hover:text-botanical transition-colors">Banana Plant Services</a>
+                    <a href="fertilizer-services.html" class="mobile-nav-item py-1.5 px-3 text-xs text-forest-slate hover:text-botanical transition-colors">Fertilizer &amp; Crop Nutrition</a>
+                    <a href="fruit-care-services.html" class="mobile-nav-item py-1.5 px-3 text-xs text-forest-slate hover:text-botanical transition-colors">Fruit Care &amp; Bunch Protection</a>
+                    <a href="harvesting-services.html" class="mobile-nav-item py-1.5 px-3 text-xs text-forest-slate hover:text-botanical transition-colors">Harvesting Services</a>
+                </div>
+                <a href="our-team.html" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Our Team</a>
+                <a href="our-mentor.html" class="mobile-nav-item py-2.5 px-3 rounded text-botanical bg-cream-warm">Our Mentor</a>
+                <a href="pr-media.html" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">PR &amp; Media</a>
+                <a href="index.html#testimonials" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Testimonials</a>
+                <a href="index.html#contact" class="mobile-nav-item py-2.5 px-3 rounded hover:bg-botanical-light hover:text-botanical transition-colors">Contact</a>
+            </nav>
+            <div class="pt-4 border-t border-[#C3A46A]/20 flex flex-col gap-3">
+                <a href="tel:+919100556355" class="flex items-center gap-3 p-3 rounded-lg bg-cream-warm text-forest-deep font-inter text-xs font-semibold hover:bg-botanical-light transition-colors">
+                    <span class="material-symbols-outlined text-botanical text-[18px]">phone</span>
+                    <span>+91 9100556355</span>
+                </a>
+                <a href="https://wa.me/919100556355?text=Hello%20Girna%20Global" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 py-3 px-4 rounded bg-botanical text-white font-manrope font-bold text-xs uppercase tracking-wider hover:bg-botanical-dark transition-colors shadow-md">
+                    <span class="material-symbols-outlined text-[18px]">chat</span>
+                    <span>WhatsApp Export Desk</span>
+                </a>
+            </div>
+        </div>
+        <div class="p-6 bg-canvas-soft border-t border-[#C3A46A]/20 text-xs text-forest-slate">
+            <p class="font-bold text-pine-heading">Girna Global</p>
+            <p class="text-[11px] text-forest-slate/80 mt-1">At post Wade, Tal. Bhadgaon, Dist. Jalgaon - 424201, Maharashtra</p>
+        </div>
+    </div>
+
+    <!-- ============================================================
+         MAIN CONTENT AREA
+         ============================================================ -->
+    <main class="w-full pt-20 bg-canvas-soft min-h-[calc(100vh-80px)]">
+        <div class="flex flex-col w-full">
+
+            <!-- ============================================================
+                 HERO SECTION
+                 ============================================================ -->
+            <section class="relative w-full text-white py-20 lg:py-28 px-6 lg:px-12 border-b-2 border-[#C3A46A]/40 overflow-hidden shadow-inner bg-forest-deep">
+                <!-- Agricultural Visual Background -->
+                <div class="absolute inset-0 z-0">
+                    <img src="assets/images/plantation-cinematic.jpg" alt="Agricultural Advisory &amp; Field Education" class="w-full h-full object-cover object-center filter brightness-95">
+                    <div class="absolute inset-0 bg-gradient-to-r from-forest-dark/95 via-forest-deep/85 to-forest-dark/90"></div>
+                    <div class="absolute inset-0 bg-black/25"></div>
+                </div>
+
+                <!-- Subtle Ambient Glows -->
+                <div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-leaf-green/15 blur-3xl pointer-events-none z-[1]"></div>
+                <div class="absolute -bottom-24 -left-24 w-96 h-96 rounded-full bg-earthy-gold/20 blur-3xl pointer-events-none z-[1]"></div>
+
+                <div class="max-w-7xl mx-auto flex flex-col items-center text-center relative z-10">
+                    <!-- Eyebrow Pill -->
+                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-[#C3A46A]/40 shadow-sm mb-6">
+                        <span class="w-2 h-2 rounded-full bg-leaf-green animate-pulse"></span>
+                        <span class="text-xs uppercase tracking-[0.2em] text-[#F7F6EF] font-semibold">Agricultural Mentorship &amp; Education</span>
+                    </div>
+
+                    <!-- Main Hero Typography -->
+                    <h1 class="font-manrope font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white tracking-tight max-w-4xl mb-5 leading-tight drop-shadow-[0_3px_12px_rgba(0,0,0,0.6)]">
+                        Our Mentors
+                    </h1>
+                    <p class="font-inter text-base sm:text-lg lg:text-xl text-cream-warm/95 max-w-2xl mx-auto leading-relaxed font-light drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]">
+                        Knowledge, guidance and experience that inspire better agriculture.
+                    </p>
+                </div>
+            </section>
+
+            <!-- ============================================================
+                 THREE-TAB MENTOR SECTION
+                 ============================================================ -->
+            <section class="w-full py-16 lg:py-24 px-6 lg:px-12 bg-white">
+                <div class="max-w-6xl mx-auto flex flex-col gap-10">
+                    
+                    <!-- Tab Controls (Exactly Three Interactive Tabs) -->
+                    <div class="flex flex-col items-center gap-4">
+                        <div class="inline-flex p-1.5 rounded-2xl bg-cream-warm border border-[#C3A46A]/30 shadow-inner max-w-full overflow-x-auto scrollbar-none" role="tablist" aria-label="Mentor Selection">
+                            
+                            <!-- Tab 1 Button -->
+                            <button 
+                                type="button" 
+                                role="tab" 
+                                aria-selected="true" 
+                                aria-controls="panel-mentor-1" 
+                                id="tab-mentor-1"
+                                class="mentor-tab-btn active px-6 py-3 rounded-xl font-manrope font-bold text-xs sm:text-sm uppercase tracking-wider transition-all duration-200 flex items-center gap-2.5 whitespace-nowrap bg-forest-deep text-white shadow-md">
+                                <span class="material-symbols-outlined text-[18px] text-earthy-gold">psychology</span>
+                                <span>Dr. Balram Kisan</span>
+                            </button>
+
+                            <!-- Tab 2 Button -->
+                            <button 
+                                type="button" 
+                                role="tab" 
+                                aria-selected="false" 
+                                aria-controls="panel-mentor-2" 
+                                id="tab-mentor-2"
+                                class="mentor-tab-btn px-6 py-3 rounded-xl font-manrope font-bold text-xs sm:text-sm uppercase tracking-wider transition-all duration-200 flex items-center gap-2.5 whitespace-nowrap text-forest-slate hover:text-botanical hover:bg-white/50">
+                                <span class="material-symbols-outlined text-[18px] text-forest-slate/60">person_add</span>
+                                <span>Mentor Chair II</span>
+                            </button>
+
+                            <!-- Tab 3 Button -->
+                            <button 
+                                type="button" 
+                                role="tab" 
+                                aria-selected="false" 
+                                aria-controls="panel-mentor-3" 
+                                id="tab-mentor-3"
+                                class="mentor-tab-btn px-6 py-3 rounded-xl font-manrope font-bold text-xs sm:text-sm uppercase tracking-wider transition-all duration-200 flex items-center gap-2.5 whitespace-nowrap text-forest-slate hover:text-botanical hover:bg-white/50">
+                                <span class="material-symbols-outlined text-[18px] text-forest-slate/60">person_add</span>
+                                <span>Mentor Chair III</span>
+                            </button>
+
+                        </div>
+                        <p class="font-inter text-xs text-forest-slate/70 text-center">
+                            Select a tab above to view mentor background, focus areas, and educational initiatives.
+                        </p>
+                    </div>
+
+                    <!-- ============================================================
+                         TAB 1 PANEL: DR. BALRAM KISAN
+                         ============================================================ -->
+                    <div 
+                        id="panel-mentor-1" 
+                        role="tabpanel" 
+                        aria-labelledby="tab-mentor-1"
+                        class="mentor-panel transition-opacity duration-300">
+                        
+                        <div class="bg-canvas-soft rounded-2xl border border-[#C3A46A]/40 p-6 sm:p-10 lg:p-12 shadow-lg">
+                            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+                                
+                                <!-- Left Column: Portrait & Direct Link -->
+                                <div class="lg:col-span-5 flex flex-col items-center text-center gap-6">
+                                    <div class="relative w-64 h-64 sm:w-72 sm:h-72 rounded-full overflow-hidden bg-cream-warm border-4 border-white shadow-2xl ring-4 ring-[#C3A46A]/50">
+                                        <img 
+                                            src="assets/images/mentor-dr-balram-kisan.jpg" 
+                                            alt="Dr. Balram Kisan - Agricultural Educator and Farmer" 
+                                            class="w-full h-full object-cover object-top"
+                                        >
+                                    </div>
+
+                                    <div class="flex flex-col items-center gap-1.5">
+                                        <h3 class="font-manrope font-extrabold text-2xl text-pine-heading tracking-tight">
+                                            Dr. Balram Kisan
+                                        </h3>
+                                        <span class="text-xs font-bold uppercase tracking-widest text-botanical">
+                                            Agricultural Educator &amp; Farmer
+                                        </span>
+                                        <span class="text-xs text-forest-slate/80">
+                                            Madhya Pradesh, India
+                                        </span>
+                                    </div>
+
+                                    <!-- Association Badges -->
+                                    <div class="flex flex-wrap justify-center gap-2">
+                                        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-white border border-[#C3A46A]/30 text-forest-deep shadow-sm">
+                                            Kisan Pathshala (Farmer School)
+                                        </span>
+                                        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-white border border-[#C3A46A]/30 text-forest-deep shadow-sm">
+                                            bkisan.com
+                                        </span>
+                                    </div>
+
+                                    <!-- Official External Website Button -->
+                                    <div class="w-full pt-2">
+                                        <a 
+                                            href="https://bkisan.com/" 
+                                            target="_blank" 
+                                            rel="noopener noreferrer" 
+                                            class="w-full py-3.5 px-6 rounded-xl bg-forest-deep text-white hover:bg-botanical font-manrope font-bold text-xs uppercase tracking-wider transition-all duration-200 shadow-md flex items-center justify-center gap-2 group">
+                                            <span>Visit Official Website (bkisan.com)</span>
+                                            <span class="material-symbols-outlined text-[18px] group-hover:translate-x-0.5 transition-transform">open_in_new</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Right Column: Biography & Focus Areas -->
+                                <div class="lg:col-span-7 flex flex-col gap-6">
+                                    
+                                    <div class="flex flex-col gap-3">
+                                        <div class="inline-flex items-center gap-2 text-earthy-gold text-xs font-bold uppercase tracking-wider">
+                                            <span class="material-symbols-outlined text-[18px] text-botanical">school</span>
+                                            <span>Educational Leadership &amp; Guidance</span>
+                                        </div>
+                                        <h4 class="font-manrope font-bold text-xl sm:text-2xl text-pine-heading leading-snug">
+                                            Empowering Farmers Through Field Knowledge &amp; Residue-Free Agricultural Practices
+                                        </h4>
+                                        <div class="w-16 h-1 bg-botanical rounded-full"></div>
+                                    </div>
+
+                                    <!-- Biography Description (As Provided) -->
+                                    <div class="font-inter text-sm sm:text-base text-forest-slate leading-relaxed flex flex-col gap-3">
+                                        <p>
+                                            Dr. Balram Kisan is an agricultural educator and farmer from Madhya Pradesh, known for promoting banana farming techniques, residue-free agriculture and Crop Doctor training programs.
+                                        </p>
+                                        <p>
+                                            He is also associated with Kisan Pathshala (Farmer School) and bkisan.com.
+                                        </p>
+                                    </div>
+
+                                    <!-- Key Focus Areas (Clean Visual Grid) -->
+                                    <div class="pt-4 border-t border-[#C3A46A]/20 flex flex-col gap-4">
+                                        <span class="font-manrope font-bold text-sm text-pine-heading uppercase tracking-wider">
+                                            Key Focus Areas:
+                                        </span>
+
+                                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                            
+                                            <!-- Focus Area 1 -->
+                                            <div class="p-4 rounded-xl bg-white border border-[#C3A46A]/30 shadow-sm flex items-start gap-3.5">
+                                                <div class="w-10 h-10 rounded-lg bg-botanical-light text-botanical flex items-center justify-center shrink-0 mt-0.5">
+                                                    <span class="material-symbols-outlined text-[20px]">agriculture</span>
+                                                </div>
+                                                <div class="flex flex-col">
+                                                    <h5 class="font-manrope font-bold text-sm text-pine-heading">Banana Farming Techniques</h5>
+                                                    <p class="font-inter text-xs text-forest-slate/80 mt-1 leading-relaxed">
+                                                        Specialized canopy management, planting geometry, and bunch weight enhancement.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <!-- Focus Area 2 -->
+                                            <div class="p-4 rounded-xl bg-white border border-[#C3A46A]/30 shadow-sm flex items-start gap-3.5">
+                                                <div class="w-10 h-10 rounded-lg bg-botanical-light text-botanical flex items-center justify-center shrink-0 mt-0.5">
+                                                    <span class="material-symbols-outlined text-[20px]">eco</span>
+                                                </div>
+                                                <div class="flex flex-col">
+                                                    <h5 class="font-manrope font-bold text-sm text-pine-heading">Residue-Free Agriculture</h5>
+                                                    <p class="font-inter text-xs text-forest-slate/80 mt-1 leading-relaxed">
+                                                        Promoting chemical-free plant nutrition, biological pest control, and soil microbial vitality.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <!-- Focus Area 3 -->
+                                            <div class="p-4 rounded-xl bg-white border border-[#C3A46A]/30 shadow-sm flex items-start gap-3.5">
+                                                <div class="w-10 h-10 rounded-lg bg-botanical-light text-botanical flex items-center justify-center shrink-0 mt-0.5">
+                                                    <span class="material-symbols-outlined text-[20px]">medical_services</span>
+                                                </div>
+                                                <div class="flex flex-col">
+                                                    <h5 class="font-manrope font-bold text-sm text-pine-heading">Crop Doctor Training</h5>
+                                                    <p class="font-inter text-xs text-forest-slate/80 mt-1 leading-relaxed">
+                                                        Training grassroots agronomists to diagnose deficiency symptoms and soil disorders accurately.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <!-- Focus Area 4 -->
+                                            <div class="p-4 rounded-xl bg-white border border-[#C3A46A]/30 shadow-sm flex items-start gap-3.5">
+                                                <div class="w-10 h-10 rounded-lg bg-botanical-light text-botanical flex items-center justify-center shrink-0 mt-0.5">
+                                                    <span class="material-symbols-outlined text-[20px]">groups</span>
+                                                </div>
+                                                <div class="flex flex-col">
+                                                    <h5 class="font-manrope font-bold text-sm text-pine-heading">Farmer Education</h5>
+                                                    <p class="font-inter text-xs text-forest-slate/80 mt-1 leading-relaxed">
+                                                        Practical field training through Kisan Pathshala to empower cultivator decision-making.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- ============================================================
+                         TAB 2 PANEL: EMPTY STATE (MENTOR CHAIR II)
+                         ============================================================ -->
+                    <div 
+                        id="panel-mentor-2" 
+                        role="tabpanel" 
+                        aria-labelledby="tab-mentor-2"
+                        class="mentor-panel hidden transition-opacity duration-300">
+                        
+                        <div class="bg-canvas-soft rounded-2xl border border-dashed border-[#C3A46A]/50 p-8 sm:p-14 lg:p-16 text-center flex flex-col items-center justify-center gap-5 shadow-sm">
+                            <div class="w-16 h-16 rounded-full bg-cream-warm border border-[#C3A46A]/40 text-earthy-gold flex items-center justify-center shadow-md">
+                                <span class="material-symbols-outlined text-[32px]">science</span>
+                            </div>
+
+                            <div class="max-w-xl flex flex-col gap-2">
+                                <span class="text-xs font-bold uppercase tracking-widest text-botanical">Advisory Chair II</span>
+                                <h3 class="font-manrope font-bold text-xl sm:text-2xl text-pine-heading">
+                                    Mentorship Position Available
+                                </h3>
+                                <p class="font-inter text-xs sm:text-sm text-forest-slate leading-relaxed">
+                                    This advisory position is reserved for upcoming senior scientists and agronomists specializing in tissue-culture microbiology and certified export protocols. Detailed profiles and focus areas will be published upon appointment.
+                                </p>
+                            </div>
+
+                            <div class="pt-2">
+                                <span class="px-4 py-1.5 rounded-full text-xs font-semibold bg-white border border-[#C3A46A]/30 text-forest-slate">
+                                    Profile Structure Configured • Content To Be Added
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- ============================================================
+                         TAB 3 PANEL: EMPTY STATE (MENTOR CHAIR III)
+                         ============================================================ -->
+                    <div 
+                        id="panel-mentor-3" 
+                        role="tabpanel" 
+                        aria-labelledby="tab-mentor-3"
+                        class="mentor-panel hidden transition-opacity duration-300">
+                        
+                        <div class="bg-canvas-soft rounded-2xl border border-dashed border-[#C3A46A]/50 p-8 sm:p-14 lg:p-16 text-center flex flex-col items-center justify-center gap-5 shadow-sm">
+                            <div class="w-16 h-16 rounded-full bg-cream-warm border border-[#C3A46A]/40 text-earthy-gold flex items-center justify-center shadow-md">
+                                <span class="material-symbols-outlined text-[32px]">local_shipping</span>
+                            </div>
+
+                            <div class="max-w-xl flex flex-col gap-2">
+                                <span class="text-xs font-bold uppercase tracking-widest text-botanical">Advisory Chair III</span>
+                                <h3 class="font-manrope font-bold text-xl sm:text-2xl text-pine-heading">
+                                    Mentorship Position Available
+                                </h3>
+                                <p class="font-inter text-xs sm:text-sm text-forest-slate leading-relaxed">
+                                    This advisory chair is designated for leaders in international cold-chain logistics, phytosanitary export packaging, and overseas market linkages. Formal credentials will be updated upon induction.
+                                </p>
+                            </div>
+
+                            <div class="pt-2">
+                                <span class="px-4 py-1.5 rounded-full text-xs font-semibold bg-white border border-[#C3A46A]/30 text-forest-slate">
+                                    Profile Structure Configured • Content To Be Added
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- ============================================================
+         FOOTER
+         ============================================================ -->
+    <footer class="bg-forest-dark border-t border-[#C3A46A]/20 text-cream-warm">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 pb-12 border-b border-[#C3A46A]/20">
+
+                <!-- Col 1: Brand Story & Registered Office -->
+                <div class="lg:col-span-4 flex flex-col gap-4">
+                    <div class="flex items-center gap-3">
+                        <img alt="Girna Global Logo" class="h-12 w-12 object-contain rounded-full bg-white p-0.5 shadow-md ring-1 ring-[#C3A46A]/30" src="assets/images/logo.png">
+                        <div class="flex flex-col">
+                            <span class="font-manrope font-extrabold text-base uppercase tracking-wider text-white">GIRNA GLOBAL</span>
+                        </div>
+                    </div>
+                    <p class="font-inter text-xs sm:text-sm text-cream-warm/80 max-w-sm leading-relaxed">
+                        Backed by a 25-year family farming heritage in the Jalgaon banana belt, connecting authentic local agricultural excellence directly to foreign and domestic markets.
+                    </p>
+                    <div class="flex flex-col gap-1 mt-2">
+                        <span class="font-inter text-xs uppercase tracking-wider text-earthy-gold font-bold">Registered Office</span>
+                        <span class="font-inter text-xs sm:text-sm text-white font-medium">At post Wade, Tal. Bhadgaon, Dist. Jalgaon - 424201</span>
+                    </div>
+                </div>
+
+                <!-- Col 2: Quick Links -->
+                <div class="lg:col-span-2 flex flex-col gap-4">
+                    <span class="font-manrope font-bold text-sm text-earthy-gold uppercase tracking-wider">Quick Links</span>
+                    <ul class="flex flex-col gap-2.5">
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="home" href="index.html">Home</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="about-us" href="index.html#about-us">About Us</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="services" href="index.html#services">Services</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="our-team" href="our-team.html">Our Team</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-white font-semibold transition-colors" data-path="our-mentor" href="our-mentor.html">Our Mentor</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="pr-media" href="pr-media.html">PR &amp; Media</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="testimonials" href="index.html#testimonials">Testimonials</a></li>
+                        <li class="list-none"><a class="font-inter text-xs sm:text-sm text-cream-warm/80 hover:text-white transition-colors" data-path="contact" href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Core Services -->
+                <div class="lg:col-span-3 flex flex-col gap-4">
+                    <span class="font-manrope font-bold text-sm text-earthy-gold uppercase tracking-wider">Services</span>
+                    <ul class="flex flex-col gap-2.5">
+                        <li class="list-none font-inter text-xs sm:text-sm text-cream-warm/80 flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-earthy-gold"></span>
+                            <a href="banana-plant-services.html" class="hover:text-white transition-colors">Banana Tissue-Culture Plants</a>
+                        </li>
+                        <li class="list-none font-inter text-xs sm:text-sm text-cream-warm/80 flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-leaf-green"></span>
+                            <a href="fertilizer-services.html" class="hover:text-white transition-colors">Crop Nutrition &amp; Fertilizer</a>
+                        </li>
+                        <li class="list-none font-inter text-xs sm:text-sm text-cream-warm/80 flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-botanical"></span>
+                            <a href="harvesting-services.html" class="hover:text-white transition-colors">G9 &amp; Yelakki Harvesting Support</a>
+                        </li>
+                        <li class="list-none font-inter text-xs sm:text-sm text-cream-warm/80 flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-earthy-gold"></span>
+                            <a href="fruit-care-services.html" class="hover:text-white transition-colors">Fruit Care &amp; Bunch Protection</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Direct Contact Info -->
+                <div class="lg:col-span-3 flex flex-col gap-4">
+                    <span class="font-manrope font-bold text-sm text-earthy-gold uppercase tracking-wider">Direct Contact Info</span>
+                    <div class="flex flex-col gap-3 text-xs sm:text-sm font-inter text-cream-warm/80">
+                        <div class="flex items-start gap-2.5">
+                            <span class="material-symbols-outlined text-earthy-gold text-[18px] mt-0.5 shrink-0">location_on</span>
+                            <span>At post Wade, Tal. Bhadgaon, Dist. Jalgaon - 424201, Maharashtra, India.</span>
+                        </div>
+                        <div class="flex items-center gap-2.5">
+                            <span class="material-symbols-outlined text-earthy-gold text-[18px] shrink-0">phone</span>
+                            <a class="hover:text-white transition-colors" href="tel:+919100556355">+91 9100556355</a>
+                        </div>
+                        <div class="flex items-center gap-2.5">
+                            <span class="material-symbols-outlined text-earthy-gold text-[18px] shrink-0">mail</span>
+                            <a class="hover:text-white transition-colors" href="mailto:contact@girnaglobal.com">contact@girnaglobal.com</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Bottom Row: Copyright & Legal -->
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 font-inter text-xs text-cream-warm/60">
+                <p>&copy; 2026 Girna Global. All rights reserved.</p>
+                <div class="flex items-center gap-6">
+                    <a class="hover:text-earthy-gold transition-colors" href="index.html#about-us">Heritage</a>
+                    <a class="hover:text-earthy-gold transition-colors" href="our-mentor.html">Our Mentors</a>
+                    <a class="hover:text-earthy-gold transition-colors" href="pr-media.html">Press Desk</a>
+                    <a class="hover:text-earthy-gold transition-colors" href="index.html#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Three-Tab Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const tabs = document.querySelectorAll('.mentor-tab-btn');
+            const panels = document.querySelectorAll('.mentor-panel');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function () {
+                    const targetPanelId = this.getAttribute('aria-controls');
+
+                    // Reset all tabs
+                    tabs.forEach(t => {
+                        t.classList.remove('active', 'bg-forest-deep', 'text-white', 'shadow-md');
+                        t.classList.add('text-forest-slate', 'hover:text-botanical', 'hover:bg-white/50');
+                        t.setAttribute('aria-selected', 'false');
+                        const icon = t.querySelector('.material-symbols-outlined');
+                        if (icon) {
+                            icon.classList.remove('text-earthy-gold');
+                            icon.classList.add('text-forest-slate/60');
+                        }
+                    });
+
+                    // Activate clicked tab
+                    this.classList.add('active', 'bg-forest-deep', 'text-white', 'shadow-md');
+                    this.classList.remove('text-forest-slate', 'hover:text-botanical', 'hover:bg-white/50');
+                    this.setAttribute('aria-selected', 'true');
+                    const activeIcon = this.querySelector('.material-symbols-outlined');
+                    if (activeIcon) {
+                        activeIcon.classList.add('text-earthy-gold');
+                        activeIcon.classList.remove('text-forest-slate/60');
+                    }
+
+                    // Toggle panels
+                    panels.forEach(panel => {
+                        if (panel.id === targetPanelId) {
+                            panel.classList.remove('hidden');
+                        } else {
+                            panel.classList.add('hidden');
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
+    <!-- Main JavaScript File -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

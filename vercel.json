@@ -2,6 +2,10 @@
   "version": 2,
   "cleanUrls": true,
   "trailingSlash": false,
+  "rewrites": [
+    { "source": "/pr-media", "destination": "/pr-media.html" },
+    { "source": "/our-mentor", "destination": "/our-mentor.html" }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",
